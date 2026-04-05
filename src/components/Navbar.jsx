@@ -66,9 +66,8 @@ export default function Navbar() {
             link.children ? (
               <div
                 key={link.label}
+                ref={dropdownRef}
                 className={`navbar__dropdown${dropdown ? ' active' : ''}`}
-                onMouseEnter={() => setDropdown(true)}
-                onMouseLeave={() => setDropdown(false)}
               >
                 <button
                   className="navbar__link dropdown-toggle"
