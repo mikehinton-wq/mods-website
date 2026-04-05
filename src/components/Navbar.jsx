@@ -10,16 +10,21 @@ const navLinks = [
   { label: 'Driving Syllabus',   to: '/driving-syllabus' },
   { label: 'Blog',               to: '/blog' },
   {
+    label: 'Driving Test',
+    children: [
+      { label: 'Driving Test Routes', to: '/test-routes' },
+      { label: 'The Driving Test',    to: '/the-driving-test' },
+    ],
+  },
+  {
     label: 'More',
     children: [
       { label: 'Specialist Learners', to: '/specialist-learners' },
-      { label: 'Test Routes',         to: '/test-routes' },
       { label: 'Testimonials',        to: '/testimonials' },
       { label: 'FAQs',               to: '/faqs' },
       { label: 'Terms & Conditions', to: '/terms' },
       { label: 'Driving Diagrams',   to: '/diagrams' },
       { label: 'Driving Skills',     to: '/driving-skills' },
-      { label: 'The Driving Test',   to: '/the-driving-test' },
       { label: 'Show Me Tell Me',    to: '/show-me-tell-me' },
       { label: 'Resources',          to: '/driving-syllabus-2' },
     ],
