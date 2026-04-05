@@ -18,6 +18,7 @@ export default function DrivingSkills() {
       icon: '🛡️',
       title: 'Defensive Driving',
       desc: 'Defensive driving is a form of training or practice for drivers to drive in such a way that they consciously reduce the dangers associated with driving. They do this by anticipating dangerous scenarios, which could range from bad weather to other motorists driving badly.',
+      to: '/driving-skills/defensive-driving',
     },
     {
       icon: '🌧️',
