@@ -69,31 +69,7 @@ export default function Home() {
               <a href="https://wa.me/447915999994" className="btn btn-white btn-lg" target="_blank" rel="noreferrer">💬 WhatsApp</a>
               <Link to="/pricing" className="btn btn-outline-white btn-lg">View Prices</Link>
             </div>
-          </div>
-          <div className="hero__card-stack">
-            <img
-              src="/images/Mike Hinton Car.jpg"
-              alt="Mike Hinton Driving School car"
-              style={{
-                width: '100%',
-                borderRadius: 'var(--radius-lg)',
-                boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
-                display: 'block',
-              }}
-            />
-            <ul style={{ listStyle: 'none', padding: 0, margin: '12px 0 0', display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {[
-                '1-to-1 lessons — every session',
-                'Theory test fee guarantee',
-                'DVSA approved instructor (ADI)',
-              ].map(item => (
-                <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--light-blue)', fontSize: '0.88rem' }}>
-                  <span style={{ color: 'var(--primary)', fontWeight: 700 }}>✓</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <div style={{ marginTop: 16, width: '100%', overflowX: 'hidden' }}>
+            <div style={{ marginTop: 20, width: '100%', maxWidth: 340, overflowX: 'hidden' }}>
               <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikehintondrivingschool&tabs&width=340&height=130&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                 width="100%"
