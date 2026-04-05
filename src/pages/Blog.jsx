@@ -49,6 +49,14 @@ const posts = [
     readTime: '8 min read',
     tag: 'New Drivers',
   },
+  {
+    slug: 'learning-partnership',
+    title: 'Take Advantage of the Learning Partnership',
+    excerpt: "Understanding how you learn — and communicating that with your instructor — is one of the most powerful things you can do to pass your test.",
+    date: 'February 2025',
+    readTime: '1 min read',
+    tag: 'Mindset',
+  },
 ]
 
 export default function Blog() {
