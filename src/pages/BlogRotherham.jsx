@@ -1,126 +1,210 @@
 import { Link } from 'react-router-dom'
 
+const stats = [
+  { num: '51%', desc: 'First-time pass rate at Rotherham test centre' },
+  { num: '40', desc: 'Minutes — the total length of your practical test' },
+  { num: '15', desc: 'Minor faults allowed before you fail' },
+]
+
+const testDaySteps = [
+  { icon: '🕐', title: 'Arrive 10 minutes early', desc: 'Late arrival can mean your test is cancelled — leave plenty of time.' },
+  { icon: '🪪', title: 'Bring your photocard licence', desc: 'You must have your provisional driving licence with you. No licence = no test.' },
+  { icon: '🚗', title: 'Your instructor waits outside', desc: "Mike will wait while you take the test. You won't be alone right up until you drive off." },
+  { icon: '📋', title: 'Examiner introduction', desc: "The examiner will introduce themselves and explain exactly what to expect before you set off." },
+]
+
+const routes = [
+  'Dual carriageways on Centenary Way, New Wortley Road and Fitzwilliam Road',
+  'Town centre junctions including Wellgate, Clifton Park, Moorgate Road and Drummond Street',
+  'Residential areas in Greasbrough, Kimberworth, Rawmarsh, Upper Haugh and Swinton',
+  'Roundabouts including St Annes, College Roundabout, Dalton Asda, Parkgate, Ickles, Aldwarke and Brinsworth',
+  'Independent driving sections using sat-nav and road signs',
+  'Reversing manoeuvres',
+]
+
+const tips = [
+  { icon: '😴', title: 'Sleep well the night before', desc: "A tired brain makes more mistakes. Aim for a full night's sleep — not a late-night cram session." },
+  { icon: '🚗', title: 'Book a morning lesson', desc: "Have a lesson with Mike on the morning of your test if possible. It warms you up and settles your nerves before you walk in." },
+  { icon: '🐢', title: "Don't rush", desc: 'Methodical and safe beats fast and unsure every time. The examiner wants to see you drive confidently — not quickly.' },
+  { icon: '🔄', title: 'Move on from mistakes', desc: "If you make a mistake, don't dwell on it. One minor fault won't fail you. The spiral that follows a mistake is what causes failures." },
+  { icon: '✅', title: 'Trust your preparation', desc: "If you're in for the test, Mike believes you're ready. Your preparation is already done — test day is just you showing what you already know." },
+]
+
+const tags = ['Rotherham', 'Driving Test', 'Test Centre', 'Test Prep', 'DVSA', 'Learner Driver', 'Practical Test', 'Rotherham Driving Test Centre', 'Pass Rate', 'Test Routes']
+
+const s = {
+  hero: { background: '#0C3C60', color: '#fff', padding: '80px 24px 64px', textAlign: 'center', position: 'relative', overflow: 'hidden' },
+  heroBg: { position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 75% 25%, rgba(30,171,199,0.2) 0%, transparent 55%), radial-gradient(ellipse at 15% 85%, rgba(255,255,255,0.05) 0%, transparent 50%)', pointerEvents: 'none' },
+  heroTag: { display: 'inline-block', border: '1px solid rgba(255,255,255,0.2)', borderRadius: 20, padding: '5px 16px', fontSize: 12, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.6)', marginBottom: 28 },
+  h1: { fontFamily: 'Raleway, sans-serif', fontSize: 'clamp(2rem,5vw,3.2rem)', fontWeight: 800, lineHeight: 1.12, maxWidth: 820, margin: '0 auto 16px', color: '#fff' },
+  heroAccent: { color: '#1EABC7' },
+  heroSub: { fontSize: '1.05rem', color: 'rgba(255,255,255,0.65)', maxWidth: 540, margin: '0 auto 36px', lineHeight: 1.7 },
+  heroMeta: { fontSize: 13, color: 'rgba(255,255,255,0.35)' },
+  back: { color: 'rgba(255,255,255,0.55)', fontWeight: 600, fontSize: '0.88rem', display: 'inline-flex', alignItems: 'center', gap: 6, marginBottom: 32, textDecoration: 'none' },
+  content: { maxWidth: 760, margin: '0 auto', padding: '64px 24px 80px' },
+  introBox: { background: '#e8f4f8', borderLeft: '4px solid #1EABC7', borderRadius: '0 12px 12px 0', padding: '24px 28px', marginBottom: 48, fontSize: '1.05rem', color: '#0a2d3d', lineHeight: 1.75, fontWeight: 400 },
+  h2: { fontFamily: 'Raleway, sans-serif', fontSize: '1.8rem', fontWeight: 700, lineHeight: 1.25, color: '#0C3C60', margin: '56px 0 18px' },
+  p: { marginBottom: 20, lineHeight: 1.8, fontWeight: 300, color: '#2a2a2a' },
+  statsRow: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, margin: '40px 0' },
+  statCard: { background: '#0C3C60', borderRadius: 14, padding: '24px 20px', textAlign: 'center' },
+  statNum: { fontFamily: 'Raleway, sans-serif', fontSize: '2.4rem', fontWeight: 800, color: '#1EABC7', lineHeight: 1, marginBottom: 10 },
+  statDesc: { fontSize: '0.82rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.5 },
+  addressBox: { background: '#0C3C60', borderRadius: 14, padding: '24px 28px', margin: '24px 0', display: 'flex', alignItems: 'center', gap: 20 },
+  addressPin: { fontSize: '2.5rem', flexShrink: 0 },
+  addressTitle: { fontFamily: 'Raleway, sans-serif', fontWeight: 700, color: '#1EABC7', fontSize: '1rem', marginBottom: 4 },
+  addressText: { color: 'rgba(255,255,255,0.85)', fontSize: '0.9rem', lineHeight: 1.6, margin: 0 },
+  tipGrid: { display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16, margin: '32px 0' },
+  tipCard: { background: '#fff', border: '1px solid #dde8f0', borderRadius: 14, padding: '22px 20px', borderTop: '3px solid #1EABC7' },
+  tipIcon: { fontSize: '1.8rem', marginBottom: 10, display: 'block' },
+  tipTitle: { fontFamily: 'Raleway, sans-serif', display: 'block', fontSize: '0.95rem', fontWeight: 700, marginBottom: 8, color: '#0C3C60' },
+  tipDesc: { fontSize: '0.875rem', color: '#555', margin: 0, lineHeight: 1.65 },
+  routeBox: { background: '#f0f8fc', border: '1px solid #c0dff0', borderRadius: 14, padding: '24px 28px', margin: '24px 0' },
+  routeItem: { display: 'flex', alignItems: 'flex-start', gap: 10, marginBottom: 12, fontSize: '0.9rem', color: '#2a2a2a', lineHeight: 1.6 },
+  routeTick: { color: '#1EABC7', fontWeight: 700, marginTop: 2, flexShrink: 0 },
+  minorBox: { background: '#fff8f0', border: '2px solid #f0c060', borderRadius: 14, padding: '24px 28px', margin: '32px 0', display: 'flex', alignItems: 'center', gap: 24 },
+  minorNum: { fontFamily: 'Raleway, sans-serif', fontSize: '3.5rem', fontWeight: 800, color: '#c8501a', lineHeight: 1, flexShrink: 0 },
+  minorText: { fontSize: '0.95rem', color: '#1a1512', lineHeight: 1.7 },
+  guaranteeBox: { background: '#1a3a2a', borderRadius: 14, padding: '24px 28px', margin: '40px 0' },
+  guaranteeLabel: { fontFamily: 'Raleway, sans-serif', fontSize: 10, fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#4ade80', marginBottom: 10 },
+  guaranteeText: { fontSize: '0.92rem', color: 'rgba(255,255,255,0.85)', lineHeight: 1.7, margin: 0 },
+  cta: { textAlign: 'center', background: 'linear-gradient(135deg, #0C3C60, #1a5a8a)', color: 'white', padding: '64px 24px' },
+  ctaH2: { fontFamily: 'Raleway, sans-serif', color: 'white', marginTop: 0, fontSize: '2rem', fontWeight: 700, marginBottom: 16 },
+  ctaP: { color: 'rgba(255,255,255,0.8)', fontSize: '1.05rem', maxWidth: 500, margin: '0 auto 32px', lineHeight: 1.7 },
+  ctaBtns: { display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' },
+  ctaBtn: { display: 'inline-block', background: '#1EABC7', color: 'white', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '1rem', padding: '14px 32px', borderRadius: 50, textDecoration: 'none' },
+  ctaBtnOutline: { display: 'inline-block', background: 'transparent', color: 'white', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '1rem', padding: '14px 32px', borderRadius: 50, textDecoration: 'none', border: '2px solid rgba(255,255,255,0.4)' },
+  tagsSection: { background: '#f5f8fa', padding: '40px 24px', borderTop: '1px solid #dde8f0' },
+  tagsLabel: { fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.1em', color: '#8a8070', marginBottom: 14 },
+  tagsWrap: { display: 'flex', flexWrap: 'wrap', gap: 10 },
+  tag: { background: 'white', border: '1px solid #dde8f0', borderRadius: 20, padding: '6px 14px', fontSize: 13, color: '#8a8070' },
+}
+
 export default function BlogRotherham() {
   return (
     <>
-      <section style={{ background: 'var(--pale-blue)', padding: '48px 0 40px', borderBottom: '1px solid var(--light-blue)' }}>
-        <div className="container">
-          <Link to="/blog" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.88rem', display: 'inline-flex', alignItems: 'center', gap: 6, marginBottom: 20 }}>
-            ← Back to Blog
-          </Link>
-          <div style={{ display: 'flex', gap: 10, marginBottom: 12 }}>
-            <span className="badge badge-primary">Test Prep</span>
-            <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)', alignSelf: 'center' }}>March 2026 · 5 min read</span>
-          </div>
-          <h1 style={{ fontSize: 'clamp(1.6rem, 3.5vw, 2.4rem)', color: 'var(--navy)', maxWidth: 720 }}>
-            What to Expect at Rotherham Driving Test Centre — A Complete Guide
+      {/* Hero */}
+      <header style={s.hero}>
+        <div style={s.heroBg} aria-hidden />
+        <div style={{ position: 'relative' }}>
+          <Link to="/blog" style={s.back}>← Back to Blog</Link>
+          <div style={s.heroTag}>Test Prep · Rotherham</div>
+          <h1 style={s.h1}>
+            What to Expect at<br />
+            <span style={s.heroAccent}>Rotherham Driving Test Centre</span>
           </h1>
-          <p style={{ color: 'var(--text-muted)', marginTop: 12 }}>By Mike Hinton, ADI · Mike Hinton Driving School</p>
+          <p style={s.heroSub}>Everything you need to know before you arrive — routes, pass rates, what to bring, and tips for the day.</p>
+          <p style={s.heroMeta}>By Mike Hinton, ADI · March 2026 · 5 min read</p>
         </div>
-      </section>
+      </header>
 
-      <section className="section">
-        <div className="container two-col" style={{ maxWidth: 1000, margin: '0 auto' }}>
-          <article style={{ lineHeight: 1.8, color: 'var(--grey-700)' }}>
-            <p style={{ fontSize: '1.05rem', marginBottom: 24 }}>
-              Taking your practical driving test at Rotherham? Here's everything you need to know
-              before you arrive, so there are no surprises on the day.
-            </p>
+      <main>
+        <div style={s.content}>
 
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 10, marginTop: 32 }}>Where is Rotherham Test Centre?</h2>
-            <div className="highlight-box">
-              <p style={{ fontWeight: 600, color: 'var(--navy)' }}>📍 Unit 3, Malta Trading Estate, Mangham Way, S61 4RL</p>
-              <p style={{ fontSize: '0.88rem', marginTop: 4 }}>There is parking nearby and the centre is accessible by public transport.</p>
+          {/* Intro */}
+          <div style={s.introBox}>
+            Taking your practical driving test at Rotherham? Here's everything you need to know before you arrive, so there are no surprises on the day. The more familiar you are with what to expect, the calmer you'll feel when it matters most.
+          </div>
+
+          {/* Stats */}
+          <div style={s.statsRow}>
+            {stats.map(stat => (
+              <div key={stat.num} style={s.statCard}>
+                <div style={s.statNum}>{stat.num}</div>
+                <div style={s.statDesc}>{stat.desc}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* Location */}
+          <h2 style={s.h2}>Where is Rotherham Test Centre?</h2>
+          <div style={s.addressBox}>
+            <div style={s.addressPin}>📍</div>
+            <div>
+              <div style={s.addressTitle}>Rotherham Driving Test Centre</div>
+              <p style={s.addressText}>Unit 3, Malta Trading Estate, Mangham Way, S61 4RL<br />Parking is available nearby and the centre is accessible by public transport.</p>
             </div>
+          </div>
 
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 10, marginTop: 32 }}>What is the Pass Rate at Rotherham?</h2>
-            <p style={{ marginBottom: 16 }}>
-              The current first-time pass rate at Rotherham test centre is around <strong>51%</strong>.
-              This is broadly in line with the national average. With the right preparation, there is
-              absolutely no reason you can't be in the majority.
+          {/* Pass rate */}
+          <h2 style={s.h2}>What is the Pass Rate at Rotherham?</h2>
+          <p style={s.p}>The current first-time pass rate at Rotherham test centre is around <strong>51%</strong> — broadly in line with the national average. With the right preparation, there is absolutely no reason you can't be in the majority. Mike builds real test routes into your lessons throughout your learning journey, so you'll already know them well before test day.</p>
+
+          {/* Test day */}
+          <h2 style={s.h2}>What Happens on Test Day?</h2>
+          <div style={s.tipGrid}>
+            {testDaySteps.map(step => (
+              <div key={step.title} style={s.tipCard}>
+                <span style={s.tipIcon}>{step.icon}</span>
+                <strong style={s.tipTitle}>{step.title}</strong>
+                <p style={s.tipDesc}>{step.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p style={s.p}>The test lasts approximately <strong>40 minutes</strong>. You'll be asked a Show Me / Tell Me vehicle safety question at the start, then drive for around 20 minutes independently using a sat-nav or road signs, with the examiner giving directions for the rest.</p>
+
+          {/* Routes */}
+          <h2 style={s.h2}>What Routes Will I Drive?</h2>
+          <p style={s.p}>The test routes from Rotherham cover a mix of town centre roads, dual carriageway, and residential areas. Common areas include:</p>
+          <div style={s.routeBox}>
+            {routes.map((route, i) => (
+              <div key={i} style={{ ...s.routeItem, ...(i === routes.length - 1 ? { marginBottom: 0 } : {}) }}>
+                <span style={s.routeTick}>✓</span>
+                <span>{route}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Minors */}
+          <h2 style={s.h2}>How Many Minors Are Allowed?</h2>
+          <div style={s.minorBox}>
+            <div style={s.minorNum}>15</div>
+            <p style={s.minorText}>You can receive up to <strong>15 minor (driving) faults</strong> and still pass. One serious or dangerous fault means an automatic fail. Your examiner will go through the result sheet with you at the end — whether you pass or not.</p>
+          </div>
+
+          {/* Tips */}
+          <h2 style={s.h2}>Top Tips for Test Day</h2>
+          <div style={{ ...s.tipGrid, gridTemplateColumns: 'repeat(2, 1fr)' }}>
+            {tips.map(tip => (
+              <div key={tip.title} style={s.tipCard}>
+                <span style={s.tipIcon}>{tip.icon}</span>
+                <strong style={s.tipTitle}>{tip.title}</strong>
+                <p style={s.tipDesc}>{tip.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Guarantee */}
+          <div style={s.guaranteeBox}>
+            <div style={s.guaranteeLabel}>✓ Theory Test Guarantee</div>
+            <p style={s.guaranteeText}>
+              If you don't pass your theory test after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
+              <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: '#4ade80', fontWeight: 600 }}>Click HERE for details.</a>
             </p>
+          </div>
 
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 14, marginTop: 32 }}>What Happens on Test Day?</h2>
-            <ul className="check-list" style={{ marginBottom: 24 }}>
-              <li>Arrive 10 minutes early — late arrival can mean your test is cancelled</li>
-              <li>Bring your provisional driving licence (the photocard)</li>
-              <li>Your instructor will wait while you take the test</li>
-              <li>The examiner will introduce themselves and explain what to expect</li>
-              <li>The test lasts approximately 40 minutes</li>
-              <li>You'll be asked a 'show me / tell me' vehicle safety question at the start</li>
-              <li>You'll drive for around 20 minutes independently using sat-nav or road signs</li>
-              <li>The examiner will give directions for the rest of the test</li>
-            </ul>
-
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 14, marginTop: 32 }}>What Routes Will I Drive?</h2>
-            <p style={{ marginBottom: 16 }}>
-              The test routes from Rotherham typically cover a mix of town centre roads, dual
-              carriageway, and residential areas. Common areas include:
-            </p>
-            <ul className="check-list" style={{ marginBottom: 16 }}>
-              <li>Driving on the dual carriageways on Centenary Way, New Wortley Road and Fitzwilliam Road</li>
-              <li>Town centre junctions including Wellgate, Clifton Park, Moorgate Road and Drummond Street</li>
-              <li>Residential areas in Greasbrough, Kimberworth, Rawmarsh, Upper Haugh and Swinton</li>
-              <li>Roundabouts including St Annes, College Roundabout, Dalton Asda, Parkgate, Ickles Roundabout, Aldwarke and Brinsworth</li>
-              <li>Independent driving sections using sat-nav and road signs</li>
-              <li>Reversing manoeuvres</li>
-            </ul>
-            <p style={{ marginBottom: 24 }}>
-              Mike builds all of these routes into your lessons throughout your learning journey —
-              so you'll already know them well before test day.
-            </p>
-
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 10, marginTop: 32 }}>How Many Minors Are Allowed?</h2>
-            <p style={{ marginBottom: 24 }}>
-              You can receive up to <strong>15 minor (driving) faults</strong> and still pass.
-              One serious or dangerous fault means an automatic fail. Your examiner will go through
-              the result sheet with you at the end — whether you pass or not.
-            </p>
-
-            <h2 style={{ color: 'var(--navy)', fontSize: '1.3rem', marginBottom: 14, marginTop: 32 }}>Top Tips for Test Day</h2>
-            <ul className="check-list" style={{ marginBottom: 32 }}>
-              <li>Get a good night's sleep the night before</li>
-              <li>Have a lesson with Mike on the morning of your test if possible</li>
-              <li>Don't rush — methodical and safe beats fast and unsure every time</li>
-              <li>If you make a mistake, don't dwell on it — just continue driving safely</li>
-              <li>Trust your preparation. If you're in for the test, Mike believes you're ready</li>
-            </ul>
-
-            <div className="guarantee-box">
-              <h4 style={{ color: 'var(--green)', marginBottom: 8 }}>Theory Test Guarantee</h4>
-              <p style={{ fontSize: '0.92rem' }}>
-                If you don't pass your theory test after completing the required structured learning plan,
-                your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
-                <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: 'var(--primary)', fontWeight: 600 }}>Click HERE for details.</a>
-              </p>
-            </div>
-          </article>
-
-          <aside style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-            <div className="card" style={{ background: 'var(--navy)' }}>
-              <h4 style={{ color: 'var(--white)', marginBottom: 14 }}>Book With Mike</h4>
-              <p style={{ color: 'var(--light-blue)', fontSize: '0.85rem', marginBottom: 16, lineHeight: 1.6 }}>
-                Mike builds real test routes into every lesson. Call to get started.
-              </p>
-              <a href="tel:07915999994" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center', marginBottom: 8 }}>
-                📞 07915 999994
-              </a>
-              <a href="https://wa.me/447915999994" className="btn btn-white" target="_blank" rel="noreferrer" style={{ width: '100%', justifyContent: 'center', color: 'var(--navy)' }}>
-                💬 WhatsApp
-              </a>
-            </div>
-            <div className="card" style={{ borderTop: '3px solid var(--primary)' }}>
-              <h4 style={{ marginBottom: 12 }}>Related</h4>
-              <Link to="/blog/show-me-tell-me-2026" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.88rem', display: 'block', marginBottom: 8 }}>
-                Show Me Tell Me Questions 2026 →
-              </Link>
-              <Link to="/test-routes" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.88rem', display: 'block' }}>
-                Full Test Route Guide →
-              </Link>
-            </div>
-          </aside>
         </div>
-      </section>
+
+        {/* CTA */}
+        <section style={s.cta}>
+          <h2 style={s.ctaH2}>Ready to Prepare for Your Test?</h2>
+          <p style={s.ctaP}>Mike builds every Rotherham test route into your lessons. By the time test day comes, the roads will already feel familiar. Get in touch to get started.</p>
+          <div style={s.ctaBtns}>
+            <a href="tel:07915999994" style={s.ctaBtn}>📞 07915 999994</a>
+            <a href="https://wa.me/447915999994" target="_blank" rel="noreferrer" style={s.ctaBtnOutline}>💬 WhatsApp</a>
+            <Link to="/contact" style={s.ctaBtnOutline}>Contact Form</Link>
+          </div>
+        </section>
+
+        {/* Tags */}
+        <section style={s.tagsSection}>
+          <div style={{ maxWidth: 760, margin: '0 auto' }}>
+            <p style={s.tagsLabel}>Tags &amp; Categories</p>
+            <div style={s.tagsWrap}>
+              {tags.map(tag => <span key={tag} style={s.tag}>{tag}</span>)}
+            </div>
+          </div>
+        </section>
+      </main>
     </>
   )
 }
