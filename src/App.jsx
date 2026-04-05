@@ -43,7 +43,6 @@ export default function App() {
           <Route path="/blog/rotherham-test-centre"element={<BlogRotherham />} />
           <Route path="/blog/show-me-tell-me-2026" element={<BlogShowMe />} />
           <Route path="/blog/3-things-nervous-drivers-do-on-test" element={<BlogNervousDriver />} />
-          <Route path="/diagrams" element={<Diagrams />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
