@@ -19,6 +19,7 @@ const navLinks = [
       { label: 'Terms & Conditions', to: '/terms' },
       { label: 'Driving Diagrams',   to: '/diagrams' },
       { label: 'Driving Skills',     to: '/driving-skills' },
+      { label: 'The Driving Test',   to: '/the-driving-test' },
       { label: 'Resources',          to: '/driving-syllabus-2' },
     ],
   },
