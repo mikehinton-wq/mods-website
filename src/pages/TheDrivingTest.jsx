@@ -87,7 +87,6 @@ export default function TheDrivingTest() {
             <span style={s.heroAccent}>What to Expect at Rotherham</span>
           </h1>
           <p style={s.heroSub}>Everything you need to know before you arrive — routes, pass rates, what to bring, and tips for the day.</p>
-          <p style={s.heroMeta}>By Mike Hinton, ADI · Mike Hinton Driving School</p>
         </div>
       </header>
 
