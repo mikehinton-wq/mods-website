@@ -98,8 +98,9 @@ export default function About() {
             <div className="card" style={{ borderTop: '3px solid var(--primary)' }}>
               <h4 style={{ marginBottom: 14, color: 'var(--navy)' }}>Areas Covered</h4>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                {['Rotherham', 'Worksop', 'Maltby', 'Wickersley', 'Bramley',
-                  'Brinsworth', 'Dinnington', 'Mexborough', 'Swinton', 'Hellaby'].map(a => (
+                {['Dalton', 'Sunnyside', 'Woodlaithes', 'Flanderwell', 'Wickersley',
+                  'Bramley', 'Ravenfield', 'Braithwell', 'Micklebring', 'Maltby',
+                  'Brecks', 'East Denes', 'Herringthorpe', 'Rawmarsh'].map(a => (
                   <span key={a} style={{
                     background: 'var(--pale-blue)', color: 'var(--navy)',
                     padding: '4px 10px', borderRadius: 100,
