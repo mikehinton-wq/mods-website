@@ -17,6 +17,7 @@ const navLinks = [
       { label: 'Testimonials',        to: '/testimonials' },
       { label: 'FAQs',               to: '/faqs' },
       { label: 'Terms & Conditions', to: '/terms' },
+      { label: 'Driving Diagrams',   to: '/diagrams' },
     ],
   },
   { label: 'Contact', to: '/contact' },
