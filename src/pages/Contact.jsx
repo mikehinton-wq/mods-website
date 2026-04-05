@@ -138,6 +138,46 @@ export default function Contact() {
 
                 <div>
                   <label style={{ display: 'block', fontFamily: 'Raleway', fontWeight: 700, fontSize: '0.88rem', color: 'var(--navy)', marginBottom: 6 }}>
+                    Do you have any driving experience?
+                  </label>
+                  <select
+                    name="experience"
+                    value={form.experience}
+                    onChange={handleChange}
+                    style={{
+                      width: '100%', padding: '11px 14px',
+                      border: '1.5px solid var(--grey-200)', borderRadius: 'var(--radius)',
+                      fontFamily: 'Open Sans', fontSize: '0.93rem', color: 'var(--navy)',
+                      background: 'white', outline: 'none',
+                    }}
+                  >
+                    <option value="">Select…</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label style={{ display: 'block', fontFamily: 'Raleway', fontWeight: 700, fontSize: '0.88rem', color: 'var(--navy)', marginBottom: 6 }}>
+                    Please let us know what days and times you are available for lessons and any additional information
+                  </label>
+                  <textarea
+                    name="availability"
+                    rows={3}
+                    placeholder="e.g. Weekday mornings, Saturday afternoons…"
+                    value={form.availability}
+                    onChange={handleChange}
+                    style={{
+                      width: '100%', padding: '11px 14px',
+                      border: '1.5px solid var(--grey-200)', borderRadius: 'var(--radius)',
+                      fontFamily: 'Open Sans', fontSize: '0.93rem', color: 'var(--navy)',
+                      resize: 'vertical', outline: 'none',
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{ display: 'block', fontFamily: 'Raleway', fontWeight: 700, fontSize: '0.88rem', color: 'var(--navy)', marginBottom: 6 }}>
                     Message <span style={{ color: 'var(--primary)' }}>*</span>
                   </label>
                   <textarea
