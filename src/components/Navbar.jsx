@@ -94,9 +94,6 @@ export default function Navbar() {
               </NavLink>
             )
           )}
-          <a href="https://www.facebook.com/mikehintondrivingschool" target="_blank" rel="noreferrer" className="navbar__link" style={{ fontSize: '1.1rem' }}>
-            📘
-          </a>
           <a href="tel:07915999994" className="btn btn-primary navbar__cta">
             📞 07915 999994
           </a>
