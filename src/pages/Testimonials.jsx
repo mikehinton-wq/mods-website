@@ -87,16 +87,6 @@ export default function Testimonials() {
             ))}
           </div>
 
-          <div style={{ marginTop: 56, background: 'var(--pale-blue)', borderRadius: 'var(--radius-lg)', padding: '32px', textAlign: 'center' }}>
-            <h3 style={{ marginBottom: 10 }}>Leave a Review</h3>
-            <p style={{ color: 'var(--grey-700)', marginBottom: 20, maxWidth: 520, margin: '0 auto 20px' }}>
-              Have you passed with Mike? We'd love to hear from you. Leave a Google review
-              or get in touch directly.
-            </p>
-            <a href="https://wa.me/447915999994" className="btn btn-primary" target="_blank" rel="noreferrer">
-              💬 Get in Touch
-            </a>
-          </div>
         </div>
       </section>
     </>
