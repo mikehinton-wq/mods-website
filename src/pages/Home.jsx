@@ -106,7 +106,7 @@ export default function Home() {
                 title="Mike Hinton Driving School on Facebook"
               />
             </div>
-            <div style={{ marginTop: 12, display: 'flex', gap: 10 }}>
+            <div style={{ marginTop: 12, display: 'flex', gap: 10, flexWrap: 'wrap' }}>
               <a
                 href="https://www.tiktok.com/@mrdriveruk"
                 target="_blank"
