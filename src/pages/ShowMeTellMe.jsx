@@ -66,7 +66,6 @@ export default function ShowMeTellMe() {
             <span style={s.heroAccent}>The Complete 2026 List</span>
           </h1>
           <p style={s.heroSub}>The full list of vehicle safety questions the examiner may ask at the start of your driving test, with answers explained clearly.</p>
-          <p style={s.heroMeta}>By Mike Hinton, ADI · Mike Hinton Driving School</p>
         </div>
       </header>
 
