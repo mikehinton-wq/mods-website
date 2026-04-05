@@ -94,7 +94,7 @@ export default function BlogNeurodivergent() {
           <p style={s.p}>It's important not to focus only on the challenges. Many neurodivergent learners are excellent at breaking down and practising step-by-step sequences — a skill that comes in very handy for manoeuvres. Once a skill enters muscle memory, it can feel second nature. The key is finding the learning method that works for your brain, not the standard one-size-fits-all approach.</p>
 
           <h2 style={s.h2}>Top Tips for Neurodivergent Learner Drivers</h2>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {tips.map(tip => (
               <div key={tip.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{tip.icon}</span>
