@@ -78,6 +78,7 @@ export default function App() {
           <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
           <Route path="/driving-skills/heavy-traffic" element={<DrivingHeavyTraffic />} />
           <Route path="/driving-skills/5-key-skills" element={<DrivingFiveKeySkills />} />
+          <Route path="/driving-skills/clutch-control" element={<DrivingClutchControl />} />
         </Routes>
       </main>
       <Footer />
