@@ -7,7 +7,7 @@ const faqs = [
   },
   {
     q: 'What areas do you cover?',
-    a: 'Mike covers Rotherham, Worksop, and surrounding areas including Maltby, Wickersley, Bramley, Brinsworth, Dinnington, Mexborough, Swinton, and Hellaby. If you\'re unsure whether your area is covered, just get in touch.',
+    a: 'Mike covers the Rotherham area including Dalton, Sunnyside, Woodlaithes, Flanderwell, Wickersley, Bramley, Ravenfield, Braithwell, Micklebring, Maltby, Brecks, East Denes, Herringthorpe, and Rawmarsh. If you\'re unsure whether your area is covered, just get in touch.',
   },
   {
     q: 'Do you offer lessons for nervous or anxious learners?',
@@ -27,11 +27,11 @@ const faqs = [
   },
   {
     q: 'Do you offer automatic or manual lessons?',
-    a: 'Contact Mike to confirm current availability of manual and automatic lessons. Both may be available — get in touch to discuss your preference.',
+    a: 'We currently provide manual driving lessons.',
   },
   {
     q: 'Do you offer intensive driving courses?',
-    a: 'Yes. Intensive courses can be arranged to suit your schedule — they\'re suitable for people with some prior experience who need to pass by a deadline. Contact Mike to discuss what\'s possible.',
+    a: 'At the moment we are not able to offer intensive courses. Please contact Mike if you wish to discuss what we can offer.',
   },
   {
     q: 'Can I have refresher lessons if I already have a full licence?',
@@ -42,8 +42,28 @@ const faqs = [
     a: 'Yes — all lessons are one-to-one unless otherwise agreed in advance. There is no sharing with other learners.',
   },
   {
-    q: 'Do you offer gift vouchers?',
-    a: 'Please contact Mike directly to discuss gift vouchers.',
+    q: 'Do you have a waiting list / how long is your waiting list?',
+    a: 'As the driving test waiting times are so long at the moment, this means that the waiting list to start lessons is also quite a while.\n\nWe do have a waiting list. The best advice is to get in touch using the Message Us buttons on the home page of this site where you will be advised on the current waiting time and if we are able to add you to the waiting list.',
+  },
+  {
+    q: 'Can I postpone my lessons until nearer my test?',
+    a: 'If you suspend your lessons, your space cannot be guaranteed when you want to resume your lessons. You may need to join the waiting list until a free space comes up. If you suspend taking any pre-paid tuition for a period of 12 weeks or more, any remaining tuition owed will be forfeited. Prices may be adjusted at any time with reasonable notice.',
+  },
+  {
+    q: 'Can I do anything in between lessons to accelerate my progress?',
+    a: 'Some of the things you can do to minimise the time you are paying for in a car are:\n\nPrivate Practice: We encourage students to do some practice between lessons with parents, family members, or a partner where possible. We will always give advice on what kind of practice would be most beneficial. It is important to remember that anyone supervising a learner driver must be at least 21 years old and have held a full UK driving licence for at least 3 years.\n\nWatch Videos: Quite often, you can use YouTube (your instructor can recommend good videos) to watch videos on the topics you are learning, need to improve on, or even the next lesson\'s topics. That way you will minimise the time needed for your instructor to give you the knowledge and they can just help you put your knowledge into practice.\n\nObserve your parents/friends driving: We spend a lot of time in cars, but most people don\'t ask or observe others driving. Just asking whoever is driving you what they are doing and why — and observing if you would have done the same — can help you massively.\n\nReflective Logs: Completing a reflective log between lessons will keep your learning points and aims fresh in your mind. The purpose is to help you self reflect on what has gone well, where you need to develop further, and set the objective for your next lesson.\n\nUse handouts: Does your driving instructor have handouts or other learning material you can use? If so, use them!',
+  },
+  {
+    q: 'Should I practise in my own car?',
+    a: 'Absolutely. We encourage students to do some practice between lessons with parents, family members, or a partner where possible. We will always give advice on what kind of practice would be most beneficial. It is important to remember that anyone supervising a learner driver must be at least 21 years old and have held a full UK driving licence for at least 3 years.',
+  },
+  {
+    q: 'How will I know when I am ready for my driving test?',
+    a: 'Your instructor will agree to book your driving test once you have met the required criteria and have passed a mock test assessment to prove your readiness. You must be able to demonstrate the ability to drive completely independently without any instructor intervention, except for giving directions, and to the required standard.',
+  },
+  {
+    q: 'Will I fail for taking the wrong turn on my driving test?',
+    a: 'Taking the wrong turn on a driving test is not a big problem in itself. Driving faults, both minor and serious, are only awarded if there are errors with your driving skills. So as long as every action is safely carried out, no marks will appear on your test report.\n\nRemember that you can ask examiners to repeat or confirm directions if you are unsure. This also applies to the independent driving exercise where you will follow directions given to you by an examiner or from a sat-nav system.',
   },
   {
     q: 'How do I contact Mike with a complaint?',
