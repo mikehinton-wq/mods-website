@@ -223,7 +223,7 @@ export default function DrivingSyllabus() {
           <div style={{ marginTop: 0, background: 'var(--pale-blue)', borderRadius: 'var(--radius-lg)', padding: '28px 32px', maxWidth: 760, margin: '0 auto' }}>
             <h3 style={{ marginBottom: 10 }}>After Every Lesson</h3>
             <p style={{ color: 'var(--grey-700)', lineHeight: 1.7 }}>
-              You'll receive a brief summary of what was covered in the session, what to practise
+              You'll receive a brief summary, from the FREE dedicated app, of what was covered in the session, what to practise
               before next time, and what you'll be working on next. This keeps you informed and
               progressing — even between lessons.
             </p>
