@@ -325,7 +325,7 @@ export default function HowTestIsMarked() {
               In special circumstances, a paper form will be used to assess your driving instead of the iPad. A copy of the DL25 driving test marking sheet can be downloaded from the DVSA website.
               {' '}
               <a
-                href="https://www.gov.uk/government/publications/dl25-driving-test-report"
+                href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://assets.publishing.service.gov.uk/media/62a7437cd3bf7f03667c667a/dl25-driving-test-report.pdf&ved=2ahUKEwiSqb341deTAxX4UkEAHXHBDFgQFnoECAwQAQ&usg=AOvVaw2UePdl5pclrkuw1AmUZXZ5"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: '#c8501a', fontWeight: 700 }}
