@@ -247,6 +247,9 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <h2 className="section-title">What Students Say</h2>
+            <p style={{ color: 'var(--grey-600)', fontSize: '1.05rem', marginTop: 8, marginBottom: 4 }}>
+              Don't take our word for it. See why we have a 5 star rating.
+            </p>
             <div className="divider center" />
           </div>
           <div className="grid-3">
