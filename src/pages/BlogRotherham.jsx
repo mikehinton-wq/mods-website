@@ -173,14 +173,6 @@ export default function BlogRotherham() {
             ))}
           </div>
 
-          {/* Guarantee */}
-          <div style={s.guaranteeBox}>
-            <div style={s.guaranteeLabel}>✓ Theory Test Guarantee</div>
-            <p style={s.guaranteeText}>
-              If you don't pass your theory test after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
-              <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: '#4ade80', fontWeight: 600 }}>Click HERE for details.</a>
-            </p>
-          </div>
 
         </div>
 
