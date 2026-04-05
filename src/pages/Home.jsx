@@ -166,6 +166,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero__card-stack">
+            <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--white)', textAlign: 'center', marginBottom: 12, letterSpacing: '0.04em' }}>Rotherham</p>
             <img
               src="/images/Mike Hinton Car.jpg"
               alt="Mike Hinton Driving School car"
