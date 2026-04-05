@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom'
 
 const posts = [
   {
+    slug: '3-things-nervous-drivers-do-on-test',
+    title: '3 Things Every Nervous Driver Does on Their Test (And How to Stop)',
+    excerpt: 'Nervous about your driving test? Here are the 3 things anxious learners almost always do — and exactly how to stop them happening to you.',
+    date: 'April 2026',
+    readTime: '3 min read',
+    tag: 'Anxiety & Nerves',
+  },
+  {
     slug: 'rotherham-test-centre',
     title: 'What to Expect at Rotherham Driving Test Centre',
     excerpt: 'Everything you need to know before your practical test at Rotherham — routes, pass rates, what to bring, and tips for the day.',
