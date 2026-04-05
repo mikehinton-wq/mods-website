@@ -41,6 +41,14 @@ const posts = [
     readTime: '7 min read',
     tag: 'Theory',
   },
+  {
+    slug: 'how-to-buy-your-first-car',
+    title: 'How to Choose and Buy Your First Car',
+    excerpt: "One of the most common conversations I have with students. A complete guide to buying your first car — where to look, what to check, how to negotiate, and what your rights are.",
+    date: 'April 2026',
+    readTime: '8 min read',
+    tag: 'New Drivers',
+  },
 ]
 
 export default function Blog() {
