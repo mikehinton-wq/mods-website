@@ -33,6 +33,7 @@ import Terms from './pages/Terms'
 import HowTestIsMarked from './pages/HowTestIsMarked'
 import DrivingHeavyTraffic from './pages/DrivingHeavyTraffic'
 import DrivingFiveKeySkills from './pages/DrivingFiveKeySkills'
+import DrivingClutchControl from './pages/DrivingClutchControl'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
