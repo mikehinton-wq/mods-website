@@ -74,6 +74,7 @@ export default function App() {
           <Route path="/contact"                   element={<Contact />} />
           <Route path="/terms"                     element={<Terms />} />
           <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
+          <Route path="/driving-skills/heavy-traffic" element={<DrivingHeavyTraffic />} />
         </Routes>
       </main>
       <Footer />
