@@ -90,16 +90,6 @@ export default function Pricing() {
               <Link to="/terms" style={{ color: 'var(--primary)' }}>Terms &amp; Conditions</Link>.
             </p>
 
-            <div style={{ background: 'var(--navy)', borderRadius: 'var(--radius-lg)', padding: '32px', textAlign: 'center' }}>
-              <h3 style={{ color: 'var(--white)', marginBottom: 10 }}>Book Your First Lesson</h3>
-              <p style={{ color: 'var(--light-blue)', marginBottom: 24, fontSize: '0.95rem' }}>
-                Get in touch to discuss your needs and arrange your first lesson.
-              </p>
-              <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-                <a href="tel:07915999994" className="btn btn-primary">📞 07915 999994</a>
-                <a href="https://wa.me/447915999994" className="btn btn-white" target="_blank" rel="noreferrer" style={{ color: 'var(--navy)' }}>💬 WhatsApp</a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
