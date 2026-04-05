@@ -66,6 +66,7 @@ export default function App() {
           <Route path="/blog/failure-to-prepare" element={<BlogFailureToPrepare />} />
           <Route path="/blog/learning-partnership" element={<BlogLearningPartnership />} />
           <Route path="/blog/how-to-choose-a-driving-instructor" element={<BlogChooseInstructor />} />
+          <Route path="/blog/consistency-beats-intensity" element={<BlogConsistency />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
