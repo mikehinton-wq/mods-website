@@ -189,34 +189,6 @@ export default function DrivingSyllabus() {
         </div>
       </section>
 
-      {/* Resources */}
-      <section className="section" style={{ background: 'var(--grey-50)', borderTop: '1px solid var(--grey-200)' }}>
-        <div className="container">
-          <h2 style={{ marginBottom: 8 }}>Learning Resources</h2>
-          <p style={{ color: 'var(--grey-700)', marginBottom: 40 }}>
-            Useful guides, official publications, and links to support your learning outside of lessons.
-          </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 20 }}>
-            {resources.map(r => (
-              <div key={r.title} className="card" style={{ borderTop: '3px solid var(--primary)' }}>
-                <div style={{ fontSize: '1.8rem', marginBottom: 10 }}>{r.icon}</div>
-                <h3 style={{ fontSize: '1rem', marginBottom: 8 }}>{r.title}</h3>
-                <p style={{ color: 'var(--grey-700)', fontSize: '0.88rem', lineHeight: 1.65, marginBottom: 14 }}>{r.desc}</p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                  {r.links.map(l => (
-                    <a key={l.label} href={l.href}
-                      target={l.href.startsWith('http') ? '_blank' : undefined}
-                      rel="noreferrer"
-                      style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.85rem' }}>
-                      → {l.label}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="section-sm">
         <div className="container">
