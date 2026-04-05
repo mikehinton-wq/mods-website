@@ -17,14 +17,20 @@ const navLinks = [
     ],
   },
   {
+    label: 'Resources',
+    children: [
+      { label: 'Driving Syllabus',   to: '/driving-syllabus' },
+      { label: 'Driving Diagrams',   to: '/diagrams' },
+      { label: 'Driving Skills',     to: '/driving-skills' },
+      { label: 'Terms & Conditions', to: '/terms' },
+      { label: 'FAQs',               to: '/faqs' },
+    ],
+  },
+  {
     label: 'More',
     children: [
       { label: 'Specialist Learners', to: '/specialist-learners' },
       { label: 'Testimonials',        to: '/testimonials' },
-      { label: 'FAQs',               to: '/faqs' },
-      { label: 'Terms & Conditions', to: '/terms' },
-      { label: 'Driving Diagrams',   to: '/diagrams' },
-      { label: 'Driving Skills',     to: '/driving-skills' },
       { label: 'Show Me Tell Me',    to: '/show-me-tell-me' },
       { label: 'Resources',          to: '/driving-syllabus-2' },
     ],
