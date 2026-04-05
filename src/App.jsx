@@ -72,6 +72,7 @@ export default function App() {
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
           <Route path="/terms"                     element={<Terms />} />
+          <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
         </Routes>
       </main>
       <Footer />
