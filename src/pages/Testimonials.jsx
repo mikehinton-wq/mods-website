@@ -50,7 +50,10 @@ export default function Testimonials() {
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Reviews</span>
           <h1>What My Students Say</h1>
-          <p>Real reviews from students who have passed with Mike Hinton Driving School.</p>
+          <p style={{ color: 'var(--white)', fontSize: '1.2rem', fontWeight: 700, fontFamily: 'Raleway, sans-serif', marginTop: 10, marginBottom: 4 }}>
+            Don't take our word for it — see why we have a{' '}
+            <span style={{ color: '#1EABC7' }}>⭐⭐⭐⭐⭐ 5 star rating</span>
+          </p>
         </div>
       </section>
 
