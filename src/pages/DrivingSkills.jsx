@@ -75,38 +75,9 @@ export default function DrivingSkills() {
             gap: 24,
           }} className="mobile-1col">
             {skills.map(skill => (
-              <div key={skill.title} className="card" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-                {/* Image placeholder */}
-                <div style={{
-                  width: '100%',
-                  height: 180,
-                  background: 'var(--pale-blue)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  borderBottom: '1px solid var(--grey-200)',
-                  flexShrink: 0,
-                }}>
-                  <div style={{ textAlign: 'center', color: 'var(--text-muted)' }}>
-                    <div style={{ fontSize: '2rem', marginBottom: 6 }}>🖼️</div>
-                    <div style={{ fontSize: '0.78rem', fontFamily: 'Raleway, sans-serif', fontWeight: 600 }}>Image to follow</div>
-                  </div>
-                </div>
-
-                {/* Content */}
-                <div style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column', flex: 1 }}>
-                  <h3 style={{ fontSize: '1rem', marginBottom: 10, color: 'var(--navy)' }}>{skill.title}</h3>
-                  <p style={{ fontSize: '0.88rem', color: 'var(--grey-700)', lineHeight: 1.7, flex: 1 }}>{skill.desc}</p>
-                  <div style={{ marginTop: 14 }}>
-                    {skill.href ? (
-                      <a href={skill.href} target="_blank" rel="noreferrer" className="btn btn-primary" style={{ fontSize: '0.82rem', padding: '8px 16px' }}>
-                        Click HERE for more information
-                      </a>
-                    ) : (
-                      <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)', fontStyle: 'italic' }}>Link coming soon</span>
-                    )}
-                  </div>
-                </div>
+              <div key={skill.title} className="card" style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column' }}>
+                <h3 style={{ fontSize: '1rem', marginBottom: 10, color: 'var(--navy)' }}>{skill.title}</h3>
+                <p style={{ fontSize: '0.88rem', color: 'var(--grey-700)', lineHeight: 1.7, flex: 1 }}>{skill.desc}</p>
               </div>
             ))}
           </div>
