@@ -62,14 +62,6 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="guarantee-box" style={{ marginTop: 20 }}>
-              <h4 style={{ color: 'var(--green)', marginBottom: 6, fontSize: '0.95rem' }}>Theory Test Guarantee</h4>
-              <p style={{ fontSize: '0.85rem', color: 'var(--grey-700)', lineHeight: 1.6 }}>
-                If you don't pass your theory test after completing the required structured learning plan,
-                your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
-                <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: 'var(--primary)', fontWeight: 600 }}>Click HERE for details.</a>
-              </p>
-            </div>
           </div>
 
           {/* Form */}
