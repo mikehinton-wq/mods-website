@@ -56,13 +56,7 @@ export default function Home() {
               <span style={{ color: 'var(--primary)', fontWeight: 800, fontSize: '1.2em' }}>over 80%</span>
               {' '}you can be sure you will gain confidence quickly, achieve your driving goals, and at the same time have fun doing it.
             </p>
-            <div className="hero__guarantee">
-              <span className="guarantee-tick">✓</span>
-              <span>
-                <strong>Theory Test Guarantee</strong> — if you don't pass your theory test after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
-                <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: '#d1fae5', fontWeight: 600 }}>Click HERE for details.</a>
-              </span>
-            </div>
+
             <div className="hero__actions">
               <a href="tel:07915999994" className="btn btn-primary btn-lg">📞 Call 07915 999994</a>
               <a href="https://wa.me/447915999994" className="btn btn-white btn-lg" target="_blank" rel="noreferrer">💬 WhatsApp</a>
