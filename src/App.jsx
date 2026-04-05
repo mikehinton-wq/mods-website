@@ -30,6 +30,7 @@ import FAQs from './pages/FAQs'
 import DrivingSyllabus from './pages/DrivingSyllabus'
 import Contact from './pages/Contact'
 import Terms from './pages/Terms'
+import HowTestIsMarked from './pages/HowTestIsMarked'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
