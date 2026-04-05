@@ -99,7 +99,9 @@ function FAQItem({ faq }) {
       </button>
       {open && (
         <div style={{ padding: '14px 20px 18px', background: 'var(--white)', borderTop: '1px solid var(--light-blue)' }}>
-          <p style={{ color: 'var(--grey-700)', fontSize: '0.93rem', lineHeight: 1.7 }}>{faq.a}</p>
+          {faq.a.split('\n\n').map((para, i) => (
+            <p key={i} style={{ color: 'var(--grey-700)', fontSize: '0.93rem', lineHeight: 1.7, marginBottom: i < faq.a.split('\n\n').length - 1 ? 12 : 0 }}>{para}</p>
+          ))}
         </div>
       )}
     </div>
