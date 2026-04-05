@@ -31,6 +31,7 @@ import DrivingSyllabus from './pages/DrivingSyllabus'
 import Contact from './pages/Contact'
 import Terms from './pages/Terms'
 import HowTestIsMarked from './pages/HowTestIsMarked'
+import DrivingHeavyTraffic from './pages/DrivingHeavyTraffic'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
