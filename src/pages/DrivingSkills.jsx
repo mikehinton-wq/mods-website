@@ -24,6 +24,7 @@ export default function DrivingSkills() {
       icon: '🌧️',
       title: 'Driving in Wet Conditions',
       desc: 'Heavy rain can quickly reduce your visibility and create slippery and dangerous road conditions. Taking simple precautions and knowing what to do if you get caught in an extreme weather storm will help keep you safe.',
+      to: '/driving-skills/wet-conditions',
     },
     {
       icon: '❄️',
