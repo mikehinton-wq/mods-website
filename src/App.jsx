@@ -48,6 +48,7 @@ export default function App() {
           <Route path="/blog/3-things-nervous-drivers-do-on-test" element={<BlogNervousDriver />} />
           <Route path="/diagrams" element={<Diagrams />} />
           <Route path="/driving-skills" element={<DrivingSkills />} />
+          <Route path="/driving-syllabus-2" element={<DrivingSyllabus2 />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
