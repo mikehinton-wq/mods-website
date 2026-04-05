@@ -182,7 +182,7 @@ export default function BlogBuyFirstCar() {
 
           {/* Payment */}
           <h2 style={s.h2}>How Will You Pay?</h2>
-          <div style={s.payGrid}>
+          <div style={s.payGrid} className="mobile-1col">
             {paymentOptions.map(opt => (
               <div key={opt.title} style={{ ...s.payCard, borderTop: `3px solid ${opt.colour}` }}>
                 <div style={s.payIcon}>{opt.icon}</div>
