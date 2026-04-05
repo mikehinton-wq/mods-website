@@ -7,15 +7,15 @@ const navLinks = [
   { label: 'About',              to: '/about' },
   { label: 'What We Offer',      to: '/what-we-offer' },
   { label: 'Pricing',            to: '/pricing' },
+  { label: 'Driving Syllabus',   to: '/driving-syllabus' },
+  { label: 'Blog',               to: '/blog' },
   {
     label: 'More',
     children: [
       { label: 'Specialist Learners', to: '/specialist-learners' },
       { label: 'Test Routes',         to: '/test-routes' },
       { label: 'Testimonials',        to: '/testimonials' },
-      { label: 'Blog',                to: '/blog' },
       { label: 'FAQs',               to: '/faqs' },
-      { label: 'Driving Syllabus',   to: '/driving-syllabus' },
       { label: 'Terms & Conditions', to: '/terms' },
     ],
   },
