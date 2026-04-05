@@ -83,11 +83,17 @@ export default function Navbar() {
                   {link.label} <span className="caret">▾</span>
                 </button>
                 <div className="dropdown__menu">
-                  {link.children.map(child => (
-                    <NavLink key={child.to} to={child.to} className="dropdown__item">
-                      {child.label}
-                    </NavLink>
-                  ))}
+                  {link.children.map(child =>
+                    child.href ? (
+                      <a key={child.href} href={child.href} className="dropdown__item" target="_blank" rel="noreferrer">
+                        {child.label}
+                      </a>
+                    ) : (
+                      <NavLink key={child.to} to={child.to} className="dropdown__item">
+                        {child.label}
+                      </NavLink>
+                    )
+                  )}
                 </div>
               </div>
             ) : (
