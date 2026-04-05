@@ -304,9 +304,11 @@
   .hero__card-stack { display: none; }
   .hero__actions { flex-direction: column; }
   .hero__actions .btn, .hero__actions .btn-outline-white { width: 100%; justify-content: center; }
-  .hero__guarantee { font-size: 0.85rem; }
+  .hero__guarantee { font-size: 0.85rem; max-width: 100%; }
   .benefit-item { flex-direction: column; gap: 8px; }
   .cta-banner__actions { flex-direction: column; width: 100%; }
   .cta-banner__actions .btn { width: 100%; justify-content: center; }
   .areas-grid { gap: 8px; }
+  .hero__sub { max-width: 100%; }
+  .services-grid { gap: 16px; }
 }
