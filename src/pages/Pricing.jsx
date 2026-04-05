@@ -15,7 +15,7 @@ export default function Pricing() {
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Pricing</span>
           <h1>Pricing</h1>
-          <p>Transparent pricing with no hidden costs. Block bookings offer a saving on the standard hourly rate.</p>
+          <p>Transparent pricing with no hidden costs.</p>
         </div>
       </section>
 
