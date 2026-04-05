@@ -41,6 +41,7 @@ import DrivingInTheDark from './pages/DrivingInTheDark'
 import DrivingInSnow from './pages/DrivingInSnow'
 import DrivingIcyConditions from './pages/DrivingIcyConditions'
 import DrivingBrightSun from './pages/DrivingBrightSun'
+import DrivingHighWind from './pages/DrivingHighWind'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
