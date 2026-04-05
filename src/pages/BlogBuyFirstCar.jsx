@@ -116,7 +116,7 @@ export default function BlogBuyFirstCar() {
           {/* Where to buy */}
           <h2 style={s.h2}>Where to Start Looking</h2>
           <p style={s.p}>You don't need to trawl through classified ads any more. There are several ways to buy a used car — each with its own advantages and risks.</p>
-          <div style={s.cardGrid}>
+          <div style={s.cardGrid} className="mobile-1col">
             {whereToBuy.map(w => (
               <div key={w.title} style={s.whereCard}>
                 <div style={s.whereIcon}>{w.icon}</div>
