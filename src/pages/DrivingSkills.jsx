@@ -39,6 +39,7 @@ export default function DrivingSkills() {
       icon: '🚦',
       title: 'Speed Awareness',
       desc: 'Learning to drive requires more than knowing the theory of driving and an acceptable standard of practice skills. You need to be aware of the driving environment around you and how your vehicle interacts within it. Fundamental to this is the ability to control the speed of the car.',
+      to: '/driving-skills/speed-awareness',
     },
     {
       icon: '🌙',
