@@ -86,7 +86,9 @@ export default function Testimonials() {
               </div>
             ))}
           </div>
-
+          <div style={{ textAlign: 'center', marginTop: 32 }}>
+            <a href="https://www.facebook.com/mikehintondrivingschool/reviews" target="_blank" rel="noreferrer" className="btn btn-outline">Read More Reviews</a>
+          </div>
         </div>
       </section>
     </>
