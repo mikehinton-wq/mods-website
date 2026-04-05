@@ -120,7 +120,7 @@ export default function Terms() {
           <h3 style={{ marginBottom: 10 }}>Pricing</h3>
           <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 24 }}>
             Lesson prices shown on the website can be changed at any time with no prior warning. Students
-            already taking tuition lessons will be given 1 month's notice of a price change.
+            already taking tuition lessons will be given two weeks notice of a price change.
           </p>
 
           {/* Practical tests */}
