@@ -205,7 +205,7 @@ export default function Home() {
               'No pressure, no judgement',
               'Theory test guidance included',
               'Post-test support available',
-              'Serving Rotherham & Worksop',
+              'Serving the Rotherham area',
             ].map(p => (
               <div key={p} className="specialist-point">
                 <span className="point-check">✓</span>
