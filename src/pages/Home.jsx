@@ -153,6 +153,7 @@ export default function Home() {
                 '1-to-1 lessons — every session',
                 'Theory test fee guarantee',
                 'DVSA approved instructor (ADI)',
+                'Manual car',
               ].map(item => (
                 <li key={item} style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--light-blue)', fontSize: '0.88rem' }}>
                   <span style={{ color: 'var(--primary)', fontWeight: 700 }}>✓</span>
