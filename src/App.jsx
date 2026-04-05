@@ -34,6 +34,7 @@ import HowTestIsMarked from './pages/HowTestIsMarked'
 import DrivingHeavyTraffic from './pages/DrivingHeavyTraffic'
 import DrivingFiveKeySkills from './pages/DrivingFiveKeySkills'
 import DrivingClutchControl from './pages/DrivingClutchControl'
+import DrivingDefensive from './pages/DrivingDefensive'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
