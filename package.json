@@ -21,6 +21,8 @@
     "vite": "^5.1.0"
   },
   "reactSnap": {
+    "source": "dist",
+    "destination": "dist",
     "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
     "include": [
       "/",
