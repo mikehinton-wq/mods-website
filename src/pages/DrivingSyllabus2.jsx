@@ -43,7 +43,7 @@ export default function DrivingSyllabus2() {
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Resources</span>
-          <h1>Driving Syllabus</h1>
+          <h1>Driving Resources</h1>
           <p>Below you will find key information and links to the core driving syllabus you will learn during your driving journey.</p>
         </div>
       </section>
