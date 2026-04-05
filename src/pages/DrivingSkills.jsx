@@ -6,6 +6,7 @@ export default function DrivingSkills() {
       icon: '🚗',
       title: '5 Key Driving Skills',
       desc: 'To be a safe driver it is vital that you master the 5 key skills of driving so that you are capable of navigating any road system. These skills are: Car Control & Coordination, Effective Observation, Awareness & Anticipation, Planning & Judgment, Self-Evaluation.',
+      to: '/driving-skills/5-key-skills',
     },
     {
       icon: '⚙️',
