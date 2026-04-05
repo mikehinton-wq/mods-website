@@ -110,7 +110,7 @@ const resources = [
     title: 'Driving — The Essential Skills',
     desc: 'Packed full of advice to help you stay safe on the roads. This comprehensive guide is the industry standard driving manual — learn the correct skills, attitude and behaviour.',
     links: [
-      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/Driving-Essential-Skills-Official-DVSA/dp/0115529012' },
+      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/official-DVSA-guide-driving-essential/dp/0115541225/ref=sr_1_1?crid=KTCEH5VMRIA5&dib=eyJ2IjoiMSJ9.mbLozOAQyXBgXxhFnSrBnmduFSs5Y8TvnjjcFZGbVJU9ahHRspBFisqgjgsE9YQKKrcMTXJR66LBZWLwDB_6Zg-5w_K_jlaFHK_Ss8u2kf4-_DA6uW5RYcJOGRSHBIH37qBKnjiog64tbc9dsEU8Kfcvn_OcUTJKx-4gnQ6n8mLHw7fVMLfw3GrF3PpK8ArKDCMn9ApK2X1JJjqofCPQB1JkJAOYdmJV9Wbh_p1Nb3g.wEGLpBtlARWxkfrkO2sI3C_84lZVfWJpwzBVUiFC4sY&dib_tag=se&keywords=official+guide+to+driving&qid=1775414815&s=books&sprefix=official+guide+to+drivi%2Cstripbooks%2C215&sr=1-1' },
     ],
   },
   {
