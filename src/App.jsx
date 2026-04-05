@@ -60,6 +60,7 @@ export default function App() {
           <Route path="/the-driving-test" element={<TheDrivingTest />} />
           <Route path="/show-me-tell-me" element={<ShowMeTellMe />} />
           <Route path="/blog/how-to-buy-your-first-car" element={<BlogBuyFirstCar />} />
+          <Route path="/blog/failure-to-prepare" element={<BlogFailureToPrepare />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
