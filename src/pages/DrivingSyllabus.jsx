@@ -118,7 +118,7 @@ const resources = [
     title: 'Roadcraft',
     desc: 'The most authoritative, evidence-based guidance on advanced driving skills. Expert guidance not just for police drivers, but for anyone who wants to become a better, safer driver.',
     links: [
-      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/Roadcraft-Police-Driver-Handbook/dp/0117082473' },
+      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/Roadcraft-Police-Drivers-Handbook-Foundation/dp/0117095044/ref=sr_1_1?crid=O5BEY2WFJO2Q&dib=eyJ2IjoiMSJ9.2gKFenelN106WMeGimxaC1pAEfqd7PywbZtzOKVUJliBbEEDY5hUXsIShysgbM9yzp0xHnYygSifWZlm5HdjJqr3wiwDGMzluB-Jw5z2n6WiJ5VHV6CrqarZC582AX8hwsCHXob2y7rRXggTcG49tdFFmmqlreBnKBqXjdapAhBLvmOkOHJbOXboOUwaRNz0CmzO2uaM0LLD-5G5zMIESGtPFzoa-uqlp1yHztDs8xg.kykYvvmhb4Gpe7du74aPygeLKF3hkOpGdQjeOq8G9zg&dib_tag=se&keywords=roadcraft&qid=1775414879&s=books&sprefix=roadcraf%2Cstripbooks%2C215&sr=1-1&ufe=app_do%3Aamzn1.fos.95fd378e-6299-4723-b1f1-3952ffba15af' },
     ],
   },
 ]
