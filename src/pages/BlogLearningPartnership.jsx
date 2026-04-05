@@ -95,7 +95,7 @@ export default function BlogLearningPartnership() {
 
           <h2 style={s.h2}>What to Talk to Your Instructor About</h2>
           <p style={s.p}>Make sure you have a conversation with your instructor about your learning style from the very start. Think about the things that genuinely help you concentrate and absorb information:</p>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {learningStyles.map(item => (
               <div key={item.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{item.icon}</span>
