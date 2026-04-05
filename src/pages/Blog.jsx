@@ -42,6 +42,14 @@ const posts = [
     tag: 'Theory',
   },
   {
+    slug: 'failure-to-prepare',
+    title: 'Failure to Prepare is Preparing to Fail',
+    excerpt: "Failing your test can be a tough pill to swallow. But once you judge your result by effort rather than outcome, you'll never truly fail again.",
+    date: 'February 2025',
+    readTime: '2 min read',
+    tag: 'Mindset',
+  },
+  {
     slug: 'how-to-buy-your-first-car',
     title: 'How to Choose and Buy Your First Car',
     excerpt: "One of the most common conversations I have with students. A complete guide to buying your first car — where to look, what to check, how to negotiate, and what your rights are.",
