@@ -73,7 +73,7 @@ export default function DrivingSkills() {
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
             gap: 24,
-          }}>
+          }} className="mobile-1col">
             {skills.map(skill => (
               <div key={skill.title} className="card" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
                 {/* Image placeholder */}
