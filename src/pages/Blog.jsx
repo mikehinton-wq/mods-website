@@ -57,6 +57,14 @@ const posts = [
     readTime: '1 min read',
     tag: 'Mindset',
   },
+  {
+    slug: 'how-to-choose-a-driving-instructor',
+    title: "Don't Just Choose the Cheapest Instructor",
+    excerpt: "Price is the easiest thing to compare — but it tells you the least about what you're actually getting. Here's what you should really be looking for.",
+    date: 'April 2026',
+    readTime: '3 min read',
+    tag: 'Advice',
+  },
 ]
 
 export default function Blog() {
