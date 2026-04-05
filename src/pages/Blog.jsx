@@ -58,6 +58,14 @@ const posts = [
     tag: 'Mindset',
   },
   {
+    slug: 'consistency-beats-intensity',
+    title: 'Consistency Beats Intensity',
+    excerpt: "Intense effort has its place — but it's not what carves the rock. Here's why showing up regularly matters more than going all-out occasionally.",
+    date: 'April 2026',
+    readTime: '2 min read',
+    tag: 'Mindset',
+  },
+  {
     slug: 'how-to-choose-a-driving-instructor',
     title: "Don't Just Choose the Cheapest Instructor",
     excerpt: "Price is the easiest thing to compare — but it tells you the least about what you're actually getting. Here's what you should really be looking for.",
