@@ -76,6 +76,7 @@ export default function DrivingSkills() {
           }} className="mobile-1col">
             {skills.map(skill => (
               <div key={skill.title} className="card" style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ fontSize: '2rem', marginBottom: 10 }}>{skill.icon}</div>
                 <h3 style={{ fontSize: '1rem', marginBottom: 10, color: 'var(--navy)' }}>{skill.title}</h3>
                 <p style={{ fontSize: '0.88rem', color: 'var(--grey-700)', lineHeight: 1.7, flex: 1 }}>{skill.desc}</p>
               </div>
