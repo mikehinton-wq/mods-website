@@ -77,7 +77,7 @@ export default function DrivingSyllabus2() {
       {/* Cards grid */}
       <section className="section">
         <div className="container" style={{ maxWidth: 960, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 24 }} className="mobile-1col">
             {cards.map(card => (
               <div key={card.title} className="card" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
                 {/* Image placeholder */}
