@@ -10,7 +10,7 @@ const navLinks = [
     label: 'Driving Test',
     children: [
       { label: 'Driving Test Routes', to: '/test-routes' },
-      { label: 'The Driving Test',    to: '/the-driving-test' },
+      { label: 'What to Expect',       to: '/the-driving-test' },
       { label: 'Show Me Tell Me',     to: '/show-me-tell-me' },
     ],
   },
