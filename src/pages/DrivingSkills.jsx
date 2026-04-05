@@ -46,6 +46,7 @@ export default function DrivingSkills() {
       icon: '🌙',
       title: 'Driving in the Dark',
       desc: 'Driving in the dark presents more risk. Many accidents occur in the dark so knowing how to drive in the dark will ensure your safety and the safety of those travelling with you. Check out some useful tips below.',
+      to: '/driving-skills/driving-in-the-dark',
     },
     {
       icon: '🧊',
