@@ -89,6 +89,7 @@ export default function Contact() {
                   { name: 'name', label: 'Your Name', type: 'text', placeholder: 'e.g. Jane Smith', required: true },
                   { name: 'phone', label: 'Phone / Mobile', type: 'tel', placeholder: 'e.g. 07700 000000', required: false },
                   { name: 'email', label: 'Email Address', type: 'email', placeholder: 'e.g. jane@example.com', required: true },
+                  { name: 'postcode', label: 'Postcode', type: 'text', placeholder: 'e.g. S66 3RU', required: false },
                 ].map(field => (
                   <div key={field.name}>
                     <label style={{ display: 'block', fontFamily: 'Raleway', fontWeight: 700, fontSize: '0.88rem', color: 'var(--navy)', marginBottom: 6 }}>
