@@ -4,7 +4,7 @@ import './Home.css'
 const services = [
   { icon: '🎓', title: 'Beginner Lessons', desc: 'Start from scratch with patient, structured one-to-one tuition tailored to your pace.' },
   { icon: '🧠', title: 'Nervous & Neurodiverse', desc: 'Specialist support for Anxiety, Dyslexia, Dyspraxia, ADHD, and Autism. You learn differently — I teach differently.' },
-  { icon: '⚡', title: 'Intensive Courses', desc: 'Need to pass quickly? Intensive courses can be arranged around your schedule.' },
+  { icon: '📱', title: 'Your Own Dedicated App', desc: 'Quickly and easily access your driving progress · Review your driving lesson summary · See when your next lesson is · Book extra lessons using the \'Lesson Gap\' feature' },
   { icon: '🛣️', title: 'Motorway Driving', desc: 'Post-test motorway sessions to build confidence on higher-speed roads.' },
   { icon: '🔄', title: 'Refresher Lessons', desc: "Haven't driven for a while? Get your confidence back with tailored refresher sessions." },
   { icon: '📚', title: 'Theory Test Prep', desc: 'Guidance on theory test resources, hazard perception, and revision strategies.' },
