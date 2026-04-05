@@ -256,17 +256,22 @@ export default function Home() {
               has you covered.
             </p>
           </div>
-          <div className="grid-3">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {services.map(s => (
-              <div key={s.title} className="card service-card">
-                <div className="service-icon">{s.icon}</div>
-                <h3>{s.title}</h3>
-                <p>{s.desc}</p>
+              <div key={s.title} className="card" style={{ borderTop: '3px solid var(--primary)', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ fontSize: '2rem', marginBottom: 12 }}>{s.icon}</div>
+                <h3 style={{ marginBottom: 10 }}>{s.title}</h3>
+                <p style={{ color: 'var(--grey-700)', fontSize: '0.92rem', lineHeight: 1.65, marginBottom: 16, flex: 1 }}>{s.desc}</p>
+                <ul className="check-list" style={{ marginBottom: s.link ? 16 : 0 }}>
+                  {s.features.map(f => <li key={f} style={{ fontSize: '0.88rem' }}>{f}</li>)}
+                </ul>
+                {s.link && (
+                  <Link to={s.link} style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.88rem', marginTop: 8 }}>
+                    {s.linkLabel}
+                  </Link>
+                )}
               </div>
             ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <Link to="/what-we-offer" className="btn btn-outline">View All Services</Link>
           </div>
         </div>
       </section>
