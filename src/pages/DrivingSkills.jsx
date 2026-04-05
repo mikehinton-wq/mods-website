@@ -30,6 +30,7 @@ export default function DrivingSkills() {
       icon: '❄️',
       title: 'Driving in Snow',
       desc: "Even if you can drive well, driving in snow can be very dangerous. Don't tempt fate: if you don't have somewhere you have to be, watch the snow from indoors. If you do venture out, then visit our guide to driving in the snow.",
+      to: '/driving-skills/driving-in-snow',
     },
     {
       icon: '☀️',
