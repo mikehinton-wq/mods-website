@@ -37,6 +37,7 @@ import DrivingClutchControl from './pages/DrivingClutchControl'
 import DrivingDefensive from './pages/DrivingDefensive'
 import DrivingSpeedAwareness from './pages/DrivingSpeedAwareness'
 import DrivingWetConditions from './pages/DrivingWetConditions'
+import DrivingInTheDark from './pages/DrivingInTheDark'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
