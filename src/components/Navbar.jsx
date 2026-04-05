@@ -20,6 +20,7 @@ const navLinks = [
       { label: 'Driving Diagrams',   to: '/diagrams' },
       { label: 'Driving Skills',     to: '/driving-skills' },
       { label: 'The Driving Test',   to: '/the-driving-test' },
+      { label: 'Show Me Tell Me',    to: '/show-me-tell-me' },
       { label: 'Resources',          to: '/driving-syllabus-2' },
     ],
   },
