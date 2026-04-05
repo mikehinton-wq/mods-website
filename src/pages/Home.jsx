@@ -282,7 +282,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="section-title">What Students Say</h2>
             <p style={{ color: 'var(--navy)', fontSize: '1.2rem', fontWeight: 700, fontFamily: 'Raleway, sans-serif', marginTop: 10, marginBottom: 4, textAlign: 'center' }}>
-              Don't take our word for it — see why we have a{' '}
+              See why we have a{' '}
               <span style={{ color: 'var(--primary)' }}>⭐⭐⭐⭐⭐ 5 star rating</span>
             </p>
             <div className="divider center" />
