@@ -77,16 +77,17 @@
 
 .dropdown__menu {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   background: var(--white);
   border-radius: var(--radius-lg);
   box-shadow: 0 8px 32px rgba(12,60,96,0.15);
   min-width: 200px;
   padding: 8px;
+  padding-top: 16px;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-8px);
+  transform: translateY(-4px);
   transition: all 0.18s ease;
   z-index: 100;
 }
