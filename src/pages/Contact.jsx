@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 export default function Contact() {
   const [sent, setSent] = useState(false)
-  const [form, setForm] = useState({ name: '', phone: '', email: '', message: '', type: '' })
+  const [form, setForm] = useState({ name: '', phone: '', email: '', postcode: '', type: '', experience: '', availability: '', message: '' })
 
   const handleChange = e => setForm(f => ({ ...f, [e.target.name]: e.target.value }))
 
