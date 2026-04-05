@@ -39,6 +39,7 @@ import DrivingSpeedAwareness from './pages/DrivingSpeedAwareness'
 import DrivingWetConditions from './pages/DrivingWetConditions'
 import DrivingInTheDark from './pages/DrivingInTheDark'
 import DrivingInSnow from './pages/DrivingInSnow'
+import DrivingIcyConditions from './pages/DrivingIcyConditions'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
