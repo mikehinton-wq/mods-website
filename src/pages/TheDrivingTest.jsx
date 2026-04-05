@@ -120,7 +120,7 @@ export default function TheDrivingTest() {
           <p style={s.p}>The current first-time pass rate at Rotherham test centre is around <strong>51%</strong> — broadly in line with the national average. With the right preparation, there is absolutely no reason you can't be in the majority. Mike builds real test routes into your lessons throughout your learning journey, so you'll already know them well before test day.</p>
 
           <h2 style={s.h2}>What Happens on Test Day?</h2>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {testDaySteps.map(step => (
               <div key={step.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{step.icon}</span>
@@ -149,7 +149,7 @@ export default function TheDrivingTest() {
           </div>
 
           <h2 style={s.h2}>Top Tips for Test Day</h2>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {tips.map(tip => (
               <div key={tip.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{tip.icon}</span>
