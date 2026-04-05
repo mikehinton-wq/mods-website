@@ -58,6 +58,14 @@ const posts = [
     tag: 'Mindset',
   },
   {
+    slug: 'when-you-are-your-best-self',
+    title: 'When You Are Your Best Self, the Possibilities Are Endless',
+    excerpt: "Confidence, self-belief, and a calm mind aren't optional extras on test day — they make up half the battle. Here's how to harness them.",
+    date: 'April 2026',
+    readTime: '3 min read',
+    tag: 'Mindset',
+  },
+  {
     slug: 'consistency-beats-intensity',
     title: 'Consistency Beats Intensity',
     excerpt: "Intense effort has its place — but it's not what carves the rock. Here's why showing up regularly matters more than going all-out occasionally.",
