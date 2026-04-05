@@ -2,12 +2,47 @@ import { Link } from 'react-router-dom'
 import './Home.css'
 
 const services = [
-  { icon: '🎓', title: 'Beginner Lessons', desc: 'Start from scratch with patient, structured one-to-one tuition tailored to your pace.' },
-  { icon: '🧠', title: 'Nervous & Neurodiverse', desc: 'Specialist support for Anxiety, Dyslexia, Dyspraxia, ADHD, and Autism. You learn differently — I teach differently.' },
-  { icon: '📱', title: 'Your Own Dedicated App', desc: 'Quickly and easily access your driving progress · Review your driving lesson summary · See when your next lesson is · Book extra lessons using the \'Lesson Gap\' feature' },
-  { icon: '🛣️', title: 'Motorway Driving', desc: 'Post-test motorway sessions to build confidence on higher-speed roads.' },
-  { icon: '🔄', title: 'Refresher Lessons', desc: "Haven't driven for a while? Get your confidence back with tailored refresher sessions." },
-  { icon: '📚', title: 'Theory Test Prep', desc: 'Guidance on theory test resources, hazard perception, and revision strategies.' },
+  {
+    icon: '🎓', title: 'Beginner Lessons',
+    desc: "Whether you take time to learn or are a fast learner, lessons are tailored to your individual needs with the aim of giving you confidence on the road — and you'll have fun doing it.",
+    features: ['One-to-one only', 'Dual-control car', 'Structured DVSA syllabus', 'Honest progress feedback'],
+  },
+  {
+    icon: '🧠', title: 'Nervous & Neurodiverse Learners',
+    desc: 'Specialist support for learners with Anxiety, Dyslexia, Dyspraxia, ADHD, or Autism. Lessons are adapted to how you process information — not how the average learner does.',
+    features: ['Adjusted pacing', 'No pressure environment', 'Theory test guidance', 'Post-test support'],
+    link: '/specialist-learners', linkLabel: 'Learn more about specialist lessons →',
+  },
+  {
+    icon: '📱', title: 'Your Own Dedicated App',
+    desc: "Quickly and easily track your driving progress between lessons with your own learner app — so you always know where you are and what's coming next.",
+    features: ['Track your progress', 'Review lesson summaries', 'See your next lesson', 'Book extra lessons via Lesson Gap'],
+  },
+  {
+    icon: '📚', title: 'Theory Test Preparation',
+    desc: "We provide specific training to help you with your theory test. If you don't pass after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.",
+    features: ['Dedicated theory app', 'Hazard perception tips', 'Test-taking strategies', 'Theory fee guarantee'],
+  },
+  {
+    icon: '🔄', title: 'Refresher Lessons',
+    desc: "If you haven't driven for a while, a refresher lesson may be just what you need. Its purpose is to build your confidence and remind you of the aspects of driving essential to staying safe on the road.",
+    features: ['No judgement', 'Flexible duration', 'Focus on your weak areas', 'Suitable for all ages'],
+  },
+  {
+    icon: '💷', title: 'Pay Per Lesson',
+    desc: 'By paying each time you have a lesson rather than a lot upfront, you are in control of when you want your lesson. This is particularly helpful if you are on a budget.',
+    features: ['No large upfront cost', 'Cash or bank transfer', 'Flexible scheduling', 'Block booking discounts available'],
+  },
+  {
+    icon: '🛣️', title: 'Motorway Driving',
+    desc: 'Whether you are a learner or an experienced driver, we can provide tuition on motorway driving to help you grow in confidence, learn all aspects of the motorway, and how to stay safe.',
+    features: ['Learners & experienced drivers', 'Confidence building', 'Joining and leaving motorways', 'Lane discipline'],
+  },
+  {
+    icon: '🚗', title: 'Show Me Tell Me',
+    desc: 'The Show Me, Tell Me questions test your knowledge on basic car maintenance and safety. We provide the necessary training to help you pass this part of the practical test.',
+    features: ['All current questions covered', 'Practical demonstrations', 'Part of every lesson plan', 'Tested in mock tests'],
+  },
 ]
 
 const benefits = [
