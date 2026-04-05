@@ -62,66 +62,6 @@ const phases = [
   },
 ]
 
-const resources = [
-  {
-    icon: '📖',
-    title: 'Highway Code',
-    desc: 'The Highway Code keeps people safe by giving everyone the same rules to follow. You should be familiar with the rules of the road when you drive.',
-    links: [
-      { label: 'View the Highway Code online', href: 'https://www.gov.uk/highway-code' },
-      { label: 'Test your knowledge', href: 'https://www.gov.uk/take-a-practice-theory-test' },
-    ],
-  },
-  {
-    icon: '📋',
-    title: 'DVSA Car Driving Syllabus',
-    desc: 'The official DVSA syllabus for all drivers. It covers what you will learn on lessons, what you need to be able to do, and what you need to know and understand.',
-    links: [
-      { label: 'View the DVSA Car Driving Syllabus', href: 'https://www.gov.uk/guidance/learning-to-drive-a-car-syllabus/introduction-to-the-car-and-light-van-driving-syllabus-category-b' },
-    ],
-  },
-  {
-    icon: '🚦',
-    title: 'Traffic Signs',
-    desc: 'A comprehensive guide to the vast majority of signs a road user is likely to encounter. You need to be familiar with all types of road sign.',
-    links: [
-      { label: 'Download the traffic signs guide', href: 'https://www.gov.uk/government/publications/know-your-traffic-signs' },
-      { label: 'Test your knowledge', href: 'https://www.gov.uk/take-a-practice-theory-test' },
-    ],
-  },
-  {
-    icon: '🎥',
-    title: 'Explanatory Videos',
-    desc: 'Videos produced by the DVSA covering the theory test, hazard perception test, Show Me Tell Me questions, and the practical driving test.',
-    links: [
-      { label: 'Watch DVSA videos', href: 'https://www.youtube.com/user/dvsagovuk' },
-    ],
-  },
-  {
-    icon: '🚗',
-    title: 'Show Me Tell Me',
-    desc: 'The Show Me, Tell Me questions test your knowledge on basic car maintenance and safety — asked by examiners at the start of the practical test.',
-    links: [
-      { label: 'View the Show Me Tell Me questions', href: '/show-me-tell-me' },
-    ],
-  },
-  {
-    icon: '📕',
-    title: 'Driving — The Essential Skills',
-    desc: 'Packed full of advice to help you stay safe on the roads. This comprehensive guide is the industry standard driving manual — learn the correct skills, attitude and behaviour.',
-    links: [
-      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/official-DVSA-guide-driving-essential/dp/0115541225/ref=sr_1_1?crid=KTCEH5VMRIA5&dib=eyJ2IjoiMSJ9.mbLozOAQyXBgXxhFnSrBnmduFSs5Y8TvnjjcFZGbVJU9ahHRspBFisqgjgsE9YQKKrcMTXJR66LBZWLwDB_6Zg-5w_K_jlaFHK_Ss8u2kf4-_DA6uW5RYcJOGRSHBIH37qBKnjiog64tbc9dsEU8Kfcvn_OcUTJKx-4gnQ6n8mLHw7fVMLfw3GrF3PpK8ArKDCMn9ApK2X1JJjqofCPQB1JkJAOYdmJV9Wbh_p1Nb3g.wEGLpBtlARWxkfrkO2sI3C_84lZVfWJpwzBVUiFC4sY&dib_tag=se&keywords=official+guide+to+driving&qid=1775414815&s=books&sprefix=official+guide+to+drivi%2Cstripbooks%2C215&sr=1-1' },
-    ],
-  },
-  {
-    icon: '🚔',
-    title: 'Roadcraft',
-    desc: 'The most authoritative, evidence-based guidance on advanced driving skills. Expert guidance not just for police drivers, but for anyone who wants to become a better, safer driver.',
-    links: [
-      { label: 'Buy a copy', href: 'https://www.amazon.co.uk/Roadcraft-Police-Drivers-Handbook-Foundation/dp/0117095044/ref=sr_1_1?crid=O5BEY2WFJO2Q&dib=eyJ2IjoiMSJ9.2gKFenelN106WMeGimxaC1pAEfqd7PywbZtzOKVUJliBbEEDY5hUXsIShysgbM9yzp0xHnYygSifWZlm5HdjJqr3wiwDGMzluB-Jw5z2n6WiJ5VHV6CrqarZC582AX8hwsCHXob2y7rRXggTcG49tdFFmmqlreBnKBqXjdapAhBLvmOkOHJbOXboOUwaRNz0CmzO2uaM0LLD-5G5zMIESGtPFzoa-uqlp1yHztDs8xg.kykYvvmhb4Gpe7du74aPygeLKF3hkOpGdQjeOq8G9zg&dib_tag=se&keywords=roadcraft&qid=1775414879&s=books&sprefix=roadcraf%2Cstripbooks%2C215&sr=1-1&ufe=app_do%3Aamzn1.fos.95fd378e-6299-4723-b1f1-3952ffba15af' },
-    ],
-  },
-]
 
 export default function DrivingSyllabus() {
   return (
