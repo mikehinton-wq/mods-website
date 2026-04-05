@@ -7,10 +7,11 @@ export default function Footer() {
       <div className="container footer__inner">
         <div className="footer__brand">
           <div className="footer__logo">
-            <span className="logo-mhds">MHDS</span>
-            <span style={{ fontFamily: 'Raleway', fontWeight: 700, color: '#fff', fontSize: '1rem' }}>
-              Mike Hinton<br /><small style={{ color: 'var(--light-blue)', fontWeight: 400 }}>Driving School</small>
-            </span>
+            <img
+              src="/images/Mike Hinton Logo Cropped.jpg"
+              alt="Mike Hinton Driving School"
+              style={{ height: 60, width: 'auto', display: 'block', borderRadius: 6 }}
+            />
           </div>
           <p className="footer__tagline">
             DVSA Qualified Driving Instructor<br />
