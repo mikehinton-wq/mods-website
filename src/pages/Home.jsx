@@ -14,7 +14,6 @@ const benefits = [
   { icon: '👤', title: 'One-to-One Only', desc: 'Every lesson is just you and Mike — no sharing, no distractions.' },
   { icon: '📍', title: 'Local Knowledge', desc: 'Know the Rotherham test routes before test day.' },
   { icon: '✅', title: 'DVSA Approved', desc: 'Fully qualified ADI, DBS checked, and DVSA approved.' },
-  { icon: '💰', title: 'Theory Guarantee', desc: "If you don't pass your theory test after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply." },
 ]
 
 const testimonials = [
