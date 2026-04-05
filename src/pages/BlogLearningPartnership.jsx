@@ -82,7 +82,7 @@ export default function BlogLearningPartnership() {
             <p style={s.bqP}>"Understanding how you like to learn isn't a weakness — it's one of the most important things you can bring to your first lesson."</p>
           </blockquote>
 
-          <div style={s.statRow}>
+          <div style={s.statRow} className="mobile-1col">
             <div style={s.statCard}>
               <div style={s.statNum}>🤝</div>
               <div style={s.statDesc}>When instructor and learner work as a true partnership, progress accelerates dramatically</div>
