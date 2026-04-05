@@ -58,6 +58,7 @@ export default function App() {
           <Route path="/driving-syllabus-2" element={<DrivingSyllabus2 />} />
           <Route path="/the-driving-test" element={<TheDrivingTest />} />
           <Route path="/show-me-tell-me" element={<ShowMeTellMe />} />
+          <Route path="/blog/how-to-buy-your-first-car" element={<BlogBuyFirstCar />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
