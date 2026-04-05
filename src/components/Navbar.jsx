@@ -29,7 +29,6 @@ const navLinks = [
     label: 'More',
     children: [
       { label: 'Specialist Learners', to: '/specialist-learners' },
-      { label: 'Show Me Tell Me',    to: '/show-me-tell-me' },
       { label: 'Resources',          to: '/driving-syllabus-2' },
     ],
   },
