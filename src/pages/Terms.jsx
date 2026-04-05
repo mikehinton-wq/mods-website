@@ -147,7 +147,7 @@ export default function Terms() {
             If you are unhappy with your driving instructor, or you have any comments or complaints, you
             may contact him at{' '}
             <a href="mailto:mikejhinton@outlook.com" style={{ color: 'var(--primary)', fontWeight: 600 }}>mikejhinton@outlook.com</a>{' '}
-            or in writing at their registered address: 60 Ashton Road, Clay Cross, Chesterfield, S45 9FA.
+            or in writing at their registered address: 15 Elton Lane, Sunnyside, Rotherham, S66 3RU.
           </p>
 
           {/* Data Protection */}
