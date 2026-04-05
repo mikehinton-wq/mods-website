@@ -1,11 +1,6 @@
 export default function DrivingSyllabus2() {
   const cards = [
     {
-      title: 'Driving Lesson Subjects',
-      desc: 'To support the DVSA syllabus, there are core subjects you will learn on your driving lessons. These will become the basis of what you are assessed on during your driving test.',
-      links: [{ label: 'Click HERE to see them', href: null }],
-    },
-    {
       title: 'Highway Code',
       desc: "Why is the Highway Code important? Mainly because it keeps people safe. It means that everyone has the same rules to follow. You should be familiar with the rules of the road when you drive.",
       links: [
