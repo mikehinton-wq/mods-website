@@ -36,6 +36,7 @@ export default function DrivingSkills() {
       icon: '☀️',
       title: 'Driving in Bright Sun',
       desc: 'Bright sunlight is underestimated as a dangerous driving condition. It is a contributing factor for many accidents. The glare and dazzling from the sun is a serious hazard. Visit our top tips for driving safely in bright sunlight.',
+      to: '/driving-skills/bright-sun',
     },
     {
       icon: '🚦',
