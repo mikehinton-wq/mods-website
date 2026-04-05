@@ -52,7 +52,7 @@ export default function About() {
 
             <h3 style={{ marginBottom: 12 }}>My Car</h3>
             <p style={{ marginBottom: 16, color: 'var(--grey-700)', lineHeight: 1.75 }}>
-              I teach in a modern, well-maintained car fitted with <strong>dual controls</strong> for
+              I teach in a modern, well-maintained <strong>manual</strong> car fitted with <strong>dual controls</strong> for
               your safety. The car is comfortable, easy to handle, and gives you every advantage on
               test day.
             </p>
