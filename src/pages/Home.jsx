@@ -314,9 +314,6 @@ export default function Home() {
           <div className="text-center">
             <h2 className="section-title">Areas Covered</h2>
             <div className="divider center" />
-            <p className="section-subtitle">
-              Based in Dalton, Rotherham. Lessons available across South Yorkshire.
-            </p>
           </div>
           <div className="areas-grid">
             {['Dalton', 'Sunnyside', 'Woodlaithes', 'Flanderwell', 'Wickersley',
