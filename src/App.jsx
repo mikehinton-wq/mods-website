@@ -80,6 +80,7 @@ export default function App() {
           <Route path="/driving-skills/heavy-traffic" element={<DrivingHeavyTraffic />} />
           <Route path="/driving-skills/5-key-skills" element={<DrivingFiveKeySkills />} />
           <Route path="/driving-skills/clutch-control" element={<DrivingClutchControl />} />
+          <Route path="/driving-skills/defensive-driving" element={<DrivingDefensive />} />
         </Routes>
       </main>
       <Footer />
