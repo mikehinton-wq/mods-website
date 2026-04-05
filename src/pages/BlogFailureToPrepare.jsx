@@ -110,7 +110,7 @@ export default function BlogFailureToPrepare() {
 
           <h2 style={s.h2}>The Four Key Skills for Test Day Success</h2>
           <p style={s.p}>Apply these four skills on test day, and you give yourself every chance of passing:</p>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {fourSkills.map(skill => (
               <div key={skill.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{skill.icon}</span>
