@@ -56,6 +56,7 @@ export default function DrivingSkills() {
       icon: '🚧',
       title: 'Driving in Heavy Traffic',
       desc: 'Few things are more frustrating than getting stuck in a massive traffic jam, or trying to get somewhere when the traffic is really busy. Whether caused by a road accident, road works, or general rush hour traffic, driving in heavy traffic is a difficult skill to master and requires all your concentration. Here are 10 tips for dealing with heavy traffic.',
+      to: '/driving-skills/heavy-traffic',
     },
   ]
 
