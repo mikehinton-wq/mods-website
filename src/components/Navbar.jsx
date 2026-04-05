@@ -38,19 +38,19 @@ const navLinks = [
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const [dropdown, setDropdown] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState(null)
   const location = useLocation()
-  const dropdownRef = useRef(null)
+  const navRef = useRef(null)
 
   useEffect(() => {
     setOpen(false)
-    setDropdown(false)
+    setActiveDropdown(null)
   }, [location])
 
   useEffect(() => {
     const handleClickOutside = e => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setDropdown(false)
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setActiveDropdown(null)
       }
     }
     document.addEventListener('mousedown', handleClickOutside)
