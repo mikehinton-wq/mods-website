@@ -88,6 +88,7 @@ export default function App() {
           <Route path="/driving-skills/speed-awareness" element={<DrivingSpeedAwareness />} />
           <Route path="/driving-skills/wet-conditions" element={<DrivingWetConditions />} />
           <Route path="/driving-skills/driving-in-the-dark" element={<DrivingInTheDark />} />
+          <Route path="/driving-skills/driving-in-snow" element={<DrivingInSnow />} />
         </Routes>
       </main>
       <Footer />
