@@ -93,6 +93,19 @@ export default function Home() {
                 </li>
               ))}
             </ul>
+            <div style={{ marginTop: 16 }}>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikehintondrivingschool&tabs&width=340&height=130&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340"
+                height="130"
+                style={{ border: 'none', overflow: 'hidden', borderRadius: 8, maxWidth: '100%' }}
+                scrolling="no"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                title="Mike Hinton Driving School on Facebook"
+              />
+            </div>
           </div>
         </div>
       </section>
