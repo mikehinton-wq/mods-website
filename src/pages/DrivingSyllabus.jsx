@@ -77,7 +77,7 @@ const resources = [
     title: 'DVSA Car Driving Syllabus',
     desc: 'The official DVSA syllabus for all drivers. It covers what you will learn on lessons, what you need to be able to do, and what you need to know and understand.',
     links: [
-      { label: 'Download the DVSA syllabus', href: 'https://www.gov.uk/government/publications/car-driving-syllabus' },
+      { label: 'View the DVSA Car Driving Syllabus', href: 'https://www.gov.uk/guidance/learning-to-drive-a-car-syllabus/introduction-to-the-car-and-light-van-driving-syllabus-category-b' },
     ],
   },
   {
