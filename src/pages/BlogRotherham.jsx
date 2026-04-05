@@ -163,7 +163,7 @@ export default function BlogRotherham() {
 
           {/* Tips */}
           <h2 style={s.h2}>Top Tips for Test Day</h2>
-          <div style={{ ...s.tipGrid, gridTemplateColumns: 'repeat(2, 1fr)' }}>
+          <div style={{ ...s.tipGrid, gridTemplateColumns: 'repeat(2, 1fr)' }} className="mobile-1col">
             {tips.map(tip => (
               <div key={tip.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{tip.icon}</span>
