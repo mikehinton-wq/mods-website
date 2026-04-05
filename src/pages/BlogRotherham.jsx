@@ -131,7 +131,7 @@ export default function BlogRotherham() {
 
           {/* Test day */}
           <h2 style={s.h2}>What Happens on Test Day?</h2>
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {testDaySteps.map(step => (
               <div key={step.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{step.icon}</span>
