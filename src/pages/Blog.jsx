@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom'
 
 const posts = [
   {
+    slug: 'learning-to-drive-neurodivergent',
+    title: 'Learning to Drive with ADHD or Dyspraxia',
+    excerpt: 'Everything neurodivergent learners need to know — from finding the right instructor to passing your test with ADHD or dyspraxia.',
+    date: 'October 2025',
+    readTime: '6 min read',
+    tag: 'Neurodivergent',
+  },
+  {
     slug: '3-things-nervous-drivers-do-on-test',
     title: '3 Things Every Nervous Driver Does on Their Test (And How to Stop)',
     excerpt: 'Nervous about your driving test? Here are the 3 things anxious learners almost always do — and exactly how to stop them happening to you.',
