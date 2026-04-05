@@ -12,6 +12,7 @@ const navLinks = [
       { label: 'Driving Test Routes', to: '/test-routes' },
       { label: 'What to Expect',       to: '/the-driving-test' },
       { label: 'Show Me Tell Me',     to: '/show-me-tell-me' },
+      { label: 'How the Test is Marked', to: '/how-test-is-marked' },
     ],
   },
   {
