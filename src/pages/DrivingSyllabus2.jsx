@@ -9,11 +9,6 @@ export default function DrivingSyllabus2() {
       ],
     },
     {
-      title: 'DVSA Car Driving Syllabus',
-      desc: 'This syllabus is for all drivers. It covers: what you will learn on lessons, what you need to be able to do, and what you need to know and understand.',
-      links: [{ label: 'Click HERE to download', href: null }],
-    },
-    {
       title: 'Traffic Signs',
       desc: 'Although The Highway Code shows many of the signs commonly in use, this link also explains the vast majority of signs the road user is likely to encounter. You need to be familiar with all types of road sign.',
       links: [
