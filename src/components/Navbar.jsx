@@ -6,7 +6,6 @@ const navLinks = [
   { label: 'Home',               to: '/' },
   { label: 'About',              to: '/about' },
   { label: 'Testimonials',       to: '/testimonials' },
-  { label: 'Blog',               to: '/blog' },
   {
     label: 'Driving Test',
     children: [
@@ -25,13 +24,7 @@ const navLinks = [
       { label: 'FAQs',               to: '/faqs' },
     ],
   },
-  {
-    label: 'More',
-    children: [
-      { label: 'Specialist Learners', to: '/specialist-learners' },
-      { label: 'Resources',          to: '/driving-syllabus-2' },
-    ],
-  },
+  { label: 'Blog',               to: '/blog' },
   { label: 'Contact', to: '/contact' },
 ]
 
