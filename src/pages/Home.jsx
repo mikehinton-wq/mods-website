@@ -19,7 +19,7 @@ const services = [
     features: ['Track your progress', 'Review lesson summaries', 'See your next lesson', 'Book extra lessons via Lesson Gap'],
   },
   {
-    icon: '📚', title: 'Theory Test Preparation',
+    icon: '📚', title: 'Theory Test Guarantee',
     desc: "We provide specific training to help you with your theory test. If you don't pass after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.",
     features: ['Dedicated theory app', 'Hazard perception tips', 'Test-taking strategies', 'Theory fee guarantee'],
   },
