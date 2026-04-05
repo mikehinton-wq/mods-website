@@ -82,6 +82,7 @@ export default function App() {
           <Route path="/driving-skills/5-key-skills" element={<DrivingFiveKeySkills />} />
           <Route path="/driving-skills/clutch-control" element={<DrivingClutchControl />} />
           <Route path="/driving-skills/defensive-driving" element={<DrivingDefensive />} />
+          <Route path="/driving-skills/speed-awareness" element={<DrivingSpeedAwareness />} />
         </Routes>
       </main>
       <Footer />
