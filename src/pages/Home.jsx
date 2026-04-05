@@ -211,7 +211,7 @@ export default function Home() {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <Link to="/testimonials" className="btn btn-outline">Read More Reviews</Link>
+            <a href="https://www.facebook.com/mikehintondrivingschool/reviews" target="_blank" rel="noreferrer" className="btn btn-outline">Read More Reviews</a>
           </div>
         </div>
       </section>
