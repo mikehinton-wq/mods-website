@@ -53,6 +53,7 @@ export default function DrivingSkills() {
       icon: '🧊',
       title: 'Driving in Icy Conditions',
       desc: 'Ice is particularly dangerous, especially Black Ice, and you can easily get caught out. You might wonder how to keep on driving safely and minimise the risk of an accident. If you have never driven in icy conditions before, you might find these tips useful.',
+      to: '/driving-skills/icy-conditions',
     },
     {
       icon: '💨',
