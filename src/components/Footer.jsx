@@ -47,16 +47,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__col">
-          <h4>Guarantee</h4>
-          <div className="footer__guarantee">
-            <div className="guarantee-icon">✓</div>
-            <p>
-              <strong>Theory Test Fee Guarantee</strong><br />
-              If you don't pass your theory test after completing the required structured learning plan, your test fee will be refunded. No small print. Terms and Conditions apply.{' '}
-              <a href="https://drivingtestsuccess.com/app-pass-guarantee/" target="_blank" rel="noreferrer" style={{ color: 'var(--light-blue)' }}>Click HERE for details.</a>
-            </p>
-          </div>
-          <div style={{ marginTop: 16 }}>
+          <div>
             <h4>Areas Covered</h4>
             <p style={{ color: 'var(--light-blue)', fontSize: '0.88rem', marginTop: 8, lineHeight: 1.8 }}>
               Dalton · Sunnyside · Woodlaithes · Flanderwell · Wickersley ·
