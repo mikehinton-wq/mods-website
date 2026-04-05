@@ -60,6 +60,7 @@ export default function DrivingSkills() {
       icon: '💨',
       title: 'Driving in High Wind',
       desc: 'Driving in strong wind is extremely hazardous and presents situations which you need to deal with quickly and be properly prepared for. If you do decide to drive in high wind, visit our expert top tips on how to stay safe.',
+      to: '/driving-skills/high-wind',
     },
     {
       icon: '🚧',
