@@ -76,6 +76,7 @@ export default function App() {
           <Route path="/terms"                     element={<Terms />} />
           <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
           <Route path="/driving-skills/heavy-traffic" element={<DrivingHeavyTraffic />} />
+          <Route path="/driving-skills/5-key-skills" element={<DrivingFiveKeySkills />} />
         </Routes>
       </main>
       <Footer />
