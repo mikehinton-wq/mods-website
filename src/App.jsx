@@ -90,6 +90,7 @@ export default function App() {
           <Route path="/driving-skills/wet-conditions" element={<DrivingWetConditions />} />
           <Route path="/driving-skills/driving-in-the-dark" element={<DrivingInTheDark />} />
           <Route path="/driving-skills/driving-in-snow" element={<DrivingInSnow />} />
+          <Route path="/driving-skills/icy-conditions" element={<DrivingIcyConditions />} />
         </Routes>
       </main>
       <Footer />
