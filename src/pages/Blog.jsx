@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom'
 
 const posts = [
   {
+    slug: 'driving-test-anxiety-causes-failures',
+    title: 'Does Driving Test Anxiety Actually Cause Failures?',
+    excerpt: "You're not imagining it. Nerves really do affect your result — and the data backs it up. Here's what the research shows and what you can do about it.",
+    date: 'April 2026',
+    readTime: '5 min read',
+    tag: 'Anxiety & Nerves',
+  },
+  {
     slug: 'learning-to-drive-neurodivergent',
     title: 'Learning to Drive with ADHD or Dyspraxia',
     excerpt: 'Everything neurodivergent learners need to know — from finding the right instructor to passing your test with ADHD or dyspraxia.',
