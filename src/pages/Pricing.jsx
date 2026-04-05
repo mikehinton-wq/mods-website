@@ -15,7 +15,7 @@ export default function Pricing() {
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Pricing</span>
           <h1>Pricing</h1>
-          <p>Transparent pricing with no hidden costs.</p>
+          <p>Simple, Transparent Pricing: No hidden add ons, no extra fees. Just great value.</p>
         </div>
       </section>
 
