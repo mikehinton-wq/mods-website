@@ -86,6 +86,13 @@ export default function App() {
           <Route path="/contact"                   element={<Contact />} />
           <Route path="/terms"                     element={<Terms />} />
           <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
+          {locations.map(loc => (
+            <Route
+              key={loc.slug}
+              path={`/driving-lessons-${loc.slug}`}
+              element={<LocationPage location={loc} />}
+            />
+          ))}
           <Route path="/driving-skills/heavy-traffic" element={<DrivingHeavyTraffic />} />
           <Route path="/driving-skills/5-key-skills" element={<DrivingFiveKeySkills />} />
           <Route path="/driving-skills/clutch-control" element={<DrivingClutchControl />} />
