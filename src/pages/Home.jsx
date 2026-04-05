@@ -93,12 +93,12 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <div style={{ marginTop: 16 }}>
+            <div style={{ marginTop: 16, width: '100%', overflowX: 'hidden' }}>
               <iframe
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikehintondrivingschool&tabs&width=340&height=130&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                width="340"
+                width="100%"
                 height="130"
-                style={{ border: 'none', overflow: 'hidden', borderRadius: 8, maxWidth: '100%' }}
+                style={{ border: 'none', overflow: 'hidden', borderRadius: 8, display: 'block' }}
                 scrolling="no"
                 frameBorder="0"
                 allowFullScreen
