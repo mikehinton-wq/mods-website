@@ -74,17 +74,16 @@ export default function Navbar() {
           />
         </Link>
 
-        <nav className={`navbar__links${open ? ' open' : ''}`}>
+        <nav className={`navbar__links${open ? ' open' : ''}`} ref={navRef}>
           {navLinks.map(link =>
             link.children ? (
               <div
                 key={link.label}
-                ref={dropdownRef}
-                className={`navbar__dropdown${dropdown ? ' active' : ''}`}
+                className={`navbar__dropdown${activeDropdown === link.label ? ' active' : ''}`}
               >
                 <button
                   className="navbar__link dropdown-toggle"
-                  onClick={() => setDropdown(d => !d)}
+                  onClick={() => setActiveDropdown(a => a === link.label ? null : link.label)}
                 >
                   {link.label} <span className="caret">▾</span>
                 </button>
