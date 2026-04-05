@@ -12,6 +12,7 @@ export default function DrivingSkills() {
       icon: '⚙️',
       title: 'Clutch Control',
       desc: 'If you want to smoothly drive a car with a manual gearbox, it is essential to have good clutch control. In order to develop the skill of operating the clutch pedal smoothly, you need to understand what the clutch is, how it works and how to use it correctly when driving.',
+      to: '/driving-skills/clutch-control',
     },
     {
       icon: '🛡️',
