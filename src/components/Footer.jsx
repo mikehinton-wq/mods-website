@@ -23,6 +23,7 @@ export default function Footer() {
             <a href="tel:07915999994">📞 07915 999994</a>
             <a href="https://wa.me/447915999994" target="_blank" rel="noreferrer">💬 WhatsApp</a>
             <a href="mailto:mikejhinton@outlook.com">✉️ Email</a>
+            <a href="https://www.facebook.com/mikehintondrivingschool" target="_blank" rel="noreferrer">📘 Facebook</a>
           </div>
         </div>
 
