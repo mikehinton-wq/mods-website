@@ -297,7 +297,7 @@ export default function HowTestIsMarked() {
               To fully understand your fault report which is emailed to you after the test, the official DVSA guidance explains each assessed category in detail.
             </p>
             <a
-              href="https://www.gov.uk/government/publications/driving-test-report-categories-explained"
+              href="https://www.gov.uk/guidance/understanding-your-driving-test-result/car-driving-test"
               target="_blank"
               rel="noreferrer"
               style={{
