@@ -130,7 +130,6 @@ export default function Contact() {
                     <option value="">Select…</option>
                     <option>Beginner lessons</option>
                     <option>Nervous / neurodiverse learner</option>
-                    <option>Intensive course</option>
                     <option>Refresher lessons</option>
                     <option>Motorway driving</option>
                     <option>Other</option>
