@@ -168,25 +168,6 @@ export default function Contact() {
                   />
                 </div>
 
-                <div>
-                  <label style={{ display: 'block', fontFamily: 'Raleway', fontWeight: 700, fontSize: '0.88rem', color: 'var(--navy)', marginBottom: 6 }}>
-                    Message <span style={{ color: 'var(--primary)' }}>*</span>
-                  </label>
-                  <textarea
-                    name="message"
-                    required
-                    rows={5}
-                    placeholder="Tell Mike a bit about yourself, where you are, and what you're looking for…"
-                    value={form.message}
-                    onChange={handleChange}
-                    style={{
-                      width: '100%', padding: '11px 14px',
-                      border: '1.5px solid var(--grey-200)', borderRadius: 'var(--radius)',
-                      fontFamily: 'Open Sans', fontSize: '0.93rem', color: 'var(--navy)',
-                      resize: 'vertical', outline: 'none',
-                    }}
-                  />
-                </div>
 
                 <button type="submit" className="btn btn-primary" style={{ justifyContent: 'center', padding: '14px' }}>
                   Send Message →
