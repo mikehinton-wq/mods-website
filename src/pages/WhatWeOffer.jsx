@@ -86,21 +86,6 @@ export default function WhatWeOffer() {
         </div>
       </section>
 
-      {/* After every lesson */}
-      <section className="section-sm" style={{ background: 'var(--pale-blue)' }}>
-        <div className="container">
-          <div style={{ maxWidth: 760, margin: '0 auto', textAlign: 'center' }}>
-            <h2 style={{ marginBottom: 12 }}>After Every Lesson</h2>
-            <div className="divider center" />
-            <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, fontSize: '1.02rem' }}>
-              After every lesson you'll receive a brief summary of what we covered, what to practise
-              before next time, and what we'll be working on in the next session. This keeps you
-              progressing between lessons and means you always know exactly where you stand.
-              To support you with this, you have access to your own <strong>FREE dedicated app</strong>.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Guarantee */}
       <section className="section-sm">
