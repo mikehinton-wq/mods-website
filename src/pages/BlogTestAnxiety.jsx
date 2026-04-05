@@ -141,7 +141,7 @@ export default function BlogTestAnxiety() {
           <h2 style={s.h2}>So What Can You Do About It?</h2>
           <p style={s.p}>The good news is that test anxiety is manageable. Knowing what it is — and that it's a completely normal, physiological response rather than evidence you're a bad driver — is actually the first step to dealing with it.</p>
 
-          <div style={s.tipGrid}>
+          <div style={s.tipGrid} className="mobile-1col">
             {fixes.map(fix => (
               <div key={fix.title} style={s.tipCard}>
                 <span style={s.tipIcon}>{fix.icon}</span>
