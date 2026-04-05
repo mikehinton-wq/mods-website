@@ -102,7 +102,7 @@ const resources = [
     title: 'Show Me Tell Me',
     desc: 'The Show Me, Tell Me questions test your knowledge on basic car maintenance and safety — asked by examiners at the start of the practical test.',
     links: [
-      { label: 'View the Show Me Tell Me questions', href: '/blog/show-me-tell-me' },
+      { label: 'View the Show Me Tell Me questions', href: '/show-me-tell-me' },
     ],
   },
   {
