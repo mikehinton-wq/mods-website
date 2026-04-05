@@ -110,7 +110,7 @@ export default function BlogTestAnxiety() {
           </blockquote>
 
           {/* Stats */}
-          <div style={s.statsRow}>
+          <div style={s.statsRow} className="mobile-1col">
             {stats.map(stat => (
               <div key={stat.num} style={s.statCard}>
                 <div style={s.statNum}>{stat.num}</div>
