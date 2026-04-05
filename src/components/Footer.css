@@ -121,5 +121,5 @@
   .footer__inner { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
-  .footer__inner { grid-template-columns: 1fr; }
+  .footer__inner { grid-template-columns: 1fr; gap: 24px; padding: 40px 16px 32px; }
 }
