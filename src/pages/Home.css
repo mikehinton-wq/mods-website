@@ -300,7 +300,7 @@
   .cta-banner__inner { flex-direction: column; text-align: center; }
 }
 @media (max-width: 600px) {
-  .hero { padding: 40px 0 36px; min-height: unset; }
+  .hero { padding: 40px 0 48px; min-height: unset; overflow: visible; }
   .hero__card-stack { display: none; }
   .hero__actions { flex-direction: column; }
   .hero__actions .btn, .hero__actions .btn-outline-white { width: 100%; justify-content: center; }
