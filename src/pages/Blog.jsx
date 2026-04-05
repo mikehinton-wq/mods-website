@@ -34,14 +34,6 @@ const posts = [
     tag: 'Test Prep',
   },
   {
-    slug: 'show-me-tell-me-2026',
-    title: 'Show Me Tell Me Questions 2026 — The Complete List',
-    excerpt: 'The full list of vehicle safety questions the examiner may ask at the start of your driving test, with answers explained clearly.',
-    date: 'March 2026',
-    readTime: '7 min read',
-    tag: 'Theory',
-  },
-  {
     slug: 'failure-to-prepare',
     title: 'Failure to Prepare is Preparing to Fail',
     excerpt: "Failing your test can be a tough pill to swallow. But once you judge your result by effort rather than outcome, you'll never truly fail again.",
