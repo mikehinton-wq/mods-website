@@ -353,7 +353,10 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
+          <div style={{ marginTop: 32 }}>
+            <div className="elfsight-app-a8fdbcd6-2bb7-42f8-a307-3e274cc31116" data-elfsight-app-lazy></div>
+          </div>
+          <div style={{ textAlign: 'center', marginTop: 16 }}>
             <a href="https://www.facebook.com/mikehintondrivingschool/reviews" target="_blank" rel="noreferrer" className="btn btn-outline">Read More Reviews</a>
           </div>
         </div>
