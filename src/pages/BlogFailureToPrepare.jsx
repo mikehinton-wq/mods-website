@@ -61,6 +61,15 @@ const s = {
 export default function BlogFailureToPrepare() {
   return (
     <>
+      <Helmet>
+        <title>Failure to Prepare is Preparing to Fail Your Driving Test | Mike Hinton</title>
+        <meta name="description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare" />
+        <meta property="og:title" content="Failure to Prepare is Preparing to Fail Your Driving Test" />
+        <meta property="og:description" content="What most learners get wrong about test preparation and how to be genuinely ready." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
