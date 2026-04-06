@@ -1,8 +1,18 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>About Mike Hinton | DVSA-Approved Driving Instructor Rotherham</title>
+        <meta name="description" content="Meet Mike Hinton — DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons across the Rotherham area." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/about" />
+        <meta property="og:title" content="About Mike Hinton | Driving Instructor Rotherham" />
+        <meta property="og:description" content="DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/about" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>About</span>
