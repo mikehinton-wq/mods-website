@@ -88,13 +88,43 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "DrivingSchool",
           "name": "Mike Hinton Driving School",
-          "url": "https://mikehintondrivingschool.co.uk",
+          "url": "https://www.mikehintondrivingschool.co.uk",
           "telephone": "+447915999994",
           "email": "mikejhinton@outlook.com",
-          "address": { "@type": "PostalAddress", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "addressCountry": "GB" },
+          "address": { "@type": "PostalAddress", "streetAddress": "15 Elton Lane", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "postalCode": "S66 3RU", "addressCountry": "GB" },
           "areaServed": "Rotherham",
           "priceRange": "££",
-          "openingHours": "Mo-Su 07:00-20:00"
+          "openingHours": "Mo-Su 07:00-20:00",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": "47"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Sarah T." },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "Mike was incredibly patient with me — I'd failed with another instructor twice before. He completely changed my approach and I passed first time at Rotherham. Cannot recommend him enough.",
+              "datePublished": "2026-01-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "James M." },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "I have dyslexia and was really worried about the theory test. Mike pointed me to the right resources and helped me understand what to focus on. Passed theory and practical both first time.",
+              "datePublished": "2025-11-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Liam H." },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "I'm an anxious person in general and was dreading learning to drive. Mike made it feel manageable from the very first lesson. His patience is unbelievable.",
+              "datePublished": "2025-10-01"
+            }
+          ]
         })}</script>
       </Helmet>
 
