@@ -48,6 +48,15 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <>
+      <Helmet>
+        <title>Student Reviews & Testimonials | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Read real reviews from students who passed their driving test with Mike Hinton Driving School in Rotherham. 5-star rated driving instructor." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/testimonials" />
+        <meta property="og:title" content="Student Reviews | Mike Hinton Driving School" />
+        <meta property="og:description" content="See what students say about learning to drive with Mike Hinton in Rotherham." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/testimonials" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Reviews</span>
