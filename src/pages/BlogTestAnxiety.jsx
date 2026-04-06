@@ -70,6 +70,15 @@ const s = {
 export default function BlogTestAnxiety() {
   return (
     <>
+      <Helmet>
+        <title>Does Driving Test Anxiety Actually Cause Failures? | Mike Hinton Driving School</title>
+        <meta name="description" content="Can nerves really make you fail your driving test? The truth about test anxiety, what the examiner is actually looking for, and how to stay calm on the day." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures" />
+        <meta property="og:title" content="Does Driving Test Anxiety Actually Cause Failures?" />
+        <meta property="og:description" content="The truth about driving test anxiety and how to manage nerves on test day." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       {/* Hero */}
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
