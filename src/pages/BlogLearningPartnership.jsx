@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const learningStyles = [
   { icon: '🗣️', title: 'How directions are given', desc: 'The words your instructor uses when guiding you matter. Some learners need early warnings; others prefer last-minute prompts. Tell your instructor what works for you.' },
