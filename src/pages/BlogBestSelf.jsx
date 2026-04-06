@@ -209,6 +209,15 @@ const s = {
 export default function BlogBestSelf() {
   return (
     <>
+      <Helmet>
+        <title>When You Are Your Best Self — The Mindset Behind Passing Your Driving Test | Mike Hinton</title>
+        <meta name="description" content="The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing your driving test." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self" />
+        <meta property="og:title" content="When You Are Your Best Self — The Mindset Behind Passing Your Driving Test" />
+        <meta property="og:description" content="The mental side of learning to drive and how mindset affects your test result." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={s.heroStars} aria-hidden />
