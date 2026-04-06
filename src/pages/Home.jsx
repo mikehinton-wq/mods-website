@@ -73,6 +73,27 @@ const testimonials = [
 export default function Home() {
   return (
     <div className="home">
+      <Helmet>
+        <title>Driving Lessons in Rotherham | Mike Hinton Driving School</title>
+        <meta name="description" content="DVSA-approved driving instructor in Rotherham offering one-to-one manual driving lessons. Specialist in nervous learners, anxiety, ADHD, dyslexia and autism. Call 07915 999994." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/" />
+        <meta property="og:title" content="Driving Lessons in Rotherham | Mike Hinton Driving School" />
+        <meta property="og:description" content="DVSA-approved driving instructor in Rotherham offering one-to-one manual driving lessons. Specialist in nervous learners. Call 07915 999994." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/" />
+        <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "DrivingSchool",
+          "name": "Mike Hinton Driving School",
+          "url": "https://mikehintondrivingschool.co.uk",
+          "telephone": "+447915999994",
+          "email": "mikejhinton@outlook.com",
+          "address": { "@type": "PostalAddress", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "addressCountry": "GB" },
+          "areaServed": "Rotherham",
+          "priceRange": "££",
+          "openingHours": "Mo-Su 07:00-20:00"
+        })}</script>
+      </Helmet>
 
       {/* ── HERO ─────────────────────────────────────────────────── */}
       <section className="hero">
