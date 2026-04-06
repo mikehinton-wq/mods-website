@@ -168,6 +168,18 @@ export default function TheDrivingTest() {
             ))}
           </div>
 
+          <h2 style={s.h2}>Managing Driving Test Nerves</h2>
+          <div style={{ background: '#fff', border: '1px solid #dde8f0', borderRadius: 14, padding: '28px', borderTop: '3px solid #1EABC7', display: 'flex', alignItems: 'flex-start', gap: 20, margin: '16px 0' }}>
+            <span style={{ fontSize: '2.5rem', flexShrink: 0 }}>🧘</span>
+            <div>
+              <p style={{ ...s.p, marginBottom: 16 }}>Being able to manage your nerves is a really important skill – and not just for your driving test. So learning how to manage your nerves is a vital skill for new drivers.</p>
+              <p style={{ ...s.p, marginBottom: 16 }}>Follow this link for tips and useful articles on how to manage your nerves on test day.</p>
+              <a href="https://readytopass.campaign.gov.uk/driving-test-nerves/" target="_blank" rel="noreferrer" style={{ display: 'inline-block', background: '#1EABC7', color: 'white', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.95rem', padding: '12px 24px', borderRadius: 50, textDecoration: 'none' }}>
+                Tips for Managing Test Nerves →
+              </a>
+            </div>
+          </div>
+
         </div>
 
         <section style={s.cta}>
