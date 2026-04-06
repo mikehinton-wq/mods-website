@@ -79,6 +79,15 @@ const s = {
 export default function TheDrivingTest() {
   return (
     <>
+      <Helmet>
+        <title>What to Expect on Your Driving Test at Rotherham | Mike Hinton</title>
+        <meta name="description" content="Everything you need to know about the Rotherham driving test — pass rates, routes, what happens on the day and top tips. From DVSA-approved instructor Mike Hinton." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/the-driving-test" />
+        <meta property="og:title" content="The Driving Test at Rotherham — What to Expect" />
+        <meta property="og:description" content="Pass rates, test routes, what happens on the day and top tips for Rotherham test centre." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/the-driving-test" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
