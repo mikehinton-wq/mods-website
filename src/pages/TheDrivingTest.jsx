@@ -166,10 +166,6 @@ export default function TheDrivingTest() {
                 <p style={s.tipDesc}>{tip.desc}</p>
               </div>
             ))}
-          </div>
-
-          <h2 style={s.h2}>Managing Driving Test Nerves</h2>
-          <div style={s.tipGrid} className="mobile-1col">
             <div style={s.tipCard}>
               <span style={s.tipIcon}>🧘</span>
               <strong style={s.tipTitle}>How to Manage Nerves</strong>
