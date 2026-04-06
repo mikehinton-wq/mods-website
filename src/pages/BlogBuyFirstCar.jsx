@@ -93,6 +93,15 @@ const s = {
 export default function BlogBuyFirstCar() {
   return (
     <>
+      <Helmet>
+        <title>How to Buy Your First Car After Passing Your Test | Mike Hinton Driving School</title>
+        <meta name="description" content="Just passed your driving test? Here's everything you need to know about buying your first car — budget, what to look for, where to buy, and how to avoid getting ripped off." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/how-to-buy-your-first-car" />
+        <meta property="og:title" content="How to Buy Your First Car After Passing Your Test" />
+        <meta property="og:description" content="A complete guide to buying your first car — budget, insurance, what to check and where to buy." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/how-to-buy-your-first-car" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
