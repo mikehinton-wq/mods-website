@@ -14,6 +14,7 @@ const navLinks = [
       { label: 'Show Me Tell Me',     to: '/show-me-tell-me' },
       { label: 'How the Test is Marked', to: '/how-test-is-marked' },
       { label: 'Top 10 Reasons for Failing', href: 'https://www.gov.uk/government/publications/top-10-reasons-for-failing-the-driving-test/top-10-reasons-for-failing-the-driving-test-in-great-britain' },
+      { label: 'How to Manage Nerves', href: 'https://readytopass.campaign.gov.uk/driving-test-nerves/' },
     ],
   },
   {
