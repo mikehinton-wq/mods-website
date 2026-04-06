@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const whereToBuy = [
   { icon: '🏪', title: 'Trader or Dealer', desc: 'Look for an established firm with a good reputation. A trade association sign (like the Retail Motor Industry Federation) is a good sign. You have the strongest legal protection buying this way.', risk: 'Low Risk' },
