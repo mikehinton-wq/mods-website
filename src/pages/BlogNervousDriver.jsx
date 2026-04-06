@@ -87,6 +87,15 @@ const s = {
 export default function BlogNervousDriver() {
   return (
     <>
+      <Helmet>
+        <title>3 Things Every Nervous Driver Does on Test Day (And How to Stop) | Mike Hinton</title>
+        <meta name="description" content="Nervous about your driving test? These are the 3 most common mistakes anxious drivers make on test day — and exactly how to avoid them." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/3-things-nervous-drivers-do-on-test" />
+        <meta property="og:title" content="3 Things Every Nervous Driver Does on Test Day" />
+        <meta property="og:description" content="The 3 most common mistakes nervous drivers make on test day — and how to stop them." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/3-things-nervous-drivers-do-on-test" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       {/* Hero */}
       <header style={s.hero}>
         <div style={s.heroInner}>
