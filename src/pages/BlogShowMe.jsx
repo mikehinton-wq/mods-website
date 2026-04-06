@@ -25,6 +25,15 @@ const showMe = [
 export default function BlogShowMe() {
   return (
     <>
+      <Helmet>
+        <title>Show Me Tell Me Questions 2026 — Complete Guide | Mike Hinton Driving School</title>
+        <meta name="description" content="The complete list of Show Me Tell Me questions for 2026 UK driving tests. Learn exactly what the examiner will ask and how to answer correctly." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/show-me-tell-me-2026" />
+        <meta property="og:title" content="Show Me Tell Me Questions 2026 — Complete Guide" />
+        <meta property="og:description" content="Every Show Me Tell Me question for 2026 with answers. Prepare for your driving test vehicle safety checks." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/show-me-tell-me-2026" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <section style={{ background: 'var(--pale-blue)', padding: '48px 0 40px', borderBottom: '1px solid var(--light-blue)' }}>
         <div className="container">
           <Link to="/blog" style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '0.88rem', display: 'inline-flex', alignItems: 'center', gap: 6, marginBottom: 20 }}>
