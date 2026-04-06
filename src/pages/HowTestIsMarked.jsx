@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async'
+
 const faultTypes = [
   {
     type: 'Driving Fault',
