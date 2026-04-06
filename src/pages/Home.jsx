@@ -81,6 +81,9 @@ export default function Home() {
         <meta property="og:description" content="DVSA-approved driving instructor in Rotherham offering one-to-one manual driving lessons. Specialist in nervous learners. Call 07915 999994." />
         <meta property="og:url" content="https://mikehintondrivingschool.co.uk/" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/Mike Hinton Logo Cropped.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "DrivingSchool",
