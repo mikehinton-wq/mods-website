@@ -22,7 +22,6 @@ const navLinks = [
       { label: 'Driving Syllabus',   to: '/driving-syllabus' },
       { label: 'Driving Diagrams',   to: '/diagrams' },
       { label: 'Driving Skills',     to: '/driving-skills' },
-      { label: 'Terms & Conditions', to: '/terms' },
       { label: 'FAQs',               to: '/faqs' },
     ],
   },
