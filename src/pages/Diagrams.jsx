@@ -46,10 +46,10 @@ export default function Diagrams() {
       <Helmet>
         <title>Driving Diagrams | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="Visual driving diagrams to help learner drivers understand key skills including junctions, roundabouts, parking and more. From Mike Hinton Driving School, Rotherham." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/diagrams" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/diagrams" />
         <meta property="og:title" content="Driving Diagrams | Mike Hinton Driving School" />
         <meta property="og:description" content="Visual diagrams covering junctions, roundabouts, parking and key driving skills." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/diagrams" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/diagrams" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

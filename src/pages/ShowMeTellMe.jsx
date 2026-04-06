@@ -61,10 +61,10 @@ export default function ShowMeTellMe() {
       <Helmet>
         <title>Show Me Tell Me Questions 2025 | Mike Hinton Driving School</title>
         <meta name="description" content="Full list of Show Me Tell Me vehicle safety questions for the 2025 driving test. Prepared by DVSA-approved instructor Mike Hinton, Rotherham." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/show-me-tell-me" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/show-me-tell-me" />
         <meta property="og:title" content="Show Me Tell Me Questions 2025 | Driving Test Prep" />
         <meta property="og:description" content="Full list of Show Me Tell Me questions for your driving test — prepared by Mike Hinton, Rotherham." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/show-me-tell-me" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/show-me-tell-me" />
         <meta property="og:type" content="article" />
       </Helmet>
       <header style={s.hero}>

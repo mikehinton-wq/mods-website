@@ -18,7 +18,7 @@ const services = [
 
 export default function LocationPage({ location }) {
   const { area, slug, metaTitle, metaDescription, h1, intro, nearby } = location
-  const canonicalUrl = `https://mikehintondrivingschool.co.uk/driving-lessons-${slug}`
+  const canonicalUrl = `https://www.mikehintondrivingschool.co.uk/driving-lessons-${slug}`
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -58,7 +58,7 @@ export default function LocationPage({ location }) {
         <meta property="og:description" content={metaDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://mikehintondrivingschool.co.uk/images/Mike Hinton Logo Cropped.jpg" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/Mike Hinton Logo Cropped.jpg" />
         <meta property="og:site_name" content="Mike Hinton Driving School" />
 
         {/* Twitter */}

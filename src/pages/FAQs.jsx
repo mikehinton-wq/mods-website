@@ -115,10 +115,10 @@ export default function FAQs() {
       <Helmet>
         <title>Driving Lesson FAQs | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="Answers to frequently asked questions about driving lessons with Mike Hinton in Rotherham — including costs, areas covered, cancellation policy and more." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/faqs" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/faqs" />
         <meta property="og:title" content="Driving Lesson FAQs | Mike Hinton Driving School" />
         <meta property="og:description" content="Everything you need to know before booking driving lessons in Rotherham." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/faqs" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/faqs" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

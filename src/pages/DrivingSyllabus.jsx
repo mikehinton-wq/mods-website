@@ -71,10 +71,10 @@ export default function DrivingSyllabus() {
       <Helmet>
         <title>Driving Lesson Syllabus | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="The structured driving lesson syllabus used by Mike Hinton Driving School in Rotherham. Covering all phases from introductory lessons through to test standard." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/driving-syllabus" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-syllabus" />
         <meta property="og:title" content="Driving Lesson Syllabus | Mike Hinton Driving School" />
         <meta property="og:description" content="Structured driving syllabus covering all phases from introductory lessons to test standard." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/driving-syllabus" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-syllabus" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

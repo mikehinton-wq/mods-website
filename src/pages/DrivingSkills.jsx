@@ -76,10 +76,10 @@ export default function DrivingSkills() {
       <Helmet>
         <title>Driving Skills Guide | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="Improve your driving with guides on clutch control, defensive driving, speed awareness, driving in bad weather and more. From Mike Hinton Driving School, Rotherham." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/driving-skills" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills" />
         <meta property="og:title" content="Driving Skills Guide | Mike Hinton Driving School" />
         <meta property="og:description" content="Guides on clutch control, defensive driving, speed awareness, bad weather driving and more." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/driving-skills" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

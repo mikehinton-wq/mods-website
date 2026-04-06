@@ -22,10 +22,10 @@ export default function Contact() {
       <Helmet>
         <title>Contact Mike Hinton | Book Driving Lessons in Rotherham</title>
         <meta name="description" content="Get in touch with Mike Hinton Driving School to book driving lessons in Rotherham. Call 07915 999994, WhatsApp, or use our contact form." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/contact" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/contact" />
         <meta property="og:title" content="Contact Mike Hinton | Driving Lessons Rotherham" />
         <meta property="og:description" content="Book driving lessons in Rotherham. Call 07915 999994 or send a message." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/contact" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/contact" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

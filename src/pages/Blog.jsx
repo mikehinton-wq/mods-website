@@ -90,10 +90,10 @@ export default function Blog() {
       <Helmet>
         <title>Driving Tips & Guides | Mike Hinton Driving School Blog</title>
         <meta name="description" content="Driving tips, test advice and guides for learner drivers in Rotherham. Written by DVSA-approved instructor Mike Hinton." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/blog" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog" />
         <meta property="og:title" content="Driving Tips & Guides | Mike Hinton Blog" />
         <meta property="og:description" content="Driving tips, test advice and guides for learner drivers in Rotherham." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/blog" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">

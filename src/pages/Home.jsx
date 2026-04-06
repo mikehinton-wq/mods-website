@@ -76,10 +76,10 @@ export default function Home() {
       <Helmet>
         <title>Driving Lessons in Rotherham | Mike Hinton Driving School</title>
         <meta name="description" content="DVSA-approved driving instructor in Rotherham offering one-to-one manual driving lessons. Specialist in nervous learners, anxiety, ADHD, dyslexia and autism. Call 07915 999994." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/" />
         <meta property="og:title" content="Driving Lessons in Rotherham | Mike Hinton Driving School" />
         <meta property="og:description" content="DVSA-approved driving instructor in Rotherham offering one-to-one manual driving lessons. Specialist in nervous learners. Call 07915 999994." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:image:width" content="1200" />

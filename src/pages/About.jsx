@@ -7,10 +7,10 @@ export default function About() {
       <Helmet>
         <title>About Mike Hinton | DVSA-Approved Driving Instructor Rotherham</title>
         <meta name="description" content="Meet Mike Hinton — DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons across the Rotherham area." />
-        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/about" />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/about" />
         <meta property="og:title" content="About Mike Hinton | Driving Instructor Rotherham" />
         <meta property="og:description" content="DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons." />
-        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/about" />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/about" />
         <meta property="og:type" content="website" />
       </Helmet>
       <section className="page-hero">
