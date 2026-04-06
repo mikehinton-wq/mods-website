@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async'
+
 const diagrams = [
   { title: 'Pull push steering',            url: 'http://c-cluster-110.uploads.documents.cimpress.io/v1/uploads/72973e32-66de-4ed1-b21e-c0a0a1d2fceb~110/original?tenant=vbu-digital' },
   { title: 'Gears',                         url: 'http://c-cluster-110.uploads.documents.cimpress.io/v1/uploads/7b2e21ca-48e9-4c7b-b438-d652a6a12726~110/original?tenant=vbu-digital' },
