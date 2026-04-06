@@ -163,4 +163,16 @@
   }
   .navbar__dropdown.active .dropdown__menu { display: block; }
   .navbar__cta { margin: 8px 0 0; text-align: center; justify-content: center; }
+  .navbar__link.active {
+    color: var(--primary);
+    background: var(--pale-blue);
+    border-left: 3px solid var(--primary);
+    padding-left: 9px;
+  }
+  .dropdown__item.active {
+    color: var(--primary);
+    background: var(--pale-blue);
+    border-left: 3px solid var(--primary);
+    padding-left: 11px;
+  }
 }
