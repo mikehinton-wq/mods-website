@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const valueItems = [
   { icon: '🧠', title: 'Knowledge', desc: 'Years of experience on the road and in the classroom — knowing not just how to drive, but how to teach.' },
