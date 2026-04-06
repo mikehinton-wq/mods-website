@@ -162,6 +162,15 @@ const s = {
 export default function BlogConsistency() {
   return (
     <>
+      <Helmet>
+        <title>Consistency Beats Intensity — How Often Should You Take Driving Lessons? | Mike Hinton</title>
+        <meta name="description" content="Is it better to take driving lessons every day or once a week? Why regular, consistent lessons beat intensive cramming — and how to plan your learning for best results." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/consistency-beats-intensity" />
+        <meta property="og:title" content="Consistency Beats Intensity — How Often Should You Take Driving Lessons?" />
+        <meta property="og:description" content="Why regular lessons beat intensive cramming when learning to drive." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/consistency-beats-intensity" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
