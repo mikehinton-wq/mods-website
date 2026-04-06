@@ -202,6 +202,15 @@ const s = {
 export default function HowTestIsMarked() {
   return (
     <>
+      <Helmet>
+        <title>How Is Your Driving Test Marked? | Mike Hinton Driving School</title>
+        <meta name="description" content="Understand the 3 types of driving fault — minor, serious and dangerous — and exactly how the examiner assesses your driving test. From Mike Hinton, Rotherham." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/how-test-is-marked" />
+        <meta property="og:title" content="How Is Your Driving Test Marked?" />
+        <meta property="og:description" content="Minor, serious and dangerous faults explained — understand exactly how your driving test is assessed." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/how-test-is-marked" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
