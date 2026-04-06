@@ -98,7 +98,7 @@ export default function Testimonials() {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <a href="https://www.facebook.com/mikehintondrivingschool/reviews" target="_blank" rel="noreferrer" className="btn btn-outline">Read More Reviews</a>
+            <span className="btn btn-outline">Read More Reviews</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center', gap: 16, marginTop: 24, flexWrap: 'wrap' }}>
             <div className="elfsight-app-a8fdbcd6-2bb7-42f8-a307-3e274cc31116" data-elfsight-app-lazy></div>
