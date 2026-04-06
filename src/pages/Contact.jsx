@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 export default function Contact() {
   const [sent, setSent] = useState(false)
