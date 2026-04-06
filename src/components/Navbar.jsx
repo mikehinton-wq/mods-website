@@ -23,6 +23,7 @@ const navLinks = [
       { label: 'Driving Diagrams',   to: '/diagrams' },
       { label: 'Driving Skills',     to: '/driving-skills' },
       { label: 'FAQs',               to: '/faqs' },
+      { label: 'Terms & Conditions', to: '/terms' },
     ],
   },
   { label: 'Blog',               to: '/blog' },
