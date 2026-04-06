@@ -1,6 +1,13 @@
+import { Helmet } from 'react-helmet-async'
+
 export default function Terms() {
   return (
     <>
+      <Helmet>
+        <title>Terms & Conditions | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Read the terms and conditions for driving lessons with Mike Hinton Driving School in Rotherham, including pricing, cancellation policy and complaints procedure." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/terms" />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Legal</span>
