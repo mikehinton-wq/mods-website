@@ -83,6 +83,15 @@ const s = {
 export default function BlogRotherham() {
   return (
     <>
+      <Helmet>
+        <title>Rotherham Driving Test Centre — What to Expect | Mike Hinton Driving School</title>
+        <meta name="description" content="Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day. From a local DVSA-approved instructor." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/rotherham-test-centre" />
+        <meta property="og:title" content="Rotherham Driving Test Centre — What to Expect" />
+        <meta property="og:description" content="Pass rates, test routes, what to bring and tips for test day at Rotherham test centre." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/rotherham-test-centre" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       {/* Hero */}
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
