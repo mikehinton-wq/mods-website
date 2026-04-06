@@ -66,6 +66,15 @@ const s = {
 export default function BlogNeurodivergent() {
   return (
     <>
+      <Helmet>
+        <title>Learning to Drive with ADHD, Dyslexia or Autism | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent" />
+        <meta property="og:title" content="Learning to Drive with ADHD, Dyslexia or Autism" />
+        <meta property="og:description" content="Practical tips for neurodivergent learner drivers — ADHD, dyslexia, autism and dyspraxia." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       {/* Hero */}
       <header style={s.hero}>
         <div style={s.heroBefore} aria-hidden />
