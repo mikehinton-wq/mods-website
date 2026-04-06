@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const stats = [
   { num: '37%', desc: 'of 18–24 year olds experience driving anxiety frequently' },
