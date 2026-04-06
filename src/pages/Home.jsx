@@ -188,6 +188,20 @@ export default function Home() {
                 </svg>
                 YouTube
               </a>
+              <a
+                href="https://www.facebook.com/mikehintondrivingschool"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  background: '#1877F2', color: '#fff',
+                  fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1.1rem',
+                  padding: '6px 12px', borderRadius: 6, textDecoration: 'none',
+                }}
+              >
+                <img src="/images/facebook.png" alt="Facebook" style={{ width: 20, height: 20, objectFit: 'contain' }} />
+                Facebook
+              </a>
             </div>
           </div>
           <div className="hero__card-stack">
