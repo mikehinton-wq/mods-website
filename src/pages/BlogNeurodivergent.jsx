@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const tips = [
   { icon: '🎯', title: 'Find a Neurodivergent-Specialist Instructor', desc: 'This is the single most important step. A specialist instructor will know when to give you breaks, how to explain concepts differently, and how to pace lessons to suit your brain.' },
