@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url><loc>https://mikehintondrivingschool.co.uk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/testimonials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/faqs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/pricing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/specialist-learners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/terms</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+
+  <!-- Driving Test -->
+  <url><loc>https://mikehintondrivingschool.co.uk/test-routes</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/the-driving-test</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/show-me-tell-me</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/how-test-is-marked</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Resources -->
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-syllabus</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/diagrams</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Driving Skills sub-pages -->
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/5-key-skills</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/clutch-control</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/defensive-driving</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/speed-awareness</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/wet-conditions</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/driving-in-the-dark</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/driving-in-snow</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/icy-conditions</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/bright-sun</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/high-wind</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-skills/heavy-traffic</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://mikehintondrivingschool.co.uk/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/rotherham-test-centre</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/show-me-tell-me-2026</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/3-things-nervous-drivers-do-on-test</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/how-to-buy-your-first-car</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/failure-to-prepare</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/learning-partnership</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/how-to-choose-a-driving-instructor</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/consistency-beats-intensity</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Local landing pages -->
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-dalton</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-sunnyside</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-woodlaithes</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-flanderwell</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-wickersley</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-bramley</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-ravenfield</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-braithwell</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-micklebring</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-maltby</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-brecks</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-east-denes</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-herringthorpe</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mikehintondrivingschool.co.uk/driving-lessons-rawmarsh</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+</urlset>
