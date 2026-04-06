@@ -63,7 +63,8 @@ export default function Footer() {
         <div className="container">
           <p>© {new Date().getFullYear()} Mike Hinton Driving School · DVSA Approved · Rotherham</p>
           <p style={{ marginTop: 4 }}>
-            <Link to="/terms">Terms &amp; Conditions</Link>
+            <Link to="/terms">Terms &amp; Conditions</Link> ·{' '}
+            <Link to="/privacy-policy">Privacy Policy</Link>
           </p>
         </div>
       </div>
