@@ -43,6 +43,15 @@ const diagrams = [
 export default function Diagrams() {
   return (
     <>
+      <Helmet>
+        <title>Driving Diagrams | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Visual driving diagrams to help learner drivers understand key skills including junctions, roundabouts, parking and more. From Mike Hinton Driving School, Rotherham." />
+        <link rel="canonical" href="https://mikehintondrivingschool.co.uk/diagrams" />
+        <meta property="og:title" content="Driving Diagrams | Mike Hinton Driving School" />
+        <meta property="og:description" content="Visual diagrams covering junctions, roundabouts, parking and key driving skills." />
+        <meta property="og:url" content="https://mikehintondrivingschool.co.uk/diagrams" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Resources</span>
