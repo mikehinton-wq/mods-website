@@ -321,11 +321,10 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-title">Everything You Need to Pass</h2>
+            <h2 className="section-title">You Are Twice as Likely to Pass With Us</h2>
             <div className="divider center" />
             <p className="section-subtitle">
-              From your first lesson to test day — and beyond — Mike Hinton Driving School
-              has you covered.
+              The national first-time pass rate is 48%. Our pass rate is over 80%. The difference isn't luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you.
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
