@@ -314,4 +314,20 @@ ul.check-list li::before {
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
+  .members-sample-grid h2,
+  .members-sample-grid p,
+  .members-sample-grid span {
+    text-align: center !important;
+    display: block;
+  }
+
+  .members-sample-grid a {
+    display: block;
+    text-align: center;
+  }
+
+  .members-pricing-row > div {
+    text-align: center;
+  }
 }
