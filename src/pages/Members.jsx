@@ -157,7 +157,7 @@ export default function Members() {
         <div style={s.heroTag}>Members Area</div>
         <h1 style={s.h1}>Rotherham Roundabout Course</h1>
         <p style={s.heroSub}>63 videos covering every approach to every major roundabout on the Rotherham test routes.</p>
-        <div style={s.badge}>🔒 Subscribers Only · £10/month</div>
+        <div style={s.badge}>🔒 Subscribers Only · £11/month</div>
       </header>
 
       <main style={s.page}>
@@ -166,8 +166,8 @@ export default function Members() {
           <span style={s.lockIcon}>🔒</span>
           <div>
             <div style={s.lockTitle}>Subscriber Access Required</div>
-            <p style={s.lockText}>This content is available to subscribers only. Subscribe for £10/month to unlock all 63 videos — cancel anytime.</p>
-            <a href="/subscribe" style={s.subscribeBtn}>Subscribe for £10/month</a>
+            <p style={s.lockText}>This content is available to subscribers only. Subscribe for £11/month to unlock all 63 videos — cancel anytime.</p>
+            <a href="/subscribe" style={s.subscribeBtn}>Subscribe for £11/month</a>
           </div>
         </div>
 
