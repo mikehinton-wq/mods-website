@@ -182,7 +182,7 @@ export default function Members() {
 
       <main style={s.page}>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 32, marginBottom: 40, alignItems: 'center' }}>
+        <div className="members-sample-grid">
           {/* Left: video + text */}
           <div>
             <span style={s.sampleLabel}>Free Sample</span>
