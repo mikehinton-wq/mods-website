@@ -293,3 +293,25 @@ ul.check-list li::before {
   .mobile-1col { grid-template-columns: 1fr !important; }
   .blog-content { padding-left: 16px !important; padding-right: 16px !important; }
 }
+
+/* Members page responsive layout */
+.members-sample-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 32px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.members-pricing-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .members-sample-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
