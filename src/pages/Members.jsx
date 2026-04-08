@@ -183,43 +183,47 @@ export default function Members() {
 
       <main style={s.page}>
 
-        <div style={s.sampleWrap}>
-          <span style={s.sampleLabel}>Free Sample</span>
-          <h2 style={s.sampleTitle}>See What's Inside</h2>
-          <p style={s.sampleSub}>Roundabouts are one of the most common reasons learners fail their driving test. Not because they can't drive — but because they panic when they don't know what to expect but forget how to navigate them safely. These videos remove that uncertainty. Every video is filmed from the driver's seat on the exact roads you'll face on your Rotherham test. Watch them at home, watch them the night before, watch them as many times as you need during your subscription period. By the time you reach that roundabout on test day, it won't be new. It'll be familiar.</p>
-          <p style={{ ...s.sampleSub, fontWeight: 700, color: '#0C3C60', marginTop: 0 }}>Click the sample below to see for yourself. Don't miss out. Subscribe now.</p>
-          <div style={s.videoWrap}>
-            <iframe
-              style={s.videoFrame}
-              src="https://www.youtube.com/embed/nPftMW-4P-0"
-              title="Sample — Rotherham Roundabout Course"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        </div>
-
-        <div style={s.pricingWrap}>
-          {/* Monthly */}
-          <div style={s.pricingCard}>
-            <div style={s.pricingTitle}>Monthly</div>
-            <div style={s.pricingAmount}>£11</div>
-            <div style={s.pricingPer}>per month</div>
-            <div style={{ fontSize: '0.82rem', color: '#5a7a9a', marginBottom: 20 }}>Full access to all 63 videos. Cancel anytime.</div>
-            <a href="/subscribe" style={s.pricingBtnOutline}>Subscribe Monthly</a>
-            <div style={s.pricingNote}>No commitment. Cancel anytime.</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 24, marginBottom: 40, alignItems: 'start' }}>
+          {/* Left: video + text */}
+          <div>
+            <span style={s.sampleLabel}>Free Sample</span>
+            <h2 style={{ ...s.sampleTitle, marginBottom: 10 }}>See What's Inside</h2>
+            <p style={{ ...s.sampleSub, fontSize: '0.84rem', marginBottom: 10 }}>Roundabouts are one of the most common reasons learners fail their driving test. Not because they can't drive — but because they panic when they don't know what to expect but forget how to navigate them safely. These videos remove that uncertainty. Every video is filmed from the driver's seat on the exact roads you'll face on your Rotherham test. Watch them at home, watch them the night before, watch them as many times as you need during your subscription period. By the time you reach that roundabout on test day, it won't be new. It'll be familiar.</p>
+            <p style={{ fontSize: '0.84rem', fontWeight: 700, color: '#0C3C60', marginBottom: 14 }}>Click the sample below to see for yourself. Don't miss out. Subscribe now.</p>
+            <div style={s.videoWrap}>
+              <iframe
+                style={s.videoFrame}
+                src="https://www.youtube.com/embed/nPftMW-4P-0"
+                title="Sample — Rotherham Roundabout Course"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
 
-          {/* Annual */}
-          <div style={s.pricingCardFeatured}>
-            <div style={s.pricingBadge}>Best Value</div>
-            <div style={s.pricingTitleLight}>Annual</div>
-            <div style={s.pricingAmountLight}>£99</div>
-            <div style={s.pricingPerLight}>per year</div>
-            <div style={s.pricingSaving}>Save £33 compared to monthly</div>
-            <div style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.7)', marginBottom: 20 }}>That's less than the cost of two driving lessons for a full year of access.</div>
-            <a href="/subscribe" style={s.pricingBtnSolid}>Subscribe Annually</a>
-            <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
+          {/* Right: pricing cards */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+            {/* Monthly */}
+            <div style={{ ...s.pricingCard, padding: '20px 20px' }}>
+              <div style={s.pricingTitle}>Monthly</div>
+              <div style={{ ...s.pricingAmount, fontSize: '1.8rem' }}>£11</div>
+              <div style={s.pricingPer}>per month</div>
+              <div style={{ fontSize: '0.8rem', color: '#5a7a9a', marginBottom: 14 }}>Full access to all 63 videos. Cancel anytime.</div>
+              <a href="/subscribe" style={{ ...s.pricingBtnOutline, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Monthly</a>
+              <div style={s.pricingNote}>No commitment. Cancel anytime.</div>
+            </div>
+
+            {/* Annual */}
+            <div style={{ ...s.pricingCardFeatured, padding: '20px 20px' }}>
+              <div style={s.pricingBadge}>Best Value</div>
+              <div style={s.pricingTitleLight}>Annual</div>
+              <div style={{ ...s.pricingAmountLight, fontSize: '1.8rem' }}>£99</div>
+              <div style={s.pricingPerLight}>per year</div>
+              <div style={s.pricingSaving}>Save £33 compared to monthly</div>
+              <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', marginBottom: 14 }}>That's less than the cost of two driving lessons for a full year of access.</div>
+              <a href="/subscribe" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Annually</a>
+              <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
+            </div>
           </div>
         </div>
 
