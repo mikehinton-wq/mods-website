@@ -199,6 +199,30 @@ export default function Members() {
           </div>
         </div>
 
+        <div style={s.pricingWrap}>
+          {/* Monthly */}
+          <div style={s.pricingCard}>
+            <div style={s.pricingTitle}>Monthly</div>
+            <div style={s.pricingAmount}>£11</div>
+            <div style={s.pricingPer}>per month</div>
+            <div style={{ fontSize: '0.82rem', color: '#5a7a9a', marginBottom: 20 }}>Full access to all 63 videos. Cancel anytime.</div>
+            <a href="/subscribe" style={s.pricingBtnOutline}>Subscribe Monthly</a>
+            <div style={s.pricingNote}>No commitment. Cancel anytime.</div>
+          </div>
+
+          {/* Annual */}
+          <div style={s.pricingCardFeatured}>
+            <div style={s.pricingBadge}>Best Value</div>
+            <div style={s.pricingTitleLight}>Annual</div>
+            <div style={s.pricingAmountLight}>£99</div>
+            <div style={s.pricingPerLight}>per year</div>
+            <div style={s.pricingSaving}>Save £33 compared to monthly</div>
+            <div style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.7)', marginBottom: 20 }}>That's less than the cost of two driving lessons for a full year of access.</div>
+            <a href="/subscribe" style={s.pricingBtnSolid}>Subscribe Annually</a>
+            <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
+          </div>
+        </div>
+
         <div style={s.lockBanner}>
           <span style={s.lockIcon}>🔒</span>
           <div>
