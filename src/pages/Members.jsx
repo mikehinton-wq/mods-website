@@ -189,7 +189,7 @@ export default function Members() {
             <h2 style={{ ...s.sampleTitle, marginBottom: 4 }}>See What's Inside</h2>
             <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.9rem', color: '#22c55e', marginBottom: 10, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Free Sample Video</p>
             <p style={{ ...s.sampleSub, fontSize: '0.84rem', marginBottom: 10 }}>Roundabouts are one of the most common reasons learners fail their driving test. Not because they can't drive — but because they panic when they don't know what to expect but forget how to navigate them safely. These videos remove that uncertainty. Every video is filmed from the driver's seat on the exact roads you'll face on your Rotherham test. Watch them at home, watch them the night before, watch them as many times as you need during your subscription period. By the time you reach that roundabout on test day, it won't be new. It'll be familiar.</p>
-            <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1.3rem', color: '#0C3C60', marginBottom: 14, lineHeight: 1.3 }}>Click the sample below to see for yourself.<br />Don't miss out. Subscribe now for access to all 63 videos.</p>
+            <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1.3rem', color: '#0C3C60', marginBottom: 14, lineHeight: 1.3 }}>Don't miss out. Subscribe now for access to all 63 videos.</p>
             <div style={s.videoWrap}>
               <iframe
                 style={s.videoFrame}
