@@ -232,7 +232,7 @@ export default function Members() {
           <div>
             <div style={s.lockTitle}>Subscriber Access Required</div>
             <p style={s.lockText}>This content is available to subscribers only. Subscribe to unlock all 63 videos — cancel anytime.</p>
-            <a href="https://buy.stripe.com/test_aFa8wQ4BgeNA9z07NJeIw00" target="_blank" rel="noreferrer" style={s.subscribeBtn}>Subscribe for £14/month</a>
+            <a href="https://buy.stripe.com/9B64gzgBM8j14FR3TSgMw00" target="_blank" rel="noreferrer" style={s.subscribeBtn}>Subscribe for £14/month</a>
           </div>
         </div>
 
