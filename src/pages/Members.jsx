@@ -202,7 +202,7 @@ export default function Members() {
           </div>
 
           {/* Right: pricing cards */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <div className="members-pricing-row" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             {/* Monthly */}
             <div style={{ ...s.pricingCard, padding: '20px 20px' }}>
               <div style={s.pricingTitle}>Monthly</div>
