@@ -219,7 +219,7 @@ export default function Members() {
               <div style={s.pricingTitleLight}>Annual</div>
               <div style={{ ...s.pricingAmountLight, fontSize: '1.8rem' }}>£99</div>
               <div style={s.pricingPerLight}>per year</div>
-              <div style={s.pricingSaving}>Save £33 compared to monthly</div>
+              <div style={s.pricingSaving}>Save £69 compared to monthly</div>
               <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', marginBottom: 14 }}>That's less than the cost of two driving lessons for a full year of access.</div>
               <a href="/subscribe" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Annually</a>
               <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
