@@ -294,6 +294,13 @@ export default function Members() {
               <p style={s.faqA}>{item.a}</p>
             </div>
           ))}
+          <div style={{ marginTop: 32, padding: '20px 24px', background: '#f4f8fb', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+            <div>
+              <div style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.95rem', color: '#0C3C60', marginBottom: 4 }}>Manage your subscription</div>
+              <p style={{ fontSize: '0.85rem', color: '#5a7a9a', margin: 0 }}>Cancel, update your payment details or view billing history.</p>
+            </div>
+            <a href="https://billing.stripe.com/p/login/9B64gzgBM8j14FR3TSgMw00" target="_blank" rel="noreferrer" style={{ display: 'inline-block', border: '2px solid #1EABC7', color: '#1EABC7', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.9rem', padding: '10px 24px', borderRadius: 50, textDecoration: 'none', whiteSpace: 'nowrap' }}>Manage my subscription</a>
+          </div>
         </div>
 
       </main>
