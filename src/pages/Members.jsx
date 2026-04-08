@@ -134,6 +134,21 @@ const s = {
   lockTitle: { fontFamily: 'Raleway, sans-serif', fontWeight: 700, color: '#8a5a00', fontSize: '0.95rem', marginBottom: 4 },
   lockText: { fontSize: '0.85rem', color: '#6a4a00', margin: 0 },
   subscribeBtn: { display: 'inline-block', background: '#1EABC7', color: '#fff', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '1rem', padding: '12px 28px', borderRadius: 50, textDecoration: 'none', marginTop: 8 },
+  pricingWrap: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 20, marginBottom: 40 },
+  pricingCard: { background: '#fff', border: '1px solid #dde8f0', borderRadius: 14, padding: '28px 24px', boxShadow: '0 2px 8px rgba(12,60,96,0.06)', textAlign: 'center' },
+  pricingCardFeatured: { background: '#0C3C60', border: '2px solid #1EABC7', borderRadius: 14, padding: '28px 24px', boxShadow: '0 4px 20px rgba(12,60,96,0.2)', textAlign: 'center', position: 'relative' },
+  pricingBadge: { display: 'inline-block', background: '#1EABC7', color: '#fff', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.72rem', padding: '3px 12px', borderRadius: 20, marginBottom: 16, letterSpacing: '0.06em', textTransform: 'uppercase' },
+  pricingTitle: { fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1rem', color: '#0C3C60', marginBottom: 8 },
+  pricingTitleLight: { fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1rem', color: '#fff', marginBottom: 8 },
+  pricingAmount: { fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.2rem', color: '#0C3C60', lineHeight: 1 },
+  pricingAmountLight: { fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '2.2rem', color: '#fff', lineHeight: 1 },
+  pricingPer: { fontSize: '0.85rem', color: '#8a9ab0', marginBottom: 6 },
+  pricingPerLight: { fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)', marginBottom: 6 },
+  pricingSaving: { fontSize: '0.8rem', color: '#22c55e', fontWeight: 700, marginBottom: 20 },
+  pricingNote: { fontSize: '0.78rem', color: '#8a9ab0', marginTop: 10 },
+  pricingNoteLight: { fontSize: '0.78rem', color: 'rgba(255,255,255,0.5)', marginTop: 10 },
+  pricingBtnOutline: { display: 'inline-block', border: '2px solid #1EABC7', color: '#1EABC7', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.95rem', padding: '10px 24px', borderRadius: 50, textDecoration: 'none', marginTop: 8 },
+  pricingBtnSolid: { display: 'inline-block', background: '#1EABC7', color: '#fff', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.95rem', padding: '10px 24px', borderRadius: 50, textDecoration: 'none', marginTop: 8 },
 }
 
 const directionColour = (title) => {
