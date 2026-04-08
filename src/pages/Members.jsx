@@ -231,8 +231,8 @@ export default function Members() {
           <span style={s.lockIcon}>🔒</span>
           <div>
             <div style={s.lockTitle}>Subscriber Access Required</div>
-            <p style={s.lockText}>This content is available to subscribers only. Subscribe for £11/month to unlock all 63 videos — cancel anytime.</p>
-            <a href="/subscribe" style={s.subscribeBtn}>Subscribe for £11/month</a>
+            <p style={s.lockText}>This content is available to subscribers only. Subscribe to unlock all 63 videos — cancel anytime.</p>
+            <a href="/subscribe" style={s.subscribeBtn}>Subscribe for £14/month</a>
           </div>
         </div>
 
