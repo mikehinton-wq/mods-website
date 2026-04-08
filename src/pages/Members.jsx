@@ -168,6 +168,21 @@ export default function Members() {
 
       <main style={s.page}>
 
+        <div style={s.sampleWrap}>
+          <span style={s.sampleLabel}>Free Sample</span>
+          <h2 style={s.sampleTitle}>See What's Inside</h2>
+          <p style={s.sampleSub}>Watch a sample video before you subscribe — this is exactly what every lesson looks like.</p>
+          <div style={s.videoWrap}>
+            <iframe
+              style={s.videoFrame}
+              src="https://www.youtube.com/embed/nPftMW-4P-0"
+              title="Sample — Rotherham Roundabout Course"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         <div style={s.lockBanner}>
           <span style={s.lockIcon}>🔒</span>
           <div>
