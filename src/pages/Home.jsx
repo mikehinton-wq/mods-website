@@ -139,7 +139,7 @@ export default function Home() {
             <h1>Driving Lessons<br />You'll Actually Enjoy</h1>
             <p className="hero__sub">
               Patient, one-to-one tuition tailored to your pace. Specialist support for
-              nervous learners, <span style={{ color: '#fff', fontWeight: 800 }}>Anxiety</span>, <span style={{ color: '#fff', fontWeight: 800 }}>Dyslexia</span>, <span style={{ color: '#fff', fontWeight: 800 }}>Dyspraxia</span>, and <span style={{ color: '#fff', fontWeight: 800 }}>Autism</span>. Based in Dalton, covering the Rotherham area.
+              nervous learners, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Anxiety</span>, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Dyslexia</span>, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Dyspraxia</span>, and <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Autism</span>. Based in Dalton, covering the Rotherham area.
             </p>
             <p className="hero__sub">
               The national first-time pass rate is 48%. Our pass rate is{' '}
