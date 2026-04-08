@@ -206,7 +206,7 @@ export default function Members() {
             {/* Monthly */}
             <div style={{ ...s.pricingCard, padding: '20px 20px' }}>
               <div style={s.pricingTitle}>Monthly</div>
-              <div style={{ ...s.pricingAmount, fontSize: '1.8rem' }}>£11</div>
+              <div style={{ ...s.pricingAmount, fontSize: '1.8rem' }}>£14</div>
               <div style={s.pricingPer}>per month</div>
               <div style={{ fontSize: '0.8rem', color: '#5a7a9a', marginBottom: 14 }}>Full access to all 63 videos. Cancel anytime.</div>
               <a href="/subscribe" style={{ ...s.pricingBtnOutline, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Monthly</a>
