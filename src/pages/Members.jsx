@@ -229,6 +229,7 @@ export default function Members() {
               <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', marginBottom: 14 }}>Everything you need to master every roundabout on the Rotherham test route — for less than the cost of two lessons.</div>
               <a href="https://buy.stripe.com/14A6oH2KWdDla0bgGEgMw01" target="_blank" rel="noreferrer" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Get Annual Pass</a>
               <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
+              <div style={{ fontSize: '0.78rem', color: '#22c55e', fontWeight: 700, marginTop: 8 }}>7-day money back guarantee</div>
             </div>
           </div>
         </div>
