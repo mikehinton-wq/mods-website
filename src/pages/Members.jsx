@@ -297,7 +297,7 @@ export default function Members() {
               <p style={s.faqA}>{item.a}</p>
             </div>
           ))}
-          <div style={{ marginTop: 32, padding: '20px 24px', background: '#f4f8fb', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
+          <div className="members-manage-box" style={{ marginTop: 32, padding: '20px 24px', background: '#f4f8fb', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
             <div>
               <div style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.95rem', color: '#0C3C60', marginBottom: 4 }}>Manage your subscription</div>
               <p style={{ fontSize: '0.85rem', color: '#5a7a9a', margin: 0 }}>Cancel, update your payment details or view billing history.</p>
