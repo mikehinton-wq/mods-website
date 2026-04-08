@@ -286,7 +286,8 @@ export default function Members() {
             { q: 'What happens after I subscribe?', a: 'You\'ll receive a confirmation email from Stripe. You can then access all videos directly on this page.' },
             { q: 'Is this suitable for automatic drivers?', a: 'Yes — the videos cover road position, lane choice and timing, which applies equally to manual and automatic drivers.' },
             { q: 'Will new videos be added?', a: 'Yes — additional roundabouts and approaches will be added over time. All subscribers get access to new videos as soon as they\'re published.' },
-            { q: 'What if I pass my test before my subscription ends?', a: 'Congratulations! Simply cancel your subscription and you won\'t be charged again. Monthly subscribers can cancel at any time.' },
+            { q: 'Can I cancel anytime?', a: 'Yes — cancel at any time through your subscription portal. Click "Manage my subscription" below, enter your email address, and you can cancel with one click. You won\'t be charged again after cancelling.' },
+            { q: 'What if I pass my test before my subscription ends?', a: 'Congratulations! Simply cancel your subscription via the portal below and you won\'t be charged again.' },
           ].map((item, i) => (
             <div key={i} style={s.faqItem}>
               <div style={s.faqQ}>{item.q}</div>
