@@ -178,7 +178,6 @@ export default function Members() {
         <div style={s.heroTag}>Members Area</div>
         <h1 style={s.h1}>Know Every Roundabout Before Your Test Day.</h1>
         <p style={s.heroSub}>63 videos. 8 roundabouts. Every left, ahead, and right approach — filmed exactly as you'll drive them. Stop guessing. Start knowing.</p>
-        <div style={s.badge}>🔒 Subscribers Only · £11/month</div>
       </header>
 
       <main style={s.page}>
