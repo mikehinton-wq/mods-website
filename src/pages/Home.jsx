@@ -320,13 +320,6 @@ export default function Home() {
       {/* ── SERVICES ─────────────────────────────────────────────── */}
       <section className="section">
         <div className="container">
-          <div className="text-center">
-            <h2 className="section-title">You Are Twice as Likely to Pass With Us</h2>
-            <div className="divider center" />
-            <p className="section-subtitle">
-              The national first-time pass rate is 48%. Our pass rate is <strong style={{ color: '#1EABC7' }}>over 80%</strong>. The difference isn't luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you so you can achieve your driving goals, and at the same time have fun doing it.
-            </p>
-          </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
             {services.map(s => (
               <div key={s.title} className="card" style={{ borderTop: '3px solid var(--primary)', display: 'flex', flexDirection: 'column' }}>
