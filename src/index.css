@@ -330,4 +330,14 @@ ul.check-list li::before {
   .members-pricing-row > div {
     text-align: center;
   }
+
+  .members-manage-box {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .members-manage-box a {
+    width: 100%;
+    text-align: center;
+  }
 }
