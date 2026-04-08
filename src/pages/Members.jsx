@@ -277,6 +277,25 @@ export default function Members() {
             </div>
           </div>
         ))}
+        <div style={s.faqWrap}>
+          <h2 style={s.faqTitle}>Frequently Asked Questions</h2>
+
+          {[
+            { q: 'Do I need to be a current pupil with Mike Hinton Driving School?', a: 'No — the course is open to any learner driver taking their test at Rotherham test centre, regardless of who your instructor is.' },
+            { q: 'Can I cancel anytime?', a: 'Yes — there\'s no contract or commitment. Cancel your monthly subscription at any time and you won\'t be charged again.' },
+            { q: 'How long will I have access?', a: 'Monthly subscribers have access for as long as their subscription is active. Annual Pass holders get 12 months full access from the date of purchase.' },
+            { q: 'What happens after I subscribe?', a: 'You\'ll receive a confirmation email from Stripe. You can then access all videos directly on this page.' },
+            { q: 'Is this suitable for automatic drivers?', a: 'Yes — the videos cover road position, lane choice and timing, which applies equally to manual and automatic drivers.' },
+            { q: 'Will new videos be added?', a: 'Yes — additional roundabouts and approaches will be added over time. All subscribers get access to new videos as soon as they\'re published.' },
+            { q: 'What if I pass my test before my subscription ends?', a: 'Congratulations! Simply cancel your subscription and you won\'t be charged again. Monthly subscribers can cancel at any time.' },
+          ].map((item, i) => (
+            <div key={i} style={s.faqItem}>
+              <div style={s.faqQ}>{item.q}</div>
+              <p style={s.faqA}>{item.a}</p>
+            </div>
+          ))}
+        </div>
+
       </main>
     </>
   )
