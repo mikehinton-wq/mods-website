@@ -216,6 +216,7 @@ export default function Members() {
               <div style={{ fontSize: '0.8rem', color: '#5a7a9a', marginBottom: 14 }}>Full access to all 63 videos. Cancel anytime.</div>
               <a href="https://buy.stripe.com/9B64gzgBM8j14FR3TSgMw00" target="_blank" rel="noreferrer" style={{ ...s.pricingBtnOutline, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Monthly</a>
               <div style={s.pricingNote}>No commitment. Cancel anytime.</div>
+              <div style={{ fontSize: '0.78rem', color: '#22c55e', fontWeight: 700, marginTop: 8 }}>7-day money back guarantee</div>
             </div>
 
             {/* Annual */}
