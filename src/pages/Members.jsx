@@ -216,12 +216,12 @@ export default function Members() {
             {/* Annual */}
             <div style={{ ...s.pricingCardFeatured, padding: '20px 20px' }}>
               <div style={s.pricingBadge}>Best Value</div>
-              <div style={s.pricingTitleLight}>Annual</div>
+              <div style={s.pricingTitleLight}>Annual Pass</div>
               <div style={{ ...s.pricingAmountLight, fontSize: '1.8rem' }}>£99</div>
               <div style={s.pricingPerLight}>per year</div>
               <div style={s.pricingSaving}>Save £69 compared to monthly</div>
-              <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', marginBottom: 14 }}>That's less than the cost of two driving lessons for a full year of access.</div>
-              <a href="/subscribe" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Annually</a>
+              <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.7)', marginBottom: 14 }}>Everything you need to master every roundabout on the Rotherham test route — for less than the cost of two lessons.</div>
+              <a href="/subscribe" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Get Annual Pass</a>
               <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
             </div>
           </div>
