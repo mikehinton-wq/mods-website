@@ -285,7 +285,7 @@ export default function Members() {
             { q: 'Is this suitable for automatic and electric drivers?', a: 'Yes — the videos cover road position, lane choice and timing at each roundabout, which applies equally to manual, automatic and electric drivers.' },
             { q: 'Will new videos be added?', a: 'Yes — additional roundabouts and approaches will be added over time. All subscribers automatically get access to new videos as soon as they\'re published at no extra cost.' },
             { q: 'Can I watch the videos on my phone?', a: 'Yes — the members page and all videos are fully optimised for mobile. Watch on your phone, tablet or laptop, wherever you are.' },
-            { q: 'Is there a money back guarantee?', a: 'Yes — if you\'re not happy within the first 7 days, email us at mike@mikehintondrivingschool.co.uk and we\'ll issue a full refund. No questions asked.' },
+            { q: 'Is there a money back guarantee?', a: 'Yes — if you\'re not happy within the first 7 days, email us at mikejhinton@outlook.com and we\'ll issue a full refund. No questions asked.' },
           ].map((item, i) => (
             <div key={i} style={s.faqItem}>
               <div style={s.faqQ}>{item.q}</div>
