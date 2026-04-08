@@ -209,7 +209,7 @@ export default function Members() {
               <div style={{ ...s.pricingAmount, fontSize: '1.8rem' }}>£14</div>
               <div style={s.pricingPer}>per month</div>
               <div style={{ fontSize: '0.8rem', color: '#5a7a9a', marginBottom: 14 }}>Full access to all 63 videos. Cancel anytime.</div>
-              <a href="https://buy.stripe.com/test_aFa8wQ4BgeNA9z07NJeIw00" target="_blank" rel="noreferrer" style={{ ...s.pricingBtnOutline, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Monthly</a>
+              <a href="https://buy.stripe.com/9B64gzgBM8j14FR3TSgMw00" target="_blank" rel="noreferrer" style={{ ...s.pricingBtnOutline, fontSize: '0.85rem', padding: '8px 20px' }}>Subscribe Monthly</a>
               <div style={s.pricingNote}>No commitment. Cancel anytime.</div>
             </div>
 
