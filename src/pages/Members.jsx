@@ -282,12 +282,15 @@ export default function Members() {
 
           {[
             { q: 'Do I need to be a current pupil with Mike Hinton Driving School?', a: 'No — the course is open to any learner driver taking their test at Rotherham test centre, regardless of who your instructor is.' },
+            { q: 'What do I get when I subscribe?', a: 'Full access to all 63 videos covering every left, ahead and right approach to 8 major roundabouts on the Rotherham driving test route. Videos are filmed from the driver\'s seat on the exact roads you\'ll face on test day. You can watch them as many times as you need during your subscription.' },
+            { q: 'What is the difference between Monthly and Annual Pass?', a: 'The Monthly subscription is £14/month and renews automatically each month — cancel anytime. The Annual Pass is a one-off payment of £99 giving you 12 months full access. The Annual Pass saves you £69 compared to paying monthly.' },
             { q: 'How long will I have access?', a: 'Monthly subscribers have access for as long as their subscription is active. Annual Pass holders get 12 months full access from the date of purchase.' },
-            { q: 'What happens after I subscribe?', a: 'You\'ll receive a confirmation email from Stripe. You can then access all videos directly on this page.' },
-            { q: 'Is this suitable for automatic drivers?', a: 'Yes — the videos cover road position, lane choice and timing, which applies equally to manual and automatic drivers.' },
-            { q: 'Will new videos be added?', a: 'Yes — additional roundabouts and approaches will be added over time. All subscribers get access to new videos as soon as they\'re published.' },
-            { q: 'Can I cancel anytime?', a: 'Yes — cancel at any time through your subscription portal. Click "Manage my subscription" below, enter your email address, and you can cancel with one click. You won\'t be charged again after cancelling.' },
-            { q: 'What if I pass my test before my subscription ends?', a: 'Congratulations! Simply cancel your subscription via the portal below and you won\'t be charged again.' },
+            { q: 'What happens after I subscribe?', a: 'You\'ll receive a confirmation email from Stripe. You can then return to this page and watch all 63 videos straight away.' },
+            { q: 'Can I cancel anytime?', a: 'Yes — monthly subscribers can cancel at any time with no penalty. To cancel, click the "Manage my subscription" button below, enter the email address you used to subscribe, and you\'ll receive a one-time login link. Once logged in, select Cancel subscription. You won\'t be charged again after cancelling and you\'ll keep access until the end of your current billing period.' },
+            { q: 'What if I pass my test before my subscription ends?', a: 'Congratulations! Simply cancel your monthly subscription via the portal below and you won\'t be charged again. You\'ll keep access until the end of your current billing period.' },
+            { q: 'Is this suitable for automatic drivers?', a: 'Yes — the videos cover road position, lane choice and timing at each roundabout, which applies equally to manual and automatic drivers.' },
+            { q: 'Will new videos be added?', a: 'Yes — additional roundabouts and approaches will be added over time. All subscribers automatically get access to new videos as soon as they\'re published at no extra cost.' },
+            { q: 'Can I watch the videos on my phone?', a: 'Yes — the members page and all videos are fully optimised for mobile. Watch on your phone, tablet or laptop, wherever you are.' },
           ].map((item, i) => (
             <div key={i} style={s.faqItem}>
               <div style={s.faqQ}>{item.q}</div>
