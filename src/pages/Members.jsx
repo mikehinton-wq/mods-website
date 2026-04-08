@@ -171,7 +171,8 @@ export default function Members() {
         <div style={s.sampleWrap}>
           <span style={s.sampleLabel}>Free Sample</span>
           <h2 style={s.sampleTitle}>See What's Inside</h2>
-          <p style={s.sampleSub}>Watch a sample video before you subscribe — this is exactly what every lesson looks like.</p>
+          <p style={s.sampleSub}>Roundabouts are one of the most common reasons learners fail their driving test. Not because they can't drive — but because they panic when they don't know what to expect but forget how to navigate them safely. These videos remove that uncertainty. Every video is filmed from the driver's seat on the exact roads you'll face on your Rotherham test. Watch them at home, watch them the night before, watch them as many times as you need during your subscription period. By the time you reach that roundabout on test day, it won't be new. It'll be familiar.</p>
+          <p style={{ ...s.sampleSub, fontWeight: 700, color: '#0C3C60', marginTop: 0 }}>Click the sample below to see for yourself. Don't miss out. Subscribe now.</p>
           <div style={s.videoWrap}>
             <iframe
               style={s.videoFrame}
