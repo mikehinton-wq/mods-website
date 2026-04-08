@@ -143,7 +143,7 @@ export default function Home() {
             </p>
             <p className="hero__sub">
               The national first-time pass rate is 48%. Our pass rate is{' '}
-              <span style={{ color: 'var(--primary)', fontWeight: 800, fontSize: '1.2em' }}>over 80%</span>
+              <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>over 80%</span>
               . The difference isn't luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you so you can achieve your driving goals, and at the same time have fun doing it.
             </p>
 
