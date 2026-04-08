@@ -88,6 +88,7 @@ export default function App() {
           <Route path="/contact"                   element={<Contact />} />
           <Route path="/terms"                     element={<Terms />} />
           <Route path="/privacy-policy"            element={<PrivacyPolicy />} />
+          <Route path="/members"                  element={<Members />} />
           <Route path="/how-test-is-marked"        element={<HowTestIsMarked />} />
           {locations.map(loc => (
             <Route
