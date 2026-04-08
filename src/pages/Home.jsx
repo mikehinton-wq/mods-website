@@ -142,9 +142,9 @@ export default function Home() {
               nervous learners, <span style={{ color: 'var(--primary)', fontWeight: 800 }}>Anxiety</span>, <span style={{ color: 'var(--primary)', fontWeight: 800 }}>Dyslexia</span>, <span style={{ color: 'var(--primary)', fontWeight: 800 }}>Dyspraxia</span>, and <span style={{ color: 'var(--primary)', fontWeight: 800 }}>Autism</span>. Based in Dalton, covering the Rotherham area.
             </p>
             <p className="hero__sub">
-              With a high pass rate of{' '}
+              The national first-time pass rate is 48%. Our pass rate is{' '}
               <span style={{ color: 'var(--primary)', fontWeight: 800, fontSize: '1.2em' }}>over 80%</span>
-              {' '}you can be sure you will gain confidence quickly, achieve your driving goals, and at the same time have fun doing it.
+              . The difference isn't luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you so you can achieve your driving goals, and at the same time have fun doing it.
             </p>
 
             <div className="hero__actions">
