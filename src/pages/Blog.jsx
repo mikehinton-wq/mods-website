@@ -99,15 +99,45 @@ export default function Blog() {
       </Helmet>
       <section className="page-hero">
         <div className="container">
-          <span className="badge badge-primary" style={{ marginBottom: 14 }}>Blog</span>
-          <h1>Driving Tips &amp; Guides</h1>
-          <p>The driving test pass rate in the UK is currently 48%. Increase your chances of passing by keeping up to date with helpful advice, driving test tips and useful articles to help you secure that 1st time pass.</p>
-        </div>
-      </section>
-
-      <section className="section" style={{ paddingBottom: 0 }}>
-        <div className="container" style={{ maxWidth: 860, margin: '0 auto' }}>
-          <MailchimpSignup />
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 32, alignItems: 'center', flexWrap: 'wrap' }}>
+            <div>
+              <span className="badge badge-primary" style={{ marginBottom: 14 }}>Blog</span>
+              <h1>Driving Tips &amp; Guides</h1>
+              <p>The driving test pass rate in the UK is currently 48%. Increase your chances of passing by keeping up to date with helpful advice, driving test tips and useful articles to help you secure that 1st time pass.</p>
+            </div>
+            <div style={{ minWidth: 260, maxWidth: 320 }}>
+              <div style={{ background: 'rgba(255,255,255,0.08)', borderRadius: 12, padding: '20px 18px' }}>
+                <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.88rem', color: '#fff', margin: '0 0 4px' }}>
+                  📧 Get free driving tips in your inbox
+                </p>
+                <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.55)', margin: '0 0 12px' }}>No spam. Just tips.</p>
+                <form
+                  action="https://mikehintondrivingschool.us10.list-manage.com/subscribe/post?u=021425114ac83abbcd145b6c9&id=7850ef83fe&f_id=0006d5e3f0"
+                  method="post"
+                  target="_blank"
+                  style={{ display: 'flex', flexDirection: 'column', gap: 8 }}
+                >
+                  <input
+                    type="email"
+                    name="EMAIL"
+                    placeholder="Your email address"
+                    required
+                    style={{ padding: '9px 14px', borderRadius: 50, border: 'none', fontSize: '0.85rem', outline: 'none', width: '100%' }}
+                  />
+                  <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
+                    <input type="text" name="b_021425114ac83abbcd145b6c9_7850ef83fe" tabIndex="-1" defaultValue="" />
+                  </div>
+                  <button type="submit" style={{
+                    background: '#1EABC7', color: '#fff',
+                    fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.85rem',
+                    padding: '9px 18px', borderRadius: 50, border: 'none', cursor: 'pointer',
+                  }}>
+                    Subscribe Free
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
