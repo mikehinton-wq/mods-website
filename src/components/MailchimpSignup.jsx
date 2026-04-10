@@ -42,7 +42,7 @@ export default function MailchimpSignup() {
         marginLeft: 'auto',
         marginRight: 'auto',
       }}>
-        Join learners across the UK getting expert advice straight to their inbox. No spam — just useful tips to help you pass.
+        Join learners across the UK getting expert driving advice straight to their inbox. No spam — just useful tips to help you pass.
       </p>
 
       {submitted ? (
