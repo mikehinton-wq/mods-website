@@ -105,6 +105,12 @@ export default function Blog() {
         </div>
       </section>
 
+      <section className="section" style={{ paddingBottom: 0 }}>
+        <div className="container" style={{ maxWidth: 860, margin: '0 auto' }}>
+          <MailchimpSignup />
+        </div>
+      </section>
+
       <section className="section">
         <div className="container" style={{ maxWidth: 860, margin: '0 auto' }}>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
