@@ -253,13 +253,25 @@ export default function Members() {
             <div style={s.grid}>
               {section.videos.map((video, vi) => {
                 const approach = video.split(' - ')[0]
-                const direction = video.split(' - ')[1]
+                const url = section.urls && section.urls[vi]
                 return (
                   <div key={vi} style={s.card}>
-                    <div style={s.placeholder}>
-                      <span style={s.placeholderIcon}>▶</span>
-                      <span style={s.placeholderText}>Video coming soon</span>
-                    </div>
+                    {url ? (
+                      <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+                        <iframe
+                          src={url}
+                          title={video}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+                        />
+                      </div>
+                    ) : (
+                      <div style={s.placeholder}>
+                        <span style={s.placeholderIcon}>▶</span>
+                        <span style={s.placeholderText}>Video coming soon</span>
+                      </div>
+                    )}
                     <div style={s.cardBody}>
                       <div style={s.cardTitle}>{approach}</div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 6 }}>
