@@ -101,7 +101,7 @@ export default function Blog() {
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Blog</span>
           <h1>Driving Tips &amp; Guides</h1>
-          <p>Helpful advice for learner drivers in Rotherham.</p>
+          <p>With the pass rate in the UK currently sitting at 48%, increase your chances of passing by keeping up to date with helpful advice, driving test tips and useful articles to help you secure that 1st time pass.</p>
         </div>
       </section>
 
