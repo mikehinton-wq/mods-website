@@ -280,9 +280,10 @@ export default function Home() {
 
             {/* Inline subscribe box */}
             <div style={{ marginTop: 20, background: 'rgba(255,255,255,0.08)', borderRadius: 12, padding: '16px' }}>
-              <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.85rem', color: '#fff', margin: '0 0 10px' }}>
+              <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.85rem', color: '#fff', margin: '0 0 4px' }}>
                 📧 Get free driving tips in your inbox
               </p>
+              <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.55)', margin: '0 0 10px' }}>No spam. Just tips.</p>
               <form
                 action="https://mikehintondrivingschool.us10.list-manage.com/subscribe/post?u=021425114ac83abbcd145b6c9&id=7850ef83fe&f_id=0006d5e3f0"
                 method="post"
