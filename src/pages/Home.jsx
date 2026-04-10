@@ -235,6 +235,21 @@ export default function Home() {
                 </svg>
                 Facebook
               </a>
+              <a
+                href="#signup"
+                onClick={e => { e.preventDefault(); document.querySelector('#mailchimp-signup')?.scrollIntoView({ behavior: 'smooth' }) }}
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  background: '#1EABC7', color: '#fff',
+                  fontFamily: 'Raleway, sans-serif', fontWeight: 800, fontSize: '1.1rem',
+                  padding: '6px 12px', borderRadius: 6, textDecoration: 'none', cursor: 'pointer',
+                }}
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                Subscribe
+              </a>
             </div>
           </div>
           <div className="hero__card-stack">
