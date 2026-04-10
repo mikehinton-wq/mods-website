@@ -277,6 +277,46 @@ export default function Home() {
                 </li>
               ))}
             </ul>
+
+            {/* Inline subscribe box */}
+            <div style={{ marginTop: 20, background: 'rgba(255,255,255,0.08)', borderRadius: 12, padding: '16px' }}>
+              <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.85rem', color: '#fff', margin: '0 0 10px' }}>
+                📧 Get free driving tips in your inbox
+              </p>
+              <form
+                action="https://mikehintondrivingschool.us10.list-manage.com/subscribe/post?u=021425114ac83abbcd145b6c9&id=7850ef83fe&f_id=0006d5e3f0"
+                method="post"
+                target="_blank"
+                style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}
+              >
+                <input
+                  type="email"
+                  name="EMAIL"
+                  placeholder="Your email address"
+                  required
+                  style={{
+                    flex: 1,
+                    minWidth: 160,
+                    padding: '9px 14px',
+                    borderRadius: 50,
+                    border: 'none',
+                    fontSize: '0.85rem',
+                    outline: 'none',
+                  }}
+                />
+                <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
+                  <input type="text" name="b_021425114ac83abbcd145b6c9_7850ef83fe" tabIndex="-1" defaultValue="" />
+                </div>
+                <button type="submit" style={{
+                  background: '#1EABC7', color: '#fff',
+                  fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.85rem',
+                  padding: '9px 18px', borderRadius: 50, border: 'none', cursor: 'pointer', whiteSpace: 'nowrap',
+                }}>
+                  Subscribe
+                </button>
+              </form>
+            </div>
+
           </div>
         </div>
       </section>
