@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const questions = [
   { num: '1', q: 'On a scale of 1–10, how much effort did I put into preparing?' },
@@ -157,6 +158,7 @@ export default function BlogFailureToPrepare() {
             </div>
           </div>
         </section>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )

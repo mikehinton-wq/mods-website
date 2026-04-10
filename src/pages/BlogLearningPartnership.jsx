@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const learningStyles = [
   { icon: '🗣️', title: 'How directions are given', desc: 'The words your instructor uses when guiding you matter. Some learners need early warnings; others prefer last-minute prompts. Tell your instructor what works for you.' },
@@ -151,6 +152,7 @@ export default function BlogLearningPartnership() {
             </div>
           </div>
         </section>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )

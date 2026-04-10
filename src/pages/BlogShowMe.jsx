@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const tellMe = [
   { q: "Tell me how you'd check the brakes are working before starting a journey.", a: "Brakes should not feel spongy or slack. Test by pressing firmly as you set off — the car should pull up quickly and in a straight line." },

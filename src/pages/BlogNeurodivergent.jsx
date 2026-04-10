@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const tips = [
   { icon: '🎯', title: 'Find a Neurodivergent-Specialist Instructor', desc: 'This is the single most important step. A specialist instructor will know when to give you breaks, how to explain concepts differently, and how to pace lessons to suit your brain.' },
@@ -186,6 +187,7 @@ export default function BlogNeurodivergent() {
             </div>
           </div>
         </section>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )

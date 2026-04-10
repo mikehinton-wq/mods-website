@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const things = [
   {
@@ -175,6 +176,7 @@ export default function BlogNervousDriver() {
             ))}
           </div>
         </div>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )

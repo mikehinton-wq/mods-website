@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const valueItems = [
   { icon: '🧠', title: 'Knowledge', desc: 'Years of experience on the road and in the classroom — knowing not just how to drive, but how to teach.' },
@@ -155,6 +156,7 @@ export default function BlogChooseInstructor() {
             </div>
           </div>
         </section>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )

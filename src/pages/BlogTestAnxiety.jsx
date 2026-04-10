@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import MailchimpSignup from '../components/MailchimpSignup'
 
 const stats = [
   { num: '37%', desc: 'of 18–24 year olds experience driving anxiety frequently' },
@@ -181,6 +182,7 @@ export default function BlogTestAnxiety() {
             </div>
           </div>
         </section>
+      <div className="blog-content" style={{ maxWidth: 760, margin: '0 auto', padding: '0 24px' }}><MailchimpSignup /></div>
       </main>
     </>
   )
