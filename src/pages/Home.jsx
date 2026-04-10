@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* ── MAILCHIMP SIGNUP ─────────────────────────────────────── */}
-      <section className="section" style={{ paddingTop: 0 }}>
+      <section className="section" style={{ paddingTop: 0 }} id="mailchimp-signup">
         <div className="container">
           <MailchimpSignup />
         </div>
