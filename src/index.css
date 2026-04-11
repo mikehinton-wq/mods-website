@@ -350,4 +350,12 @@ ul.check-list li::before {
     max-width: 100% !important;
     width: 100%;
   }
+
+  .blog-post-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .blog-post-card .blog-arrow {
+    display: none;
+  }
 }
