@@ -340,4 +340,14 @@ ul.check-list li::before {
     width: 100%;
     text-align: center;
   }
+
+  .blog-hero-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .blog-hero-grid .blog-signup-box {
+    min-width: unset !important;
+    max-width: 100% !important;
+    width: 100%;
+  }
 }
