@@ -99,7 +99,7 @@ export default function Blog() {
       </Helmet>
       <section className="page-hero">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 32, alignItems: 'center', flexWrap: 'wrap' }}>
+          <div className="blog-hero-grid" style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: 32, alignItems: 'center', flexWrap: 'wrap' }}>
             <div>
               <span className="badge badge-primary" style={{ marginBottom: 14 }}>Blog</span>
               <h1>Driving Tips &amp; Guides</h1>
