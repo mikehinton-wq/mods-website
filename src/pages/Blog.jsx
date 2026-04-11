@@ -164,7 +164,7 @@ export default function Blog() {
                     <h3 style={{ marginBottom: 8, fontSize: '1.1rem' }}>{post.title}</h3>
                     <p style={{ color: 'var(--grey-600)', fontSize: '0.9rem', lineHeight: 1.6 }}>{post.excerpt}</p>
                   </div>
-                  <div style={{ color: 'var(--primary)', fontSize: '1.4rem', flexShrink: 0 }}>→</div>
+                  <div className="blog-arrow" style={{ color: 'var(--primary)', fontSize: '1.4rem', flexShrink: 0 }}>→</div>
                 </div>
               </Link>
             ))}
