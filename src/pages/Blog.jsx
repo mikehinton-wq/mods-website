@@ -105,7 +105,7 @@ export default function Blog() {
               <h1>Driving Tips &amp; Guides</h1>
               <p>The driving test pass rate in the UK is currently 48%. Increase your chances of passing by keeping up to date with helpful advice, driving test tips and useful articles to help you secure that 1st time pass.</p>
             </div>
-            <div style={{ minWidth: 260, maxWidth: 320 }}>
+            <div className="blog-signup-box" style={{ minWidth: 260, maxWidth: 320 }}>
               <div style={{ background: 'rgba(255,255,255,0.08)', borderRadius: 12, padding: '20px 18px' }}>
                 <p style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.88rem', color: '#fff', margin: '0 0 4px' }}>
                   📧 Get free driving tips in your inbox
