@@ -150,7 +150,7 @@ export default function Blog() {
                 to={`/blog/${post.slug}`}
                 style={{ textDecoration: 'none' }}
               >
-                <div className="card" style={{
+                <div className="card blog-post-card" style={{
                   borderLeft: '4px solid var(--primary)',
                   display: 'grid', gridTemplateColumns: '1fr auto',
                   gap: 16, alignItems: 'center',
