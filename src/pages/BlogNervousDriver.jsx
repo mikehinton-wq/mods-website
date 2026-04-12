@@ -96,6 +96,13 @@ export default function BlogNervousDriver() {
         <meta property="og:description" content="The 3 most common mistakes nervous drivers make on test day — and how to stop them." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/3-things-nervous-drivers-do-on-test" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="3 Things Every Nervous Driver Does on Test Day (And How to Stop)" />
+        <meta name="twitter:description" content="Nervous about your driving test? These are the 3 most common mistakes anxious drivers make on test day — and exactly how to avoid them." />
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"3 Things Every Nervous Driver Does on Test Day (And How to Stop)","description":"Nervous about your driving test? These are the 3 most common mistakes anxious drivers make on test day — and exactly how to avoid them.","url":"https://www.mikehintondrivingschool.co.uk/blog/3-things-nervous-drivers-do-on-test","datePublished":"2026-02-01","dateModified":"2026-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}}</script>
       </Helmet>
       {/* Hero */}
       <header style={s.hero}>

@@ -34,6 +34,13 @@ export default function BlogShowMe() {
         <meta property="og:description" content="Every Show Me Tell Me question for 2026 with answers. Prepare for your driving test vehicle safety checks." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/show-me-tell-me-2026" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Show Me Tell Me Questions 2026 — Complete Guide" />
+        <meta name="twitter:description" content="The complete list of Show Me Tell Me questions for 2026 UK driving tests. Learn exactly what the examiner will ask and how to answer correctly." />
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Show Me Tell Me Questions 2026 — Complete Guide","description":"The complete list of Show Me Tell Me questions for 2026 UK driving tests. Learn exactly what the examiner will ask and how to answer correctly.","url":"https://www.mikehintondrivingschool.co.uk/blog/show-me-tell-me-2026","datePublished":"2026-02-01","dateModified":"2026-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}}</script>
       </Helmet>
       <section style={{ background: 'var(--pale-blue)', padding: '48px 0 40px', borderBottom: '1px solid var(--light-blue)' }}>
         <div className="container">

@@ -67,6 +67,13 @@ export default function BlogChooseInstructor() {
         <meta property="og:description" content="What really matters when choosing a driving instructor — and why cheapest often costs more." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/how-to-choose-a-driving-instructor" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="How to Choose the Right Driving Instructor in Rotherham" />
+        <meta name="twitter:description" content="What to look for when choosing a driving instructor in Rotherham. Why the cheapest option often costs you more — and what really matters when picking who teaches you." />
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to Choose the Right Driving Instructor in Rotherham","description":"What to look for when choosing a driving instructor in Rotherham. Why the cheapest option often costs you more — and what really matters when picking who teaches you.","url":"https://www.mikehintondrivingschool.co.uk/blog/how-to-choose-a-driving-instructor","datePublished":"2026-01-01","dateModified":"2026-01-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}}</script>
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

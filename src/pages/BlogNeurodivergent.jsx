@@ -75,6 +75,13 @@ export default function BlogNeurodivergent() {
         <meta property="og:description" content="Practical tips for neurodivergent learner drivers — ADHD, dyslexia, autism and dyspraxia." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Learning to Drive with ADHD, Dyslexia or Autism" />
+        <meta name="twitter:description" content="Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham." />
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Learning to Drive with ADHD, Dyslexia or Autism","description":"Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham.","url":"https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent","datePublished":"2026-02-01","dateModified":"2026-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}}</script>
       </Helmet>
       {/* Hero */}
       <header style={s.hero}>
