@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mikehintondrivingschool.co.uk/sitemap.xml
+Sitemap: https://www.mikehintondrivingschool.co.uk/sitemap.xml
