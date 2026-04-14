@@ -359,3 +359,15 @@ ul.check-list li::before {
     display: none;
   }
 }
+
+/* Blog - Get Rid of Nerves mobile */
+@media (max-width: 520px) {
+  .nerves-breathe-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .nerves-steps-bar span {
+    font-size: 10px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
