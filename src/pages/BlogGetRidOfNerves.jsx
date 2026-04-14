@@ -196,7 +196,7 @@ export default function BlogGetRidOfNerves() {
             <div style={s.stepBody}>
               <p style={s.stepP}>When you're anxious, your breathing becomes shallow and fast. Shallow breathing reduces oxygen to your brain, which makes you more panicked, which makes your breathing worse. It's a cycle — and you can break it.</p>
               <p style={s.stepP}>Before you get in the car, try this:</p>
-              <div style={s.breathGrid}>
+              <div style={s.breathGrid} className="nerves-breathe-grid">
                 {[
                   { count: '4', label: 'Breathe in', sub: 'through your nose' },
                   { count: '4', label: 'Hold', sub: 'steady' },
