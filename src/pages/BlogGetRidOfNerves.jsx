@@ -169,7 +169,7 @@ export default function BlogGetRidOfNerves() {
         </div>
         {/* Step progress bar */}
         <nav style={s.stepsBar} aria-label="Steps">
-          <div style={s.stepsBarInner}>
+          <div style={s.stepsBarInner} className="nerves-steps-bar">
             {['Step 1 — Breathe', 'Step 2 — Reframe', 'Step 3 — Plan'].map((label, i) => (
               <div key={i} style={s.stepsBarItem(i === 0)}>{label}</div>
             ))}
