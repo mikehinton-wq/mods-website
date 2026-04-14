@@ -4,6 +4,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'how-to-get-rid-of-nerves',
+    title: 'How to Get Rid of Driving Test Nerves in 3 Simple Steps',
+    excerpt: 'Nerves are normal — every learner feels them. The difference between passing and failing is knowing how to handle them. Here are three steps that actually work.',
+    date: 'April 2026',
+    readTime: '4 min read',
+    tag: 'Anxiety & Nerves',
+  },
+  {
     slug: 'driving-test-anxiety-causes-failures',
     title: 'Does Driving Test Anxiety Actually Cause Failures?',
     excerpt: "You're not imagining it. Nerves really do affect your result — and the data backs it up. Here's what the research shows and what you can do about it.",
