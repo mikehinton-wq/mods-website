@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import MailchimpSignup from '../components/MailchimpSignup'
 
 const related = [
   { href: '/blog/3-things-nervous-drivers-do-on-test', title: '3 Things Every Nervous Driver Does on Their Test (And How to Stop)' },
