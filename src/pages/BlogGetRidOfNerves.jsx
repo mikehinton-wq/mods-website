@@ -291,10 +291,6 @@ export default function BlogGetRidOfNerves() {
           <p style={s.ctaP}>
             Nerves are normal. They show up because you care. But they don't have to take over. Breathe. Reframe. Have a plan. Then drive the way you've been practising.
           </p>
-          <p style={s.ctaP}>
-            If anxiety is affecting your lessons or you're struggling with test nerves in Rotherham, I specialise in helping nervous learners pass with confidence.
-          </p>
-          <Link to="/contact" style={s.ctaBtn}>Book a lesson →</Link>
         </div>
 
         {/* ── Related ── */}
