@@ -311,9 +311,6 @@ export default function BlogGetRidOfNerves() {
           </div>
         </div>
 
-        <div style={{ marginTop: 48 }}>
-          <MailchimpSignup />
-        </div>
       </main>
     </div>
   )
