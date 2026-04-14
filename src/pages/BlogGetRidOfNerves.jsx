@@ -267,7 +267,7 @@ export default function BlogGetRidOfNerves() {
                 {[
                   { icon: '⚙️', label: 'If you stall', text: 'Stay calm. Handbrake on. Restart. Check mirrors and blind spot. Move off safely. A stall is a minor fault. Panicking after it is what causes the serious ones.' },
                   { icon: '↩️', label: 'If you go the wrong way', text: "It doesn't matter. The examiner will redirect you. You won't fail for taking a wrong turn. You will fail for reacting dangerously to it." },
-                  { icon: '⏸️', label: 'If you're unsure at a junction', text: 'Take the safe option and wait. Never rush because you feel pressured. Hesitation is a minor. Emerging unsafely is a fail.' },
+                  { icon: '⏸️', label: "If you're unsure at a junction", text: 'Take the safe option and wait. Never rush because you feel pressured. Hesitation is a minor. Emerging unsafely is a fail.' },
                 ].map((sc, i) => (
                   <div key={i} style={{ ...s.scenario, borderBottom: i < 2 ? '1px solid #f0ede8' : 'none' }}>
                     <div style={s.scenarioIcon}>{sc.icon}</div>
