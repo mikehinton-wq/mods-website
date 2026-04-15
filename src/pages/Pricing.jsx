@@ -64,8 +64,7 @@ export default function Pricing() {
 
             <h3 style={{ marginBottom: 14 }}>Payment</h3>
             <p style={{ color: 'var(--grey-700)', marginBottom: 24, lineHeight: 1.7 }}>
-              Payment is accepted by cash or bank transfer at the end of each lesson (or in advance
-              for block bookings). No hidden fees — what you see is what you pay.
+              Payment is accepted by cash or bank transfer at the end of each lesson. No hidden fees — what you see is what you pay.
             </p>
 
             <h3 style={{ marginBottom: 14 }}>Cancellation Policy</h3>
