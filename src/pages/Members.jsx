@@ -234,6 +234,7 @@ export default function Members() {
               <a href="https://buy.stripe.com/14A6oH2KWdDla0bgGEgMw01" target="_blank" rel="noreferrer" style={{ ...s.pricingBtnSolid, fontSize: '0.85rem', padding: '8px 20px' }}>Get Annual Pass</a>
               <div style={s.pricingNoteLight}>One payment. 12 months full access.</div>
               <div style={{ fontSize: '0.78rem', color: '#22c55e', fontWeight: 700, marginTop: 8 }}>7-day money back guarantee</div>
+              <div style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.5)', marginTop: 6 }}>No hidden fees — what you see is what you pay.</div>
             </div>
           </div>
         </div>
