@@ -87,6 +87,7 @@ export default function App() {
           <Route path="/blog/consistency-beats-intensity" element={<BlogConsistency />} />
           <Route path="/blog/when-you-are-your-best-self" element={<BlogBestSelf />} />
           <Route path="/blog/how-to-get-rid-of-nerves" element={<BlogGetRidOfNerves />} />
+          <Route path="/blog/is-your-car-safe-to-drive" element={<BlogVehicleSafe />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
