@@ -280,6 +280,14 @@ export default function BlogVehicleSafe() {
           ))}
         </div>
 
+        {/* Source + internal link */}
+        <p style={{ fontSize: 13, color: '#999', marginTop: 40, lineHeight: 1.7 }}>
+          All requirements on this page are sourced from official UK government guidance at{' '}
+          <a href="https://www.gov.uk/check-vehicle-safe" target="_blank" rel="noreferrer" style={{ color: '#1EABC7' }}>gov.uk/check-vehicle-safe</a>.
+          {' '}Learner drivers: these checks are also tested in your{' '}
+          <Link to="/show-me-tell-me" style={{ color: '#1EABC7' }}>Show Me Tell Me questions</Link> at the start of your practical driving test.
+        </p>
+
         {/* Bottom CTA */}
         <div style={s.bottomLine}>
           <h2 style={s.bottomH2}>The bottom line</h2>
