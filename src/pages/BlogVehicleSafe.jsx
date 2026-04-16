@@ -294,7 +294,6 @@ export default function BlogVehicleSafe() {
           <p style={s.bottomP}>
             A valid MOT is not a safety guarantee. It's a snapshot. The road doesn't care when your last test was. Two minutes of checks, done consistently, will keep your car legal, protect your licence, and protect everyone on the road with you.
           </p>
-          <Link to="/contact" style={s.bottomBtn}>Book a lesson →</Link>
         </div>
 
         {/* Related */}
