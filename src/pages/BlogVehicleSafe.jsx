@@ -216,8 +216,8 @@ export default function BlogVehicleSafe() {
         </div>
 
         {/* Pre-drive checks */}
-        <h2 style={s.sectionH2}>What You Must Check Before Every Drive</h2>
-        <p style={s.sectionSub}>These three checks are legally required before every journey. They take less than 60 seconds.</p>
+        <h2 style={s.sectionH2}>What UK Law Requires You to Check Before Every Drive</h2>
+        <p style={s.sectionSub}>These three checks are legally required before every journey under UK law. They take less than 60 seconds.</p>
         <div style={s.checkGrid}>
           {predriveChecks.map((c, i) => (
             <div key={i} style={s.checkCard}>
