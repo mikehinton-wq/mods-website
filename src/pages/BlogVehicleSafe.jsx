@@ -245,8 +245,8 @@ export default function BlogVehicleSafe() {
         </div>
 
         {/* Under bonnet */}
-        <h2 style={s.sectionH2}>The Checks Nobody Does (But Everyone Should)</h2>
-        <p style={s.sectionSub}>Your vehicle handbook tells you how often to check these. Most drivers never open it.</p>
+        <h2 style={s.sectionH2}>Under the Bonnet: Regular Vehicle Safety Checks</h2>
+        <p style={s.sectionSub}>Your vehicle handbook tells you how often to check these. Most drivers never open it — don't be one of them.</p>
         <div style={s.bonnetGrid}>
           {underBonnetChecks.map((c, i) => (
             <div key={i} style={s.bonnetCard}>
