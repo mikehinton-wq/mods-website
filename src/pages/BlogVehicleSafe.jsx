@@ -266,7 +266,7 @@ export default function BlogVehicleSafe() {
         </div>
 
         {/* 2-minute routine */}
-        <h2 style={s.sectionH2}>The 2-Minute Pre-Drive Routine</h2>
+        <h2 style={s.sectionH2}>The 2-Minute Pre-Drive Vehicle Safety Routine</h2>
         <p style={s.sectionSub}>Build this into every journey. You don't need to be a mechanic — you just need to notice when something looks different from normal.</p>
         <div style={s.routineList}>
           {routine.map((r, i) => (
