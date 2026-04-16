@@ -112,29 +112,70 @@ export default function BlogVehicleSafe() {
   return (
     <div style={s.page}>
       <Helmet>
-        <title>Is Your Car Safe to Drive? What Most Drivers Don't Know | Mike Hinton</title>
-        <meta name="description" content="A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check — and the £2,500 fine most drivers have never heard of." />
+        <title>Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained | Mike Hinton</title>
+        <meta name="description" content="A valid MOT doesn't mean your car is roadworthy today. UK law requires you to check your vehicle before every journey. Here's exactly what to check — and the £2,500 fine most drivers don't know about." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive" />
-        <meta property="og:title" content="Is Your Car Safe to Drive? What Most Drivers Don't Know" />
-        <meta property="og:description" content="A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check — and the £2,500 fine most drivers have never heard of." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained" />
+        <meta property="og:description" content="A valid MOT doesn't mean your car is roadworthy today. Here's what UK law requires you to check before every journey — and the £2,500 fine most drivers don't know about." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Is Your Car Safe to Drive? What Most Drivers Don't Know" />
-        <meta name="twitter:description" content="A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check — and the £2,500 fine most drivers have never heard of." />
+        <meta name="twitter:title" content="Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained" />
+        <meta name="twitter:description" content="A valid MOT doesn't mean your car is roadworthy today. Here's what UK law requires you to check — and the £2,500 fine most drivers don't know about." />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          "headline": "Is Your Car Safe to Drive? What Most Drivers Don't Know",
-          "description": "A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check — and the £2,500 fine most drivers have never heard of.",
+          "headline": "Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained",
+          "description": "A valid MOT doesn't mean your car is roadworthy today. UK law requires you to check your vehicle before every journey. Here's exactly what to check — and the £2,500 fine most drivers don't know about.",
           "url": "https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive",
           "datePublished": "2026-04-15",
           "dateModified": "2026-04-15",
           "author": { "@type": "Person", "name": "Mike Hinton", "jobTitle": "DVSA Approved Driving Instructor", "url": "https://www.mikehintondrivingschool.co.uk/about" },
           "publisher": { "@type": "Organization", "name": "Mike Hinton Driving School", "url": "https://www.mikehintondrivingschool.co.uk", "logo": { "@type": "ImageObject", "url": "https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" } }
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does a valid MOT mean my car is safe to drive?",
+              "acceptedAnswer": { "@type": "Answer", "text": "No. An MOT proves your car was roadworthy on the day it was tested — nothing more. You are legally responsible for ensuring your vehicle is safe to drive before every journey, regardless of when it last passed an MOT." }
+            },
+            {
+              "@type": "Question",
+              "name": "What should I check before driving my car?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Before every drive you must check: windscreen, windows and mirrors are clean and clear; all lights are working; brakes are functioning properly. You should also regularly check engine oil, coolant, brake fluid, battery and tyre condition." }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the legal minimum tyre tread depth in the UK?",
+              "acceptedAnswer": { "@type": "Answer", "text": "The legal minimum tyre tread depth for cars in the UK is 1.6mm across the central three-quarters of the tyre, all the way around. Driving on illegal tyres can result in a fine of up to £2,500 and 3 penalty points per tyre." }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the 20p tyre tread test?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Insert a 20p coin into the tread grooves of your tyre. If you can see the outer band of the coin, your tread depth is likely below the legal minimum of 1.6mm and you should have your tyres checked or replaced immediately." }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the fine for driving an unsafe vehicle in the UK?",
+              "acceptedAnswer": { "@type": "Answer", "text": "You can be fined up to £2,500, receive 3 penalty points and be banned from driving for driving a vehicle in a dangerous condition. This applies whether or not you knew about the fault." }
+            }
+          ]
+        })}</script>
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mikehintondrivingschool.co.uk/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mikehintondrivingschool.co.uk/blog" },
+            { "@type": "ListItem", "position": 3, "name": "Is Your Car Safe to Drive?", "item": "https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive" }
+          ]
         })}</script>
       </Helmet>
 
