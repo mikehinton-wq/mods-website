@@ -4,6 +4,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'is-your-car-safe-to-drive',
+    title: 'Is Your Car Actually Safe to Drive?',
+    excerpt: "A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check before every journey — and the £2,500 fine most drivers have never heard of.",
+    date: 'April 2026',
+    readTime: '4 min read',
+    tag: 'Safety',
+  },
+  {
     slug: 'how-to-get-rid-of-nerves',
     title: 'How to Get Rid of Driving Test Nerves in 3 Simple Steps',
     excerpt: 'Nerves are normal — every learner feels them. The difference between passing and failing is knowing how to handle them. Here are three steps that actually work.',
