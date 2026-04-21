@@ -4,6 +4,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'the-skill-that-separates-good-drivers',
+    title: 'The Skill That Separates Good Drivers From Everyone Else',
+    excerpt: "Most learners obsess over mechanics. But there's one skill above all of them — the skill that separates drivers who pass first time from those who collect observation faults. It's anticipation.",
+    date: 'April 2026',
+    readTime: '5 min read',
+    tag: 'Driving Skills',
+  },
+  {
     slug: 'is-your-car-safe-to-drive',
     title: 'Is Your Car Actually Safe to Drive?',
     excerpt: "A valid MOT doesn't mean your car is safe today. Here's what you're legally required to check before every journey — and the £2,500 fine most drivers have never heard of.",
