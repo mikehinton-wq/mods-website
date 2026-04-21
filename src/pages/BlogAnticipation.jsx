@@ -72,8 +72,8 @@ const zones = [
 const hotspots = [
   { icon: '🅿️', title: 'Parked vehicles', body: "Never the parked car itself — always what it's hiding. A child. A cyclist. A pedestrian stepping out without looking. Slow down. Give space. Look beyond." },
   { icon: '🏫', title: 'School zones', body: "Children can't judge vehicle speed the way adults can. They dart. They assume you'll stop. Treat every school zone as if something unexpected is about to happen — because statistically, it often does." },
-  { icon: '🚧', title: 'Roadworks', body: 'Normal rules don't apply. Lanes narrow. Signs change. Workers appear unexpectedly. Treat every roadwork zone as a completely different road.' },
-  { icon: '⏰', title: 'Rush hour', body: 'Hurried drivers take risks. Someone running late will push a gap that isn't quite there. Rush hour isn't just slow — it's unpredictable. Your anticipation needs to be sharper, not lower.' },
+  { icon: '🚧', title: 'Roadworks', body: "Normal rules don't apply. Lanes narrow. Signs change. Workers appear unexpectedly. Treat every roadwork zone as a completely different road." },
+  { icon: '⏰', title: 'Rush hour', body: "Hurried drivers take risks. Someone running late will push a gap that isn't quite there. Rush hour isn't just slow — it's unpredictable. Your anticipation needs to be sharper, not lower." },
 ]
 
 const vulnerable = [
