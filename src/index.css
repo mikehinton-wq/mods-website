@@ -371,3 +371,16 @@ ul.check-list li::before {
     padding-right: 4px !important;
   }
 }
+
+/* Blog - Anticipation mobile */
+@media (max-width: 640px) {
+  .anticipation-lad-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .anticipation-zones-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .anticipation-hotspot-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
