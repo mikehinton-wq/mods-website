@@ -372,6 +372,13 @@ ul.check-list li::before {
   }
 }
 
+/* Blog - Examiner Like You mobile */
+@media (max-width: 520px) {
+  .examiner-tips-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* Blog - Anticipation mobile */
 @media (max-width: 640px) {
   .anticipation-lad-grid {
