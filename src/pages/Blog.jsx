@@ -4,6 +4,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'make-the-driving-examiner-like-you',
+    title: 'The Secret of Making the Driving Examiner Like You',
+    excerpt: "It's not about charm or flattery. But how you show up — your composure, body language and preparation — has a very real indirect effect on the quality of your driving. Here's what actually matters.",
+    date: 'May 2026',
+    readTime: '4 min read',
+    tag: 'Test Prep',
+  },
+  {
     slug: 'the-skill-that-separates-good-drivers',
     title: 'The Skill That Separates Good Drivers From Everyone Else',
     excerpt: "Most learners obsess over mechanics. But there's one skill above all of them — the skill that separates drivers who pass first time from those who collect observation faults. It's anticipation.",
