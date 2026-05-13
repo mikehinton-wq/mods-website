@@ -182,6 +182,18 @@ const s = {
 export default function DrivingInTheDark() {
   return (
     <>
+      <Helmet>
+        <title>Driving in the Dark: Night Driving Tips | Mike Hinton Driving School</title>
+        <meta name="description" content="Essential tips for driving safely at night — headlights, visibility, fatigue and hazards. From DVSA-approved instructor Mike Hinton, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/driving-in-the-dark" />
+        <meta property="og:title" content="Driving in the Dark: Night Driving Tips" />
+        <meta property="og:description" content="Essential tips for driving safely at night — headlights, visibility, fatigue and hazards." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/driving-in-the-dark" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving in the Dark: Night Driving Tips" />
+        <meta name="twitter:description" content="Essential tips for driving safely at night — headlights, visibility, fatigue and hazards." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
