@@ -123,6 +123,18 @@ const s = {
 export default function DrivingIcyConditions() {
   return (
     <>
+      <Helmet>
+        <title>Driving on Ice: Safety Tips | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="How to drive safely on icy roads including black ice. Expert tips on braking, steering and staying in control from Mike Hinton Driving School, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/icy-conditions" />
+        <meta property="og:title" content="Driving on Ice: Safety Tips" />
+        <meta property="og:description" content="How to drive safely on icy roads including black ice — braking, steering and staying in control." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/icy-conditions" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving on Ice: Safety Tips" />
+        <meta name="twitter:description" content="How to drive safely on icy roads including black ice — braking, steering and staying in control." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
