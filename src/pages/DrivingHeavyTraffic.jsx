@@ -187,6 +187,18 @@ const s = {
 export default function DrivingHeavyTraffic() {
   return (
     <>
+      <Helmet>
+        <title>Driving in Heavy Traffic: 10 Tips | Mike Hinton Driving School</title>
+        <meta name="description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion. Stay calm, stay safe and handle busy roads with confidence." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/heavy-traffic" />
+        <meta property="og:title" content="Driving in Heavy Traffic: 10 Tips" />
+        <meta property="og:description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/heavy-traffic" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving in Heavy Traffic: 10 Tips" />
+        <meta name="twitter:description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
