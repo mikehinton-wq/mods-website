@@ -150,6 +150,18 @@ const s = {
 export default function DrivingClutchControl() {
   return (
     <>
+      <Helmet>
+        <title>Clutch Control for Learner Drivers | Mike Hinton Driving School</title>
+        <meta name="description" content="Master clutch control with our complete guide — biting point, pulling away, hill starts and common mistakes. From DVSA-approved instructor Mike Hinton, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/clutch-control" />
+        <meta property="og:title" content="Clutch Control for Learner Drivers" />
+        <meta property="og:description" content="Master clutch control — biting point, pulling away, hill starts and common mistakes explained." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/clutch-control" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Clutch Control for Learner Drivers" />
+        <meta name="twitter:description" content="Master clutch control — biting point, pulling away, hill starts and common mistakes explained." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
