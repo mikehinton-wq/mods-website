@@ -51,6 +51,9 @@ export default function Diagrams() {
         <meta property="og:description" content="Visual diagrams covering junctions, roundabouts, parking and key driving skills." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/diagrams" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving Diagrams | Mike Hinton Driving School" />
+        <meta name="twitter:description" content="Visual diagrams covering junctions, roundabouts, parking and key driving skills." />
       </Helmet>
       <section className="page-hero">
         <div className="container">
