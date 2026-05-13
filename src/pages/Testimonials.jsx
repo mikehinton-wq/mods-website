@@ -56,6 +56,9 @@ export default function Testimonials() {
         <meta property="og:description" content="See what students say about learning to drive with Mike Hinton in Rotherham." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/testimonials" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Student Reviews | Mike Hinton Driving School" />
+        <meta name="twitter:description" content="See what students say about learning to drive with Mike Hinton in Rotherham." />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "DrivingSchool",
