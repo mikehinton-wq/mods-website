@@ -138,6 +138,18 @@ const s = {
 export default function DrivingWetConditions() {
   return (
     <>
+      <Helmet>
+        <title>Driving in Wet Conditions: Rain Safety Guide | Mike Hinton Driving School</title>
+        <meta name="description" content="How to drive safely in heavy rain — reduced visibility, aquaplaning, stopping distances and more. Expert tips from Mike Hinton Driving School, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/wet-conditions" />
+        <meta property="og:title" content="Driving in Wet Conditions: Rain Safety Guide" />
+        <meta property="og:description" content="How to drive safely in heavy rain — reduced visibility, aquaplaning and stopping distances." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/wet-conditions" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving in Wet Conditions: Rain Safety Guide" />
+        <meta name="twitter:description" content="How to drive safely in heavy rain — reduced visibility, aquaplaning and stopping distances." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
