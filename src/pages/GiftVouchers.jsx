@@ -5,9 +5,23 @@ const amounts = [
   { value: 'Custom', desc: 'Any amount you choose — we\'ll match it to a package', icon: '✨' },
 ]
 
+import { Helmet } from 'react-helmet-async'
+
 export default function GiftVouchers() {
   return (
     <>
+      <Helmet>
+        <title>Driving Lesson Gift Vouchers | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Give the gift of learning to drive. Driving lesson gift vouchers from Mike Hinton Driving School in Rotherham — perfect for birthdays, Christmas or exam results." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/gift-vouchers" />
+        <meta property="og:title" content="Driving Lesson Gift Vouchers | Mike Hinton Driving School" />
+        <meta property="og:description" content="Give the gift of learning to drive. Vouchers available from Mike Hinton Driving School, Rotherham." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/gift-vouchers" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving Lesson Gift Vouchers | Mike Hinton Driving School" />
+        <meta name="twitter:description" content="Give the gift of learning to drive. Vouchers from Mike Hinton Driving School, Rotherham." />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Gift Vouchers</span>
