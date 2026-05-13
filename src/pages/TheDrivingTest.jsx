@@ -87,6 +87,9 @@ export default function TheDrivingTest() {
         <meta property="og:description" content="Pass rates, test routes, managing driving test nerves and top tips for Rotherham test centre." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/the-driving-test" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Driving Test at Rotherham — What to Expect" />
+        <meta name="twitter:description" content="Pass rates, test routes, managing driving test nerves and top tips for Rotherham test centre." />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
