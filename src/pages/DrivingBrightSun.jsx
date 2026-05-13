@@ -122,6 +122,18 @@ const s = {
 export default function DrivingBrightSun() {
   return (
     <>
+      <Helmet>
+        <title>Driving in Bright Sunshine: Safety Tips | Mike Hinton Driving School</title>
+        <meta name="description" content="Bright sun is an underrated driving hazard. Learn how to stay safe driving in strong sunlight — sun visors, sunglasses, following distance and more." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/bright-sun" />
+        <meta property="og:title" content="Driving in Bright Sunshine: Safety Tips" />
+        <meta property="og:description" content="Bright sun is an underrated driving hazard. Tips on staying safe when driving in strong sunlight." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/bright-sun" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving in Bright Sunshine: Safety Tips" />
+        <meta name="twitter:description" content="Bright sun is an underrated driving hazard. Tips on staying safe when driving in strong sunlight." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
