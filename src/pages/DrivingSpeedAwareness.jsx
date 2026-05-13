@@ -133,6 +133,18 @@ const s = {
 export default function DrivingSpeedAwareness() {
   return (
     <>
+      <Helmet>
+        <title>Speed Awareness for Learner Drivers | Mike Hinton Driving School</title>
+        <meta name="description" content="Understanding speed limits, controlling your speed and staying within the law. Essential speed awareness guidance for learner drivers from Mike Hinton, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/speed-awareness" />
+        <meta property="og:title" content="Speed Awareness for Learner Drivers" />
+        <meta property="og:description" content="Understanding speed limits, controlling your speed and staying within the law on UK roads." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/speed-awareness" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Speed Awareness for Learner Drivers" />
+        <meta name="twitter:description" content="Understanding speed limits, controlling your speed and staying within the law on UK roads." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
