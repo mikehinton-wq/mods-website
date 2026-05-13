@@ -145,6 +145,18 @@ const s = {
 export default function DrivingDefensive() {
   return (
     <>
+      <Helmet>
+        <title>Defensive Driving Techniques | Mike Hinton Driving School Rotherham</title>
+        <meta name="description" content="Learn defensive driving techniques to reduce risk on the road. Anticipating hazards, safe following distances and staying safe in all conditions." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/defensive-driving" />
+        <meta property="og:title" content="Defensive Driving Techniques" />
+        <meta property="og:description" content="Learn defensive driving techniques to reduce risk — anticipating hazards and staying safe in all conditions." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/defensive-driving" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Defensive Driving Techniques" />
+        <meta name="twitter:description" content="Learn defensive driving techniques to reduce risk — anticipating hazards and staying safe in all conditions." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
