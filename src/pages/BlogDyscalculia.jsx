@@ -167,6 +167,9 @@ export default function BlogDyscalculia() {
         <meta property="og:description" content="Practical techniques, car adaptations and DVSA adjustments for dyscalculic learner drivers in the UK." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-with-dyscalculia" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Learning to Drive with Dyscalculia: Techniques That Actually Work" />
+        <meta name="twitter:description" content="Practical techniques, car adaptations and DVSA adjustments for dyscalculic learner drivers in the UK." />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 
