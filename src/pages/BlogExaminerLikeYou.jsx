@@ -143,6 +143,9 @@ export default function BlogExaminerLikeYou() {
         <meta property="og:description" content="What examiners look for beyond technical skill — and how your attitude and composure indirectly affect your result." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/make-the-driving-examiner-like-you" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Secret of Making the Driving Examiner Like You" />
+        <meta name="twitter:description" content="What examiners look for beyond technical skill — and how your attitude and composure indirectly affect your result." />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 
