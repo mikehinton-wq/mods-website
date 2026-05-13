@@ -120,6 +120,9 @@ export default function FAQs() {
         <meta property="og:description" content="Everything you need to know before booking driving lessons in Rotherham." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/faqs" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving Lesson FAQs | Mike Hinton Driving School" />
+        <meta name="twitter:description" content="Everything you need to know before booking driving lessons in Rotherham." />
       </Helmet>
       <section className="page-hero">
         <div className="container">
