@@ -27,6 +27,9 @@ export default function Contact() {
         <meta property="og:description" content="Book driving lessons in Rotherham. Call 07915 999994 or send a message." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/contact" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Mike Hinton | Driving Lessons Rotherham" />
+        <meta name="twitter:description" content="Book driving lessons in Rotherham. Call 07915 999994 or send a message." />
       </Helmet>
       <section className="page-hero">
         <div className="container">
