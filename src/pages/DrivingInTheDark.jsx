@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const quickTips = [
   { icon: '🪟', text: 'Keep windows clean to avoid increased glare and condensation.' },
