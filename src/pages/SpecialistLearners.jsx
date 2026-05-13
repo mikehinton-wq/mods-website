@@ -14,6 +14,18 @@ const conditions = [
 export default function SpecialistLearners() {
   return (
     <>
+      <Helmet>
+        <title>Driving Lessons for Nervous &amp; Neurodiverse Learners | Mike Hinton Rotherham</title>
+        <meta name="description" content="Specialist driving lessons in Rotherham for learners with anxiety, ADHD, dyslexia, dyspraxia and autism. Patient, adapted one-to-one instruction. Call 07915 999994." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/specialist-learners" />
+        <meta property="og:title" content="Driving Lessons for Nervous &amp; Neurodiverse Learners | Mike Hinton" />
+        <meta property="og:description" content="Specialist driving lessons in Rotherham for learners with anxiety, ADHD, dyslexia, dyspraxia and autism." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/specialist-learners" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving Lessons for Nervous &amp; Neurodiverse Learners | Mike Hinton" />
+        <meta name="twitter:description" content="Specialist driving lessons in Rotherham for learners with anxiety, ADHD, dyslexia, dyspraxia and autism." />
+      </Helmet>
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-green" style={{ marginBottom: 14 }}>Specialist Provision</span>
