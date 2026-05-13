@@ -163,6 +163,18 @@ const s = {
 export default function DrivingHighWind() {
   return (
     <>
+      <Helmet>
+        <title>Driving in High Winds: Safety Guide | Mike Hinton Driving School</title>
+        <meta name="description" content="How to drive safely in strong winds. Expert tips on handling crosswinds, high-sided vehicles and exposed roads from Mike Hinton Driving School, Rotherham." />
+        <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/driving-skills/high-wind" />
+        <meta property="og:title" content="Driving in High Winds: Safety Guide" />
+        <meta property="og:description" content="How to drive safely in strong winds — crosswinds, high-sided vehicles and exposed roads." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/high-wind" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving in High Winds: Safety Guide" />
+        <meta name="twitter:description" content="How to drive safely in strong winds — crosswinds, high-sided vehicles and exposed roads." />
+      </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
         <div style={{ position: 'relative' }}>
