@@ -93,6 +93,7 @@ export default function App() {
           <Route path="/blog/is-your-car-safe-to-drive" element={<BlogVehicleSafe />} />
           <Route path="/blog/the-skill-that-separates-good-drivers" element={<BlogAnticipation />} />
           <Route path="/blog/make-the-driving-examiner-like-you" element={<BlogExaminerLikeYou />} />
+          <Route path="/blog/beat-driving-test-anxiety" element={<BlogBeatAnxiety />} />
           <Route path="/faqs"                      element={<FAQs />} />
           <Route path="/driving-syllabus"          element={<DrivingSyllabus />} />
           <Route path="/contact"                   element={<Contact />} />
