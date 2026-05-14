@@ -4,6 +4,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'beat-driving-test-anxiety',
+    title: '5 Ways to BEAT Driving Test Anxiety (and actually pass!)',
+    excerpt: "Most people don't fail their driving test because they can't drive — they fail because nerves take over. Here are 5 proven ways to stay calm and pass first time.",
+    date: 'May 2026',
+    readTime: '3 min read',
+    tag: 'Anxiety & Nerves',
+  },
+  {
     slug: 'make-the-driving-examiner-like-you',
     title: 'The Secret of Making the Driving Examiner Like You',
     excerpt: "It's not about charm or flattery. But how you show up — your composure, body language and preparation — has a very real indirect effect on the quality of your driving. Here's what actually matters.",
