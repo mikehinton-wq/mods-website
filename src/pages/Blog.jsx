@@ -191,8 +191,32 @@ export default function Blog() {
 
       <section className="section">
         <div className="container" style={{ maxWidth: 860, margin: '0 auto' }}>
+
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 32 }}>
+            {tags.map(tag => (
+              <button
+                key={tag}
+                onClick={() => setActiveTag(tag)}
+                style={{
+                  padding: '7px 18px',
+                  borderRadius: 50,
+                  border: activeTag === tag ? '2px solid var(--primary)' : '2px solid #dde8f0',
+                  background: activeTag === tag ? 'var(--primary)' : '#fff',
+                  color: activeTag === tag ? '#fff' : 'var(--grey-600)',
+                  fontFamily: 'Raleway, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '0.82rem',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s',
+                }}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+
           <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
-            {posts.map(post => (
+            {filtered.map(post => (
               <Link
                 key={post.slug}
                 to={`/blog/${post.slug}`}
