@@ -127,6 +127,10 @@ const posts = [
 ]
 
 export default function Blog() {
+  const [activeTag, setActiveTag] = useState('All')
+  const tags = ['All', ...new Set(posts.map(p => p.tag))]
+  const filtered = activeTag === 'All' ? posts : posts.filter(p => p.tag === activeTag)
+
   return (
     <>
       <Helmet>
