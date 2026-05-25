@@ -16,11 +16,12 @@ const testimonials = [
     initial: 'J',
   },
   {
-    quote: "Really flexible with timings and always on time. Lessons felt relaxed but I always came away having learned something new. Passed at Worksop first time.",
-    name: 'Emma R.',
-    centre: 'Worksop Test Centre',
-    date: '2025',
-    initial: 'E',
+    quote: "Learning to drive has been a long and sometimes challenging journey for me, especially as someone with autism. In the past, I struggled to find an instructor who truly understood my needs — many didn't take the time to listen or acknowledge my anxieties. That all changed when I met Mike.\n\nMike took the time to understand how I learn best and adapted every lesson to suit my pace. He never rushed me or made me feel pressured, and his calm, patient approach gave me the confidence I needed to keep going. He didn't just teach me how to drive — he taught me valuable coping strategies and techniques that I now use in my everyday life.\n\nFor anyone who learns differently, experiences anxiety, or simply wants an instructor who truly cares, I couldn't recommend Mike more highly.",
+    name: 'Lucy',
+    centre: 'Braithwell',
+    date: 'May 2026',
+    initial: 'L',
+    featured: true,
   },
   {
     quote: "I'm an anxious person in general and was dreading learning to drive. Mike made it feel manageable from the very first lesson. His patience is unbelievable.",
