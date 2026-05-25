@@ -131,8 +131,45 @@ export default function Testimonials() {
 
       <section className="section">
         <div className="container">
+          {/* Featured review — full width */}
+          {testimonials.filter(t => t.featured).map(t => (
+            <div key={t.name} style={{
+              background: 'linear-gradient(135deg, #f0f9fb, #e8f4f8)',
+              borderRadius: 'var(--radius-lg)',
+              boxShadow: 'var(--shadow)',
+              padding: '36px 40px',
+              borderLeft: '5px solid var(--primary)',
+              marginBottom: 32,
+              position: 'relative',
+            }}>
+              <div style={{ fontSize: '4rem', color: 'var(--primary)', lineHeight: 0.7, fontFamily: 'Georgia', opacity: 0.35, marginBottom: 8 }}>"</div>
+              <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
+                <span style={{ background: '#1EABC7', color: '#fff', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.75rem', padding: '4px 14px', borderRadius: 50 }}>⭐ Featured Review</span>
+                <span style={{ background: 'rgba(30,171,199,0.1)', color: '#0C3C60', fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '0.75rem', padding: '4px 14px', borderRadius: 50 }}>Autism & Neurodivergent</span>
+              </div>
+              {t.quote.split('\n\n').map((para, i) => (
+                <p key={i} style={{ color: 'var(--grey-700)', fontStyle: 'italic', lineHeight: 1.8, fontSize: '0.97rem', marginBottom: i < 2 ? 14 : 20 }}>
+                  {para}
+                </p>
+              ))}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, borderTop: '1px solid rgba(30,171,199,0.2)', paddingTop: 16 }}>
+                <div style={{
+                  width: 44, height: 44, borderRadius: '50%',
+                  background: 'var(--primary)', color: 'white',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontFamily: 'Raleway', fontWeight: 700, fontSize: '1.1rem', flexShrink: 0,
+                }}>{t.initial}</div>
+                <div>
+                  <strong style={{ display: 'block', fontSize: '0.95rem', color: 'var(--navy)' }}>{t.name}</strong>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--grey-400)' }}>{t.centre} · {t.date}</span>
+                </div>
+                <div style={{ marginLeft: 'auto', fontSize: '1.1rem', color: '#f5a623', letterSpacing: 2 }}>★★★★★</div>
+              </div>
+            </div>
+          ))}
+
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
-            {testimonials.map(t => (
+            {testimonials.filter(t => !t.featured).map(t => (
               <div key={t.name} style={{
                 background: 'var(--white)', borderRadius: 'var(--radius-lg)',
                 boxShadow: 'var(--shadow)', padding: '28px',
