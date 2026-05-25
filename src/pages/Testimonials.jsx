@@ -89,10 +89,10 @@ export default function Testimonials() {
             },
             {
               "@type": "Review",
-              "author": { "@type": "Person", "name": "Emma R." },
+              "author": { "@type": "Person", "name": "Lucy" },
               "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-              "reviewBody": "Really flexible with timings and always on time. Lessons felt relaxed but I always came away having learned something new. Passed first time.",
-              "datePublished": "2025-01-01"
+              "reviewBody": "Learning to drive has been a long and sometimes challenging journey for me, especially as someone with autism. Mike took the time to understand how I learn best and adapted every lesson to suit my pace. He didn't just teach me how to drive — he taught me valuable coping strategies and techniques that I now use in my everyday life.",
+              "datePublished": "2026-05-01"
             },
             {
               "@type": "Review",
