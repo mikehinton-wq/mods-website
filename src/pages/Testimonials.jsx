@@ -21,6 +21,7 @@ const testimonials = [
     centre: 'Braithwell',
     date: 'May 2026',
     initial: 'L',
+    tag: 'Autism & Neurodivergent',
     featured: true,
   },
   {
