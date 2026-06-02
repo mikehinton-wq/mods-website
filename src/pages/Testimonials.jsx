@@ -104,6 +104,13 @@ export default function Testimonials() {
             },
             {
               "@type": "Review",
+              "author": { "@type": "Person", "name": "Marie" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "As a parent of a 17 year old who has just passed first time with Mike I can honestly say he's been amazing. He put her at ease from the very first 5 minutes of her lesson. Mike made sure she drove in all conditions — busy towns, fast country lanes, rush hour, dark, rain, bright sunshine. We will be sending our youngest Mike's way when she turns 17 too!",
+              "datePublished": "2026-06-01"
+            },
+            {
+              "@type": "Review",
               "author": { "@type": "Person", "name": "Liam H." },
               "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
               "reviewBody": "I'm an anxious person in general and was dreading learning to drive. Mike made it feel manageable from the very first lesson. His patience is unbelievable.",
