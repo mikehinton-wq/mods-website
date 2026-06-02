@@ -24,6 +24,14 @@ const testimonials = [
     featured: true,
   },
   {
+    quote: "As a parent of a 17 year old who has just passed first time with Mike I can honestly say he's been amazing. He put her at ease from the very first 5 minutes of her lesson. Mike pushed her out of her comfort zone but still kept her 100% safe all the way. To watch her confidence and driving skills grow each week has been amazing.\n\nMike made sure she drove in all conditions, at all different times of the day — busy towns, fast country lanes, rush hour, dark, rain, bright sunshine. He really made sure she was totally ready for her test and the results paid off.\n\nWe will be sending our youngest Mike's way when she turns 17 too! Highly recommend.",
+    name: 'Marie',
+    centre: 'Bramley',
+    date: 'June 2026',
+    initial: 'M',
+    featured: true,
+  },
+  {
     quote: "I'm an anxious person in general and was dreading learning to drive. Mike made it feel manageable from the very first lesson. His patience is unbelievable.",
     name: 'Liam H.',
     centre: 'Rotherham Test Centre',
