@@ -30,6 +30,7 @@ const testimonials = [
     centre: 'Bramley',
     date: 'June 2026',
     initial: 'M',
+    tag: 'Parent Review',
     featured: true,
   },
   {
