@@ -162,7 +162,7 @@ export default function Testimonials() {
               <div style={{ fontSize: '4rem', color: 'var(--primary)', lineHeight: 0.7, fontFamily: 'Georgia', opacity: 0.35, marginBottom: 8 }}>"</div>
               <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
                 <span style={{ background: '#1EABC7', color: '#fff', fontFamily: 'Raleway, sans-serif', fontWeight: 700, fontSize: '0.75rem', padding: '4px 14px', borderRadius: 50 }}>⭐ Featured Review</span>
-                <span style={{ background: 'rgba(30,171,199,0.1)', color: '#0C3C60', fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '0.75rem', padding: '4px 14px', borderRadius: 50 }}>Autism & Neurodivergent</span>
+                {t.tag && <span style={{ background: 'rgba(30,171,199,0.1)', color: '#0C3C60', fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '0.75rem', padding: '4px 14px', borderRadius: 50 }}>{t.tag}</span>}
               </div>
               {t.quote.split('\n\n').map((para, i) => (
                 <p key={i} style={{ color: 'var(--grey-700)', fontStyle: 'italic', lineHeight: 1.8, fontSize: '0.97rem', marginBottom: i < 2 ? 14 : 20 }}>
