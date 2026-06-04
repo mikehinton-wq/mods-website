@@ -79,7 +79,6 @@ export default function App() {
           <Route path="/blog/driving-test-anxiety-causes-failures" element={<BlogTestAnxiety />} />
           <Route path="/diagrams" element={<Diagrams />} />
           <Route path="/driving-skills" element={<DrivingSkills />} />
-          <Route path="/driving-syllabus-2" element={<DrivingSyllabus2 />} />
           <Route path="/the-driving-test" element={<TheDrivingTest />} />
           <Route path="/show-me-tell-me" element={<ShowMeTellMe />} />
           <Route path="/blog/how-to-buy-your-first-car" element={<BlogBuyFirstCar />} />
