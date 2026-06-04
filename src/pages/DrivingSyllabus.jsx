@@ -79,6 +79,47 @@ export default function DrivingSyllabus() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Syllabus | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Structured driving syllabus covering all phases from introductory lessons to test standard." />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Driving Lesson Syllabus",
+          "description": "The structured driving lesson syllabus used by Mike Hinton Driving School in Rotherham. Covering all phases from introductory lessons through to test standard.",
+          "url": "https://www.mikehintondrivingschool.co.uk/driving-syllabus",
+          "provider": {
+            "@type": "DrivingSchool",
+            "name": "Mike Hinton Driving School",
+            "url": "https://www.mikehintondrivingschool.co.uk",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Rotherham",
+              "addressRegion": "South Yorkshire",
+              "addressCountry": "GB"
+            }
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mikehintondrivingschool.co.uk/" },
+              { "@type": "ListItem", "position": 2, "name": "Driving Syllabus", "item": "https://www.mikehintondrivingschool.co.uk/driving-syllabus" }
+            ]
+          },
+          "mainEntity": {
+            "@type": "Course",
+            "name": "UK Driving Licence Course",
+            "description": "Structured driving lessons following the DVSA syllabus, from first lesson to test standard.",
+            "provider": {
+              "@type": "DrivingSchool",
+              "name": "Mike Hinton Driving School"
+            },
+            "hasCourseInstance": [
+              { "@type": "CourseInstance", "name": "Phase 1 — Introduction & Controls" },
+              { "@type": "CourseInstance", "name": "Phase 2 — Roads & Traffic" },
+              { "@type": "CourseInstance", "name": "Phase 3 — Manoeuvres" },
+              { "@type": "CourseInstance", "name": "Phase 4 — Complex Situations" },
+              { "@type": "CourseInstance", "name": "Phase 5 — Independent Driving & Test Prep" }
+            ]
+          }
+        })}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
