@@ -153,19 +153,6 @@ export default function Home() {
               <a href="https://wa.me/447915999994" className="btn btn-white btn-lg" target="_blank" rel="noreferrer">💬 WhatsApp</a>
               <Link to="/pricing" className="btn btn-outline-white btn-lg">View Prices</Link>
             </div>
-            <div style={{ marginTop: 20, width: '100%', maxWidth: 340, overflowX: 'hidden' }}>
-              <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmikehintondrivingschool&tabs&width=340&height=130&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                width="100%"
-                height="130"
-                style={{ border: 'none', overflow: 'hidden', borderRadius: 8, display: 'block' }}
-                scrolling="no"
-                frameBorder="0"
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                title="Mike Hinton Driving School on Facebook"
-              />
-            </div>
             <p style={{ marginTop: 16, marginBottom: 8, color: 'var(--light-blue)', fontSize: '0.9rem', fontWeight: 600 }}>
               Follow us on social media — over 33,000 followers and growing.
             </p>
