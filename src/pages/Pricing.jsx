@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 
 const packages = [
-  { label: 'Single Lesson',   duration: '1 hour',    price: '£40',              highlight: false },
-  { label: 'Single Lesson',   duration: '1.5 hours', price: '£60',              highlight: false },
-  { label: 'Single Lesson',   duration: '2 hours',   price: '£80',              highlight: false },
+  { label: 'Single Lesson',   duration: '1 hour',    price: '£38',              highlight: false },
+  { label: 'Single Lesson',   duration: '1.5 hours', price: '£57',              highlight: false },
+  { label: 'Single Lesson',   duration: '2 hours',   price: '£75',              highlight: false },
   { label: 'Motorway Session',duration: '1 hour',    price: '£40',              highlight: false },
   { label: 'Refresher Lesson',duration: '1–2 hours', price: 'Contact for price',highlight: false },
 ]
