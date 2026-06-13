@@ -14,15 +14,15 @@ export default function Pricing() {
     <>
       <Helmet>
         <title>Driving Lesson Prices Rotherham | Mike Hinton Driving School</title>
-        <meta name="description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees. DVSA-approved instructor. Call 07915 999994 to book." />
+        <meta name="description" content="Simple, transparent driving lesson prices in Rotherham. From £38 per hour. No hidden fees. DVSA-approved instructor. Call 07915 999994 to book." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/pricing" />
         <meta property="og:title" content="Driving Lesson Prices | Mike Hinton Driving School Rotherham" />
-        <meta property="og:description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees." />
+        <meta property="og:description" content="Simple, transparent driving lesson prices in Rotherham. From £38 per hour. No hidden fees." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/pricing" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Prices | Mike Hinton Driving School Rotherham" />
-        <meta name="twitter:description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees." />
+        <meta name="twitter:description" content="Simple, transparent driving lesson prices in Rotherham. From £38 per hour. No hidden fees." />
       </Helmet>
       <section className="page-hero">
         <div className="container">
