@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
           <h2 style={{ marginBottom: 12 }}>Who is responsible for the personal information collected on this site?</h2>
           <div className="divider" />
           <p style={{ color: 'var(--grey-700)', lineHeight: 1.8, marginBottom: 32 }}>
-            Your personal data is controlled ultimately by Mike Hinton Driving School. 15 Elton Lane, Sunnyside, Rotherham, S66 3RU.
+            Your personal data is controlled ultimately by Mike Hinton Driving School. 8 Laurel Avenue, Bramley, Rotherham, S66 2NE.
           </p>
 
           <h2 style={{ marginBottom: 12 }}>Purposes of the collection of your data</h2>
