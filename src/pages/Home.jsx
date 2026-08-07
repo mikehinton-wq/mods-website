@@ -92,7 +92,7 @@ export default function Home() {
           "url": "https://www.mikehintondrivingschool.co.uk",
           "telephone": "+447915999994",
           "email": "mikejhinton@outlook.com",
-          "address": { "@type": "PostalAddress", "streetAddress": "15 Elton Lane", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "postalCode": "S66 3RU", "addressCountry": "GB" },
+          "address": { "@type": "PostalAddress", "streetAddress": "8 Laurel Avenue", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "postalCode": "S66 2NE", "addressCountry": "GB" },
           "areaServed": "Rotherham",
           "priceRange": "££",
           "openingHours": "Mo-Su 07:00-20:00",
