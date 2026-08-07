@@ -18,7 +18,7 @@ export default function Footer() {
             Rotherham
           </p>
           <p className="footer__address">
-            15 Elton Lane, Dalton<br />Rotherham, S66 3RU
+            8 Laurel Avenue, Bramley<br />Rotherham, S66 2NE
           </p>
           <div className="footer__contact-links">
             <a href="tel:07915999994">📞 07915 999994</a>
