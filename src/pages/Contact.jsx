@@ -72,7 +72,7 @@ export default function Contact() {
             <div style={{ marginTop: 28, background: 'var(--navy)', borderRadius: 'var(--radius-lg)', padding: '20px' }}>
               <h4 style={{ color: 'var(--white)', marginBottom: 8 }}>📍 Address</h4>
               <p style={{ color: 'var(--light-blue)', fontSize: '0.9rem', lineHeight: 1.7 }}>
-                15 Elton Lane, Dalton<br />Rotherham, S66 3RU
+                8 Laurel Avenue, Bramley<br />Rotherham, S66 2NE
               </p>
               <p style={{ color: 'var(--grey-400)', fontSize: '0.8rem', marginTop: 10 }}>
                 Lessons depart from your home address within the coverage area.
