@@ -130,6 +130,7 @@ export default function DrivingBrightSun() {
         <meta property="og:description" content="Bright sun is an underrated driving hazard. Tips on staying safe when driving in strong sunlight." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/bright-sun" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Bright Sunshine: Safety Tips" />
         <meta name="twitter:description" content="Bright sun is an underrated driving hazard. Tips on staying safe when driving in strong sunlight." />

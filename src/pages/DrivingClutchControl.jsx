@@ -158,6 +158,7 @@ export default function DrivingClutchControl() {
         <meta property="og:description" content="Master clutch control — biting point, pulling away, hill starts and common mistakes explained." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/clutch-control" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Clutch Control for Learner Drivers" />
         <meta name="twitter:description" content="Master clutch control — biting point, pulling away, hill starts and common mistakes explained." />

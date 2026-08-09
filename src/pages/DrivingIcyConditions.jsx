@@ -131,6 +131,7 @@ export default function DrivingIcyConditions() {
         <meta property="og:description" content="How to drive safely on icy roads including black ice — braking, steering and staying in control." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/icy-conditions" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving on Ice: Safety Tips" />
         <meta name="twitter:description" content="How to drive safely on icy roads including black ice — braking, steering and staying in control." />

@@ -195,6 +195,7 @@ export default function DrivingHeavyTraffic() {
         <meta property="og:description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/heavy-traffic" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Heavy Traffic: 10 Tips" />
         <meta name="twitter:description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion." />

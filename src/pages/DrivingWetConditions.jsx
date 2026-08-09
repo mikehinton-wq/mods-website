@@ -146,6 +146,7 @@ export default function DrivingWetConditions() {
         <meta property="og:description" content="How to drive safely in heavy rain — reduced visibility, aquaplaning and stopping distances." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/wet-conditions" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Wet Conditions: Rain Safety Guide" />
         <meta name="twitter:description" content="How to drive safely in heavy rain — reduced visibility, aquaplaning and stopping distances." />

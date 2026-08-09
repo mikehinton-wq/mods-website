@@ -171,6 +171,7 @@ export default function DrivingHighWind() {
         <meta property="og:description" content="How to drive safely in strong winds — crosswinds, high-sided vehicles and exposed roads." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/high-wind" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in High Winds: Safety Guide" />
         <meta name="twitter:description" content="How to drive safely in strong winds — crosswinds, high-sided vehicles and exposed roads." />

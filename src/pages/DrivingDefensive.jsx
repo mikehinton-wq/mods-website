@@ -153,6 +153,7 @@ export default function DrivingDefensive() {
         <meta property="og:description" content="Learn defensive driving techniques to reduce risk — anticipating hazards and staying safe in all conditions." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/defensive-driving" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Defensive Driving Techniques" />
         <meta name="twitter:description" content="Learn defensive driving techniques to reduce risk — anticipating hazards and staying safe in all conditions." />

@@ -233,6 +233,7 @@ export default function DrivingInSnow() {
         <meta property="og:description" content="Everything you need to know about driving safely in snow — preparation, technique and what to do if you get stuck." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/driving-in-snow" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Snow: Complete Safety Guide" />
         <meta name="twitter:description" content="Everything you need to know about driving safely in snow — preparation, technique and what to do if you get stuck." />
