@@ -60,6 +60,15 @@ function ScrollToTop() {
   return null
 }
 
+function DisableCopy() {
+  useEffect(() => {
+    const handler = e => e.preventDefault()
+    document.addEventListener('contextmenu', handler)
+    return () => document.removeEventListener('contextmenu', handler)
+  }, [])
+  return null
+}
+
 export default function App() {
   return (
     <>
