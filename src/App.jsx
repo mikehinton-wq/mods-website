@@ -51,6 +51,8 @@ import DrivingInSnow from './pages/DrivingInSnow'
 import DrivingIcyConditions from './pages/DrivingIcyConditions'
 import DrivingBrightSun from './pages/DrivingBrightSun'
 import DrivingHighWind from './pages/DrivingHighWind'
+import GiftVouchers from './pages/GiftVouchers'
+import BlogDyscalculia from './pages/BlogDyscalculia'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
