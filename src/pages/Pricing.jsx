@@ -27,7 +27,7 @@ export default function Pricing() {
       <section className="page-hero">
         <div className="container">
           <span className="badge badge-primary" style={{ marginBottom: 14 }}>Pricing</span>
-          <h1>Pricing</h1>
+          <h1>Driving Lesson Prices in Rotherham</h1>
           <p>Simple, Transparent Pricing: No hidden add ons, no extra fees. Just great value.</p>
         </div>
       </section>
