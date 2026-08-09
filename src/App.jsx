@@ -73,6 +73,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
+      <DisableCopy />
       <Navbar />
       <main>
         <Routes>
