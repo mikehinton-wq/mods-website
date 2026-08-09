@@ -124,6 +124,22 @@ const posts = [
     readTime: '3 min read',
     tag: 'Advice',
   },
+  {
+    slug: 'learning-to-drive-with-dyscalculia',
+    title: 'Learning to Drive with Dyscalculia',
+    excerpt: "Speed limits, gap judgement, roundabout exits — driving involves a lot of number-sense. Here's how dyscalculic learners can overcome the specific challenges and pass their test.",
+    date: 'July 2026',
+    readTime: '6 min read',
+    tag: 'Neurodivergent',
+  },
+  {
+    slug: 'show-me-tell-me-2026',
+    title: 'Show Me Tell Me Questions 2026 — The Complete List',
+    excerpt: 'Every Show Me Tell Me vehicle safety question you could be asked on your driving test, with full answers. Updated for 2026.',
+    date: 'January 2026',
+    readTime: '5 min read',
+    tag: 'Test Prep',
+  },
 ]
 
 export default function Blog() {
