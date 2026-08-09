@@ -119,6 +119,8 @@ export default function App() {
           <Route path="/driving-skills/icy-conditions" element={<DrivingIcyConditions />} />
           <Route path="/driving-skills/bright-sun" element={<DrivingBrightSun />} />
           <Route path="/driving-skills/high-wind" element={<DrivingHighWind />} />
+          <Route path="/gift-vouchers" element={<GiftVouchers />} />
+          <Route path="/blog/learning-to-drive-with-dyscalculia" element={<BlogDyscalculia />} />
         </Routes>
       </main>
       <Footer />
