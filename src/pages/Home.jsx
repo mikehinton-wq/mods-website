@@ -161,7 +161,7 @@ export default function Home() {
               <Link to="/pricing" className="btn btn-outline-white btn-lg">View Prices</Link>
             </div>
             <p style={{ marginTop: 16, marginBottom: 8, color: 'var(--light-blue)', fontSize: '0.9rem', fontWeight: 600 }}>
-              Follow us on social media — over 33,000 followers and growing.
+              Follow us on social media — over 33,700 TikTok followers and growing.
             </p>
             <div style={{ marginTop: 0, display: 'flex', gap: 10, flexWrap: 'wrap' }}>
               <a
