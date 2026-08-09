@@ -123,6 +123,16 @@ export default function FAQs() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson FAQs | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Everything you need to know before booking driving lessons in Rotherham." />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.q,
+            "acceptedAnswer": { "@type": "Answer", "text": faq.a }
+          }))
+        })}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
