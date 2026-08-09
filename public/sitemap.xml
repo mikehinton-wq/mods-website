@@ -10,6 +10,8 @@
   <url><loc>https://www.mikehintondrivingschool.co.uk/pricing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.mikehintondrivingschool.co.uk/specialist-learners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.mikehintondrivingschool.co.uk/terms</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.mikehintondrivingschool.co.uk/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.mikehintondrivingschool.co.uk/gift-vouchers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Driving Test -->
   <url><loc>https://www.mikehintondrivingschool.co.uk/test-routes</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

@@ -120,7 +120,7 @@ export default function BlogGetRidOfNerves() {
   return (
     <div style={s.page}>
       <Helmet>
-        <title>How to Get Rid of Driving Test Nerves in 3 Simple Steps | Mike Hinton</title>
+        <title>How to Get Rid of Driving Test Nerves in 3 Simple Steps | Mike Hinton Driving School</title>
         <meta name="description" content="Nervous about your driving test? These 3 simple steps will help you manage anxiety, stay calm, and drive the way you've been practising. Works even the night before." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/how-to-get-rid-of-nerves" />
         <meta property="og:title" content="How to Get Rid of Driving Test Nerves in 3 Simple Steps" />

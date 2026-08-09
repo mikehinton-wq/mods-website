@@ -57,7 +57,7 @@ export default function BlogLearningPartnership() {
   return (
     <>
       <Helmet>
-        <title>The Learning Partnership — Getting the Most From Your Driving Lessons | Mike Hinton</title>
+        <title>The Learning Partnership — Getting the Most From Your Driving Lessons | Mike Hinton Driving School</title>
         <meta name="description" content="How to build the right relationship with your driving instructor to learn faster and get more from every lesson. The learning partnership explained." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/learning-partnership" />
         <meta property="og:title" content="The Learning Partnership — Getting the Most From Your Driving Lessons" />

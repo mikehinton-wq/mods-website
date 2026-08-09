@@ -63,7 +63,7 @@ export default function BlogFailureToPrepare() {
   return (
     <>
       <Helmet>
-        <title>Failure to Prepare is Preparing to Fail Your Driving Test | Mike Hinton</title>
+        <title>Failure to Prepare is Preparing to Fail Your Driving Test | Mike Hinton Driving School</title>
         <meta name="description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare" />
         <meta property="og:title" content="Failure to Prepare is Preparing to Fail Your Driving Test" />

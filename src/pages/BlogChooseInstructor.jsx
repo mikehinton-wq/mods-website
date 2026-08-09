@@ -60,7 +60,7 @@ export default function BlogChooseInstructor() {
   return (
     <>
       <Helmet>
-        <title>How to Choose the Right Driving Instructor in Rotherham | Mike Hinton</title>
+        <title>How to Choose the Right Driving Instructor in Rotherham | Mike Hinton Driving School</title>
         <meta name="description" content="What to look for when choosing a driving instructor in Rotherham. Why the cheapest option often costs you more — and what really matters when picking who teaches you." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/how-to-choose-a-driving-instructor" />
         <meta property="og:title" content="How to Choose the Right Driving Instructor in Rotherham" />
