@@ -429,10 +429,23 @@ export default function Home() {
             <div className="divider center" />
           </div>
           <div className="areas-grid">
-            {['Dalton', 'Sunnyside', 'Woodlaithes', 'Flanderwell', 'Wickersley',
-              'Bramley', 'Ravenfield', 'Braithwell', 'Micklebring', 'Maltby',
-              'Brecks', 'East Denes', 'Herringthorpe', 'Rawmarsh'].map(area => (
-              <div key={area} className="area-pill">{area}</div>
+            {[
+              { name: 'Dalton', slug: 'dalton' },
+              { name: 'Sunnyside', slug: 'sunnyside' },
+              { name: 'Woodlaithes', slug: 'woodlaithes' },
+              { name: 'Flanderwell', slug: 'flanderwell' },
+              { name: 'Wickersley', slug: 'wickersley' },
+              { name: 'Bramley', slug: 'bramley' },
+              { name: 'Ravenfield', slug: 'ravenfield' },
+              { name: 'Braithwell', slug: 'braithwell' },
+              { name: 'Micklebring', slug: 'micklebring' },
+              { name: 'Maltby', slug: 'maltby' },
+              { name: 'Brecks', slug: 'brecks' },
+              { name: 'East Denes', slug: 'east-denes' },
+              { name: 'Herringthorpe', slug: 'herringthorpe' },
+              { name: 'Rawmarsh', slug: 'rawmarsh' },
+            ].map(area => (
+              <Link key={area.name} to={`/driving-lessons-${area.slug}`} className="area-pill">{area.name}</Link>
             ))}
           </div>
         </div>
