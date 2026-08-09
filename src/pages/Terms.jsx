@@ -7,6 +7,11 @@ export default function Terms() {
         <title>Terms & Conditions | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="Read the terms and conditions for driving lessons with Mike Hinton Driving School in Rotherham, including pricing, cancellation policy and complaints procedure." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/terms" />
+        <meta property="og:title" content="Terms &amp; Conditions | Mike Hinton Driving School Rotherham" />
+        <meta property="og:description" content="Terms and conditions for driving lessons with Mike Hinton Driving School in Rotherham." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/terms" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <section className="page-hero">
         <div className="container">
