@@ -58,7 +58,7 @@ export default function LocationPage({ location }) {
         <meta property="og:description" content={metaDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/Mike Hinton Logo Cropped.jpg" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:site_name" content="Mike Hinton Driving School" />
 
         {/* Twitter */}
