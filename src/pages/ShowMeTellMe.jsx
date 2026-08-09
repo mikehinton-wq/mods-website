@@ -66,6 +66,7 @@ export default function ShowMeTellMe() {
         <meta property="og:description" content="Full list of Show Me Tell Me questions for your driving test — prepared by Mike Hinton, Rotherham." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/show-me-tell-me" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Show Me Tell Me Questions 2025 | Driving Test Prep" />
         <meta name="twitter:description" content="Full list of Show Me Tell Me questions for your driving test — prepared by Mike Hinton, Rotherham." />

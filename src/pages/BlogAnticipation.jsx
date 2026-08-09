@@ -254,6 +254,7 @@ export default function BlogAnticipation() {
         <meta property="og:description" content="Anticipation is the number one skill separating safe, confident drivers from those who react too late. Learn the LAD framework and 'What if?' technique." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/the-skill-that-separates-good-drivers" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Skill That Separates Good Drivers From Everyone Else" />
         <meta name="twitter:description" content="Anticipation is the number one skill separating safe drivers from those who react too late. Learn the LAD framework and the 'What if?' technique." />

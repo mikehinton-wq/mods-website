@@ -22,6 +22,7 @@ export default function SpecialistLearners() {
         <meta property="og:description" content="Specialist driving lessons in Rotherham for learners with anxiety, ADHD, dyslexia, dyspraxia and autism." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/specialist-learners" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lessons for Nervous &amp; Neurodiverse Learners | Mike Hinton" />
         <meta name="twitter:description" content="Specialist driving lessons in Rotherham for learners with anxiety, ADHD, dyslexia, dyspraxia and autism." />

@@ -146,6 +146,7 @@ export default function BlogBeatAnxiety() {
         <meta property="og:description" content="Most people don't fail because they can't drive — they fail because nerves take over. Here are 5 ways to stay calm and pass." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/beat-driving-test-anxiety" />
         <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="5 Ways to BEAT Driving Test Anxiety (and actually pass!)" />
         <meta name="twitter:description" content="Most people don't fail because they can't drive — they fail because nerves take over. 5 ways to stay calm and pass." />

@@ -81,6 +81,7 @@ export default function DrivingSkills() {
         <meta property="og:description" content="Guides on clutch control, defensive driving, speed awareness, bad weather driving and more." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Skills Guide | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Guides on clutch control, defensive driving, speed awareness, bad weather driving and more." />

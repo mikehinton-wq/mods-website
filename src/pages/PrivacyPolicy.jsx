@@ -7,6 +7,11 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy | Mike Hinton Driving School Rotherham</title>
         <meta name="description" content="Privacy policy for Mike Hinton Driving School. Learn how we collect, use and protect your personal data in accordance with GDPR." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy | Mike Hinton Driving School Rotherham" />
+        <meta property="og:description" content="Privacy policy for Mike Hinton Driving School. Learn how we collect, use and protect your personal data in accordance with GDPR." />
+        <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/privacy-policy" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <section className="page-hero">
         <div className="container">

@@ -12,6 +12,7 @@ export default function About() {
         <meta property="og:description" content="DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/about" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Mike Hinton | Driving Instructor Rotherham" />
         <meta name="twitter:description" content="DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons." />

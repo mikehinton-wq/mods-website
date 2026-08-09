@@ -20,6 +20,7 @@ export default function Pricing() {
         <meta property="og:description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/pricing" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Prices | Mike Hinton Driving School Rotherham" />
         <meta name="twitter:description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees." />

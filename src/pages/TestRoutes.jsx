@@ -12,6 +12,7 @@ export default function TestRoutes() {
         <meta property="og:description" content="Know the Rotherham test routes before your test day — Mike builds them into every lesson." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/test-routes" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rotherham Driving Test Routes" />
         <meta name="twitter:description" content="Know the Rotherham test routes before your test day — Mike builds them into every lesson." />
