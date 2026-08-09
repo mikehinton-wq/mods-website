@@ -1,3 +1,10 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 :root {
   --primary:     #1EABC7;
   --primary-dark:#1790a8;
