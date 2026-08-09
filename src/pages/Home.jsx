@@ -85,6 +85,10 @@ export default function Home() {
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Driving Lessons in Rotherham | Mike Hinton Driving School" />
+        <meta name="twitter:description" content="DVSA-approved driving instructor in Rotherham with an 80%+ first-time pass rate. Specialist in nervous learners, ADHD, dyslexia and autism. Call 07915 999994." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "DrivingSchool",
