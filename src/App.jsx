@@ -71,12 +71,17 @@ function DisableCopy() {
   return null
 }
 
+const REVIEW_PAGES = ['/leave-a-google-review', '/leave-a-facebook-review']
+
 export default function App() {
+  const { pathname } = useLocation()
+  const hideChrome = REVIEW_PAGES.includes(pathname)
+
   return (
     <>
       <ScrollToTop />
       <DisableCopy />
-      <Navbar />
+      {!hideChrome && <Navbar />}
       <main>
         <Routes>
           <Route path="/"                          element={<Home />} />
