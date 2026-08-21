@@ -69,6 +69,11 @@ const testimonials = [
     name: 'Emma R.',
     detail: 'Passed at Worksop',
   },
+  {
+    quote: "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
+    name: 'McKenzie Churm',
+    detail: 'Passed at Rotherham, 2026',
+  },
 ]
 
 export default function Home() {
