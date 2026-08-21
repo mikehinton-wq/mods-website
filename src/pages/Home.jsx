@@ -118,9 +118,23 @@ export default function Home() {
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1",
-            "reviewCount": "47"
+            "reviewCount": "49"
           },
           "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Darcy Scarafile" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "I recently passed my driving test with Mike Hinton and would highly recommend him. He was always calm, reliable, and supportive throughout my lessons. His teaching style made everything easy to understand, and he helped me improve my confidence and driving skills step by step. Thank you for all your help!",
+              "datePublished": "2026-08-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "McKenzie Churm" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
+              "datePublished": "2026-08-01"
+            },
             {
               "@type": "Review",
               "author": { "@type": "Person", "name": "Sarah T." },
