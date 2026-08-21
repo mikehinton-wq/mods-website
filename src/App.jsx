@@ -1,5 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import LeaveGoogleReview from './pages/LeaveGoogleReview'
+import LeaveFacebookReview from './pages/LeaveFacebookReview'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
