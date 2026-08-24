@@ -146,6 +146,20 @@ export default function Testimonials() {
               "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
               "reviewBody": "Straightforward, professional, and very knowledgeable about the test routes. Did my mock test on the actual Rotherham route which gave me a massive confidence boost.",
               "datePublished": "2025-09-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Darcy Scarafile" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "I recently passed my driving test with Mike Hinton and would highly recommend him. He was always calm, reliable, and supportive throughout my lessons. His teaching style made everything easy to understand, and he helped me improve my confidence and driving skills step by step. Thank you for all your help!",
+              "datePublished": "2026-08-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "McKenzie Churm" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
+              "datePublished": "2026-08-01"
             }
           ]
         })}</script>
