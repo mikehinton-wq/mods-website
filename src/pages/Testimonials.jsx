@@ -178,7 +178,6 @@ export default function Testimonials() {
       <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 40 }}>
-            <p style={{ color: 'var(--grey-700)', marginBottom: 16, fontSize: '0.95rem' }}>Passed your test? We'd love to hear from you!</p>
             <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a
                 href="https://g.page/r/CbOjeyUtMbrYEB0/review"
