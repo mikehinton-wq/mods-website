@@ -68,6 +68,14 @@ const testimonials = [
     date: 'August 2026',
     initial: 'M',
   },
+  {
+    quote: "What a great instructor and an all round lovely bloke! My son got on great with Mike and most importantly he has taught him to drive well, which has resulted in a first time pass. So thank you for teaching him and having the patience of a saint ☺️ We would highly recommend you to anyone.",
+    name: 'Victoria Attwood',
+    centre: 'Rotherham Test Centre',
+    date: 'August 2026',
+    initial: 'V',
+    tag: 'Parent Review',
+  },
 ]
 
 export default function Testimonials() {
