@@ -167,6 +167,13 @@ export default function Testimonials() {
               "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
               "reviewBody": "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
               "datePublished": "2026-08-01"
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Victoria Attwood" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "What a great instructor and an all round lovely bloke! My son got on great with Mike and most importantly he has taught him to drive well, which has resulted in a first time pass. So thank you for teaching him and having the patience of a saint. We would highly recommend you to anyone.",
+              "datePublished": "2026-08-01"
             }
           ]
         })}</script>
