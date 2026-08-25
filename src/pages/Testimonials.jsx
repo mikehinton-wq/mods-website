@@ -2,18 +2,25 @@ import { Helmet } from 'react-helmet-async'
 
 const testimonials = [
   {
-    quote: "Mike was incredibly patient with me — I'd failed with another instructor twice before. He completely changed my approach and I passed first time at Rotherham. Cannot recommend him enough.",
-    name: 'Sarah T.',
+    quote: "What a great instructor and an all round lovely bloke! My son got on great with Mike and most importantly he has taught him to drive well, which has resulted in a first time pass. So thank you for teaching him and having the patience of a saint ☺️ We would highly recommend you to anyone.",
+    name: 'Victoria Attwood',
     centre: 'Rotherham Test Centre',
-    date: 'January 2026',
-    initial: 'S',
+    date: 'August 2026',
+    initial: 'V',
   },
   {
-    quote: "I have dyslexia and was really worried about the theory test. Mike pointed me to the right resources and helped me understand what to focus on. Passed theory and practical both first time.",
-    name: 'James M.',
+    quote: "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
+    name: 'McKenzie Churm',
     centre: 'Rotherham Test Centre',
-    date: 'November 2025',
-    initial: 'J',
+    date: 'August 2026',
+    initial: 'M',
+  },
+  {
+    quote: "I recently passed my driving test with Mike Hinton and would highly recommend him. He was always calm, reliable, and supportive throughout my lessons. His teaching style made everything easy to understand, and he helped me improve my confidence and driving skills step by step. Thank you for all your help!",
+    name: 'Darcy Scarafile',
+    centre: 'Rotherham Test Centre',
+    date: 'August 2026',
+    initial: 'D',
   },
   {
     quote: "Learning to drive has been a long and sometimes challenging journey for me, especially as someone with autism. In the past, I struggled to find an instructor who truly understood my needs — many didn't take the time to listen or acknowledge my anxieties. That all changed when I met Mike.\n\nMike took the time to understand how I learn best and adapted every lesson to suit my pace. He never rushed me or made me feel pressured, and his calm, patient approach gave me the confidence I needed to keep going. He didn't just teach me how to drive — he taught me valuable coping strategies and techniques that I now use in my everyday life.\n\nFor anyone who learns differently, experiences anxiety, or simply wants an instructor who truly cares, I couldn't recommend Mike more highly.",
@@ -32,6 +39,20 @@ const testimonials = [
     initial: 'M',
     tag: 'Parent Review',
     featured: true,
+  },
+  {
+    quote: "Mike was incredibly patient with me — I'd failed with another instructor twice before. He completely changed my approach and I passed first time at Rotherham. Cannot recommend him enough.",
+    name: 'Sarah T.',
+    centre: 'Rotherham Test Centre',
+    date: 'January 2026',
+    initial: 'S',
+  },
+  {
+    quote: "I have dyslexia and was really worried about the theory test. Mike pointed me to the right resources and helped me understand what to focus on. Passed theory and practical both first time.",
+    name: 'James M.',
+    centre: 'Rotherham Test Centre',
+    date: 'November 2025',
+    initial: 'J',
   },
   {
     quote: "I'm an anxious person in general and was dreading learning to drive. Mike made it feel manageable from the very first lesson. His patience is unbelievable.",
@@ -53,28 +74,6 @@ const testimonials = [
     centre: 'Rotherham Test Centre',
     date: 'September 2025',
     initial: 'R',
-  },
-  {
-    quote: "I recently passed my driving test with Mike Hinton and would highly recommend him. He was always calm, reliable, and supportive throughout my lessons. His teaching style made everything easy to understand, and he helped me improve my confidence and driving skills step by step. Thank you for all your help!",
-    name: 'Darcy Scarafile',
-    centre: 'Rotherham Test Centre',
-    date: 'August 2026',
-    initial: 'D',
-  },
-  {
-    quote: "Mike is a brilliant driving instructor — highly recommended. I only started having lessons 6 months ago and passed on Friday. He always made me feel comfortable and was always supportive throughout. Thank you!",
-    name: 'McKenzie Churm',
-    centre: 'Rotherham Test Centre',
-    date: 'August 2026',
-    initial: 'M',
-  },
-  {
-    quote: "What a great instructor and an all round lovely bloke! My son got on great with Mike and most importantly he has taught him to drive well, which has resulted in a first time pass. So thank you for teaching him and having the patience of a saint ☺️ We would highly recommend you to anyone.",
-    name: 'Victoria Attwood',
-    centre: 'Rotherham Test Centre',
-    date: 'August 2026',
-    initial: 'V',
-    tag: 'Parent Review',
   },
 ]
 
