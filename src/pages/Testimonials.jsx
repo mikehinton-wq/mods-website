@@ -102,7 +102,7 @@ export default function Testimonials() {
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1",
-            "reviewCount": "49"
+            "reviewCount": "50"
           },
           "review": [
             {
