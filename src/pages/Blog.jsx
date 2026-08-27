@@ -5,6 +5,14 @@ import MailchimpSignup from '../components/MailchimpSignup'
 
 const posts = [
   {
+    slug: 'speed-and-survival',
+    title: 'Speed and Survival: The Numbers Every Driver Needs to See',
+    excerpt: "At 20 mph, 9 in 10 people survive being hit by a car. At 40 mph, only 1 in 10 does. Here's the brutal maths behind speed — and why limits aren't just rules.",
+    date: 'August 2026',
+    readTime: '4 min read',
+    tag: 'Road Safety',
+  },
+  {
     slug: 'beat-driving-test-anxiety',
     title: '5 Ways to BEAT Driving Test Anxiety (and actually pass!)',
     excerpt: "Most people don't fail their driving test because they can't drive — they fail because nerves take over. Here are 5 proven ways to stay calm and pass first time.",
