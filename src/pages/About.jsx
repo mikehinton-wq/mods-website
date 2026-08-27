@@ -31,7 +31,7 @@ export default function About() {
             <h2 style={{ fontSize: '1.8rem', marginBottom: 8 }}>Hi, I'm Mike — your driving instructor in Rotherham.</h2>
             <div className="divider" />
             <p style={{ marginBottom: 16, color: 'var(--grey-700)', lineHeight: 1.75 }}>
-              I'm a DVSA qualified Approved Driving Instructor (ADI) based in Dalton, Rotherham.
+              I'm a DVSA qualified Approved Driving Instructor (ADI) based in Bramley, Rotherham.
               I've been helping learners pass their test and become safe, confident drivers in
               South Yorkshire for a number of years.
             </p>
