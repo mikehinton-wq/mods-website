@@ -22,6 +22,7 @@ const schemaLD = JSON.stringify({
         "name": "Mike Hinton Driving School",
         "url": "https://www.mikehintondrivingschool.co.uk"
       },
+      "image": "https://www.mikehintondrivingschool.co.uk/images/og-image.jpg",
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.mikehintondrivingschool.co.uk/blog/speed-and-survival" }
     }
   ]
