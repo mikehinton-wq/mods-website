@@ -143,6 +143,7 @@ export default function App() {
           <Route path="/blog/speed-and-survival" element={<BlogSpeedSurvival />} />
           <Route path="/leave-a-google-review" element={<LeaveGoogleReview />} />
           <Route path="/leave-a-facebook-review" element={<LeaveFacebookReview />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       {!hideChrome && <Footer />}
