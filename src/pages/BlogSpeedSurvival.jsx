@@ -43,6 +43,7 @@ export default function BlogSpeedSurvival() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Speed and Survival: The Numbers Every Driver Needs to See" />
         <meta name="twitter:description" content="At 20 mph you have a 90% chance of surviving. At 40 mph? Just 10%. Here's the brutal maths behind speed." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 
