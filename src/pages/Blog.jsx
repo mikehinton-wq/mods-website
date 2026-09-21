@@ -165,8 +165,9 @@ export default function Blog() {
         <meta property="og:description" content="Driving tips, test advice and guides for learner drivers in Rotherham." />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Driving Tips &amp; Guides | Mike Hinton Blog" />
+        <meta name="twitter:title" content="Driving Tips & Guides | Mike Hinton Blog" />
         <meta name="twitter:description" content="Driving tips, test advice and guides for learner drivers in Rotherham." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog" />
         <meta property="og:type" content="website" />
       </Helmet>
