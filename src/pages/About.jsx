@@ -16,6 +16,27 @@ export default function About() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Mike Hinton | Driving Instructor Rotherham" />
         <meta name="twitter:description" content="DVSA-approved ADI based in Rotherham. Specialist in nervous and neurodiverse learners. One-to-one manual driving lessons." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Mike Hinton",
+          "jobTitle": "DVSA Approved Driving Instructor",
+          "url": "https://www.mikehintondrivingschool.co.uk/about",
+          "worksFor": {
+            "@type": "DrivingSchool",
+            "name": "Mike Hinton Driving School",
+            "url": "https://www.mikehintondrivingschool.co.uk"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rotherham",
+            "addressRegion": "South Yorkshire",
+            "addressCountry": "GB"
+          },
+          "telephone": "+447915999994",
+          "description": "DVSA-qualified Approved Driving Instructor based in Bramley, Rotherham. Specialist in nervous, anxious and neurodiverse learners including ADHD, Autism, Dyslexia and Dyspraxia."
+        })}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
