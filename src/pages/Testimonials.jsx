@@ -92,6 +92,7 @@ export default function Testimonials() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Student Reviews | Mike Hinton Driving School" />
         <meta name="twitter:description" content="See what students say about learning to drive with Mike Hinton in Rotherham." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "DrivingSchool",
