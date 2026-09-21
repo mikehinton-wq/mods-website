@@ -56,6 +56,7 @@ import DrivingHighWind from './pages/DrivingHighWind'
 import GiftVouchers from './pages/GiftVouchers'
 import BlogDyscalculia from './pages/BlogDyscalculia'
 import BlogSpeedSurvival from './pages/BlogSpeedSurvival'
+import NotFound from './pages/NotFound'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
