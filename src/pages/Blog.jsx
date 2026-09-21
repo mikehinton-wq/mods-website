@@ -170,6 +170,18 @@ export default function Blog() {
         <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog" />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          "name": "Mike Hinton Driving School Blog",
+          "description": "Driving tips, test advice and guides for learner drivers in Rotherham.",
+          "url": "https://www.mikehintondrivingschool.co.uk/blog",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Mike Hinton Driving School",
+            "url": "https://www.mikehintondrivingschool.co.uk"
+          }
+        })}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
