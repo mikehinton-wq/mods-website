@@ -24,6 +24,7 @@ const navLinks = [
       { label: 'Driving Skills',     to: '/driving-skills' },
       { label: 'FAQs',               to: '/faqs' },
       { label: 'Terms & Conditions', to: '/terms' },
+      { label: 'Instructor Code of Practice', href: 'https://www.gov.uk/government/publications/driving-instructor-code-of-practice/driving-instructor-code-of-practice-effective-date-to-be-confirmed' },
     ],
   },
   { label: 'Blog',               to: '/blog' },
