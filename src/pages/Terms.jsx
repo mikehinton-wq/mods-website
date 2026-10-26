@@ -58,6 +58,8 @@ export default function Terms() {
             <li>If less than 24 hours (1 day) notice is given — the full lesson fee must be paid.</li>
             <li>If you suspend taking your driving lessons within a block of pre-paid lessons for a period of 12 weeks or more, any remaining lessons will be forfeited.</li>
             <li>Should your instructor cancel your driving lesson for any reason, no financial penalty will apply and your lesson will be re-arranged at no additional charge to you.</li>
+            <li>If the weather is too severe to take a lesson, the lesson can be re-arranged at no extra cost to you. The decision will be made considering your ability and any advice given by motoring organisations.</li>
+            <li>If you decide to cancel at short notice due to weather and the conditions are suitable to drive, the lesson will be chargeable.</li>
           </ul>
 
           {/* Payments */}
