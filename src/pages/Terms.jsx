@@ -41,7 +41,7 @@ export default function Terms() {
             <li>Provide a vehicle for your test providing you are deemed ready to proceed</li>
             <li>Be punctual and respectful — I will contact you if I am going to be later than 15 minutes for your driving lesson. The time lost will be added to the end of the lesson if possible, or added to another lesson at a later date.</li>
             <li>Ensure the tuition vehicle has the required tuition insurance, vehicle tax and a valid MOT.</li>
-            <li>Comply with the Driving Instructor Code of Practice as issued by the DVSA.</li>
+            <li>Comply with the <a href="https://www.gov.uk/government/publications/driving-instructor-code-of-practice/driving-instructor-code-of-practice-effective-date-to-be-confirmed" target="_blank" rel="noreferrer" style={{ color: 'var(--primary)', fontWeight: 600 }}>Driving Instructor Code of Practice</a> as issued by the DVSA.</li>
             <li>When teaching, behave honestly, act with integrity, be professional and uphold the law.</li>
             <li>Ensure the appropriate safeguarding is in place to keep you safe — this means I will protect you from harm (especially if you are under 18), create a safe learning environment, and maintain professional boundaries at all times.</li>
             <li>Not discriminate against anyone because of their age, sexual orientation, religion, race or nationality, learning difficulty or disability.</li>
