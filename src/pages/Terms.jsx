@@ -40,6 +40,11 @@ export default function Terms() {
             <li>Base any recommendation for test application upon an honest and objective appraisal of your progress. I reserve the right to withdraw the use of my car for tests without prior notice, should you prove to be unsafe and not up to test standard.</li>
             <li>Provide a vehicle for your test providing you are deemed ready to proceed</li>
             <li>Be punctual and respectful — I will contact you if I am going to be later than 15 minutes for your driving lesson. The time lost will be added to the end of the lesson if possible, or added to another lesson at a later date.</li>
+            <li>Ensure the tuition vehicle has the required tuition insurance, vehicle tax and a valid MOT.</li>
+            <li>Comply with the Driving Instructor Code of Practice as issued by the DVSA.</li>
+            <li>When teaching, behave honestly, act with integrity, be professional and uphold the law.</li>
+            <li>Ensure the appropriate safeguarding is in place to keep you safe — this means I will protect you from harm (especially if you are under 18), create a safe learning environment, and maintain professional boundaries at all times.</li>
+            <li>Not discriminate against anyone because of their age, sexual orientation, religion, race or nationality, learning difficulty or disability.</li>
           </ul>
 
           <h2 style={{ marginBottom: 12 }}>By Learning With Us, You Agree To:</h2>
