@@ -87,6 +87,7 @@ export default function Terms() {
           <ul className="check-list" style={{ marginBottom: 24 }}>
             <li>You must hold a current and valid driving licence, provisional or full depending on tuition, and be able to produce this on request.</li>
             <li>Wear suitable footwear (flat shoes are best with thin soles) — no flip flops or open-toed sandals.</li>
+            <li>Your eyesight will be tested at the start of your tuition to ensure you can comply with the legal requirement to read a number plate from a minimum distance of 20 metres, and will also be checked at periodic intervals during your training.</li>
             <li>Wear glasses or contact lenses should you need them to meet the required eyesight criteria as laid out by the DVSA.</li>
             <li>Smoking or vaping is not permitted in the vehicle.</li>
             <li>Please do not drink alcohol at least 24 hours before your lesson — responsibility starts here!</li>
