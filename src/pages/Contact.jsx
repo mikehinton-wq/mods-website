@@ -33,6 +33,7 @@ export default function Contact() {
         <meta name="twitter:title" content="Contact Mike Hinton | Driving Lessons Rotherham" />
         <meta name="twitter:description" content="Book driving lessons in Rotherham. Call 07915 999994 or send a message." />
         <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"ContactPage","name":"Contact Mike Hinton Driving School","description":"Get in touch with Mike Hinton Driving School to book driving lessons in Rotherham.","url":"https://www.mikehintondrivingschool.co.uk/contact","mainEntity":{"@type":"LocalBusiness","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","telephone":"+447915999994","email":"mikejhinton@outlook.com","address":{"@type":"PostalAddress","addressLocality":"Rotherham","addressRegion":"South Yorkshire","postalCode":"S66 2NE","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":53.4326,"longitude":-1.3635},"openingHours":"Mo-Su 08:00-20:00","priceRange":"££"}})}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
