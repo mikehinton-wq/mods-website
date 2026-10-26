@@ -6,16 +6,18 @@ export default function TestRoutes() {
     <>
       <Helmet>
         <title>Rotherham Driving Test Routes | Mike Hinton Driving School</title>
-        <meta name="description" content="Learn the Rotherham driving test routes before your test day. Mike Hinton builds every route into your lessons so there are no surprises. DVSA-approved instructor." />
+        <meta name="description" content="Learn the Rotherham driving test routes before your test day. Mike Hinton builds every route into your lessons so there are no surprises." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/test-routes" />
         <meta property="og:title" content="Rotherham Driving Test Routes" />
         <meta property="og:description" content="Know the Rotherham test routes before your test day — Mike builds them into every lesson." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/test-routes" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rotherham Driving Test Routes" />
         <meta name="twitter:description" content="Know the Rotherham test routes before your test day — Mike builds them into every lesson." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <section className="page-hero">
         <div className="container">

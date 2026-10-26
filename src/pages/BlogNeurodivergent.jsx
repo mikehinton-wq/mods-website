@@ -68,20 +68,22 @@ export default function BlogNeurodivergent() {
   return (
     <>
       <Helmet>
-        <title>Learning to Drive with ADHD, Dyslexia or Autism | Mike Hinton Driving School Rotherham</title>
-        <meta name="description" content="Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham." />
+        <title>Driving Lessons for ADHD, Dyslexia &amp; Autism | Mike Hinton</title>
+        <meta name="description" content="Practical advice for learners with ADHD, dyslexia, autism or dyspraxia. How to find the right instructor and get the most from your driving lessons." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent" />
         <meta property="og:title" content="Learning to Drive with ADHD, Dyslexia or Autism" />
         <meta property="og:description" content="Practical tips for neurodivergent learner drivers — ADHD, dyslexia, autism and dyspraxia." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Learning to Drive with ADHD, Dyslexia or Autism" />
-        <meta name="twitter:description" content="Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham." />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Learning to Drive with ADHD, Dyslexia or Autism","description":"Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham.","url":"https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent","datePublished":"2026-02-01","dateModified":"2026-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
+        <meta name="twitter:description" content="Practical advice for learners with ADHD, dyslexia, autism or dyspraxia. How to find the right instructor and get the most from your driving lessons." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Learning to Drive with ADHD, Dyslexia or Autism","description":"Practical advice for neurodivergent learner drivers — ADHD, dyslexia, autism, dyspraxia. How to find the right instructor and get the most from your lessons in Rotherham.","url":"https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-neurodivergent","datePublished":"2025-10-01","dateModified":"2025-10-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       {/* Hero */}
       <header style={s.hero}>

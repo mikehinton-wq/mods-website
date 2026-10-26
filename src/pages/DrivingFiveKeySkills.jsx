@@ -166,9 +166,11 @@ export default function DrivingFiveKeySkills() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/5-key-skills" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="5 Key Driving Skills Every Learner Needs" />
         <meta name="twitter:description" content="The 5 essential skills every learner must master: car control, observation, awareness, planning and self-evaluation." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

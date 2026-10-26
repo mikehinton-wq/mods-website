@@ -41,6 +41,7 @@ export default function BlogSpeedSurvival() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/speed-and-survival" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Speed and Survival: The Numbers Every Driver Needs to See" />
         <meta name="twitter:description" content="At 20 mph you have a 90% chance of surviving. At 40 mph? Just 10%. Here's the brutal maths behind speed." />

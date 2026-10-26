@@ -159,8 +159,8 @@ export default function BlogDyscalculia() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', color: '#1a1a1a' }}>
       <Helmet>
-        <title>Learning to Drive with Dyscalculia: Techniques That Actually Work | Mike Hinton Driving School</title>
-        <meta name="description" content="Dyscalculia affects speed awareness, gap judgement, roundabout exits and left/right directions. Here are the practical techniques, adaptations and DVSA accommodations that help." />
+        <title>Learning to Drive with Dyscalculia | Mike Hinton</title>
+        <meta name="description" content="Dyscalculia affects speed awareness, gap judgement and directions. Practical techniques, adaptations and DVSA accommodations to help you pass." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-with-dyscalculia" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Learning to Drive with Dyscalculia: Techniques That Actually Work" />
@@ -168,6 +168,7 @@ export default function BlogDyscalculia() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-to-drive-with-dyscalculia" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Learning to Drive with Dyscalculia: Techniques That Actually Work" />
         <meta name="twitter:description" content="Practical techniques, car adaptations and DVSA adjustments for dyscalculic learner drivers in the UK." />

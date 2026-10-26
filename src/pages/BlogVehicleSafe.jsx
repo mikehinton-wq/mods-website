@@ -112,8 +112,8 @@ export default function BlogVehicleSafe() {
   return (
     <div style={s.page}>
       <Helmet>
-        <title>Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained | Mike Hinton</title>
-        <meta name="description" content="A valid MOT doesn't mean your car is roadworthy today. UK law requires you to check your vehicle before every journey. Here's exactly what to check — and the £2,500 fine most drivers don't know about." />
+        <title>Is Your Car Safe to Drive? | Mike Hinton Driving School</title>
+        <meta name="description" content="A valid MOT doesn't mean your car is safe today. Here's what to check before every journey — and the £2,500 fine most drivers don't know." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained" />
@@ -121,11 +121,13 @@ export default function BlogVehicleSafe() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/is-your-car-safe-to-drive" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Is Your Car Safe to Drive? UK Vehicle Safety Checks Explained" />
         <meta name="twitter:description" content="A valid MOT doesn't mean your car is roadworthy today. Here's what UK law requires you to check — and the £2,500 fine most drivers don't know about." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BlogPosting",

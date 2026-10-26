@@ -191,9 +191,11 @@ export default function DrivingInTheDark() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/driving-in-the-dark" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in the Dark: Night Driving Tips" />
         <meta name="twitter:description" content="Essential tips for driving safely at night — headlights, visibility, fatigue and hazards." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

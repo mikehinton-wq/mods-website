@@ -142,9 +142,11 @@ export default function DrivingSpeedAwareness() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/speed-awareness" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Speed Awareness for Learner Drivers" />
         <meta name="twitter:description" content="Understanding speed limits, controlling your speed and staying within the law on UK roads." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

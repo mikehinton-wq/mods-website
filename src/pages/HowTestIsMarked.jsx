@@ -211,9 +211,11 @@ export default function HowTestIsMarked() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/how-test-is-marked" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How Is Your Driving Test Marked?" />
         <meta name="twitter:description" content="Minor, serious and dangerous faults explained — understand exactly how your driving test is assessed." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

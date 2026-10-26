@@ -88,9 +88,11 @@ export default function TheDrivingTest() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/the-driving-test" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Driving Test at Rotherham — What to Expect" />
         <meta name="twitter:description" content="Pass rates, test routes, managing driving test nerves and top tips for Rotherham test centre." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

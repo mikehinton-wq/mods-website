@@ -123,7 +123,9 @@ export default function FAQs() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson FAQs | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Everything you need to know before booking driving lessons in Rotherham." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",

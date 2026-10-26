@@ -211,20 +211,22 @@ export default function BlogBestSelf() {
   return (
     <>
       <Helmet>
-        <title>When You Are Your Best Self — The Mindset Behind Passing Your Driving Test | Mike Hinton Driving School</title>
-        <meta name="description" content="The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing your driving test." />
+        <title>The Mindset Behind Passing Your Driving Test | Mike Hinton</title>
+        <meta name="description" content="The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self" />
         <meta property="og:title" content="When You Are Your Best Self — The Mindset Behind Passing Your Driving Test" />
         <meta property="og:description" content="The mental side of learning to drive and how mindset affects your test result." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="When You Are Your Best Self — The Mindset Behind Passing Your Driving Test" />
-        <meta name="twitter:description" content="The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing your driving test." />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"When You Are Your Best Self — The Mindset Behind Passing Your Driving Test","description":"The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing your driving test.","url":"https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self","datePublished":"2026-01-01","dateModified":"2026-01-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
+        <meta name="twitter:description" content="The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"When You Are Your Best Self — The Mindset Behind Passing Your Driving Test","description":"The mental side of learning to drive. How self-belief, visualisation and letting go of mistakes can be the difference between passing and failing your driving test.","url":"https://www.mikehintondrivingschool.co.uk/blog/when-you-are-your-best-self","datePublished":"2026-04-01","dateModified":"2026-04-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

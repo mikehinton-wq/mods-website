@@ -12,6 +12,7 @@ export default function PrivacyPolicy() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/privacy-policy" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
       </Helmet>
       <section className="page-hero">
         <div className="container">

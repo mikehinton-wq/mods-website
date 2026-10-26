@@ -89,6 +89,7 @@ export default function Testimonials() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/testimonials" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Student Reviews | Mike Hinton Driving School" />
         <meta name="twitter:description" content="See what students say about learning to drive with Mike Hinton in Rotherham." />

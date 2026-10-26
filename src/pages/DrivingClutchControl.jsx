@@ -159,9 +159,11 @@ export default function DrivingClutchControl() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/clutch-control" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Clutch Control for Learner Drivers" />
         <meta name="twitter:description" content="Master clutch control — biting point, pulling away, hill starts and common mistakes explained." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

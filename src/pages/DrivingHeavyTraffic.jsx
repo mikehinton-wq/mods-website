@@ -196,9 +196,11 @@ export default function DrivingHeavyTraffic() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/heavy-traffic" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Heavy Traffic: 10 Tips" />
         <meta name="twitter:description" content="10 expert tips for driving safely in heavy traffic and rush hour congestion." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

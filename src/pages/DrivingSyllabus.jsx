@@ -77,9 +77,11 @@ export default function DrivingSyllabus() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-syllabus" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Syllabus | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Structured driving syllabus covering all phases from introductory lessons to test standard." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",

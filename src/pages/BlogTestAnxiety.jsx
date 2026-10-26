@@ -72,7 +72,7 @@ export default function BlogTestAnxiety() {
   return (
     <>
       <Helmet>
-        <title>Does Driving Test Anxiety Actually Cause Failures? | Mike Hinton Driving School</title>
+        <title>Does Driving Test Anxiety Cause Failures? | Mike Hinton</title>
         <meta name="description" content="Can nerves really make you fail your driving test? The truth about test anxiety, what the examiner is actually looking for, and how to stay calm on the day." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures" />
         <meta property="og:title" content="Does Driving Test Anxiety Actually Cause Failures?" />
@@ -80,11 +80,13 @@ export default function BlogTestAnxiety() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Does Driving Test Anxiety Actually Cause Failures?" />
         <meta name="twitter:description" content="Can nerves really make you fail your driving test? The truth about test anxiety, what the examiner is actually looking for, and how to stay calm on the day." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Does Driving Test Anxiety Actually Cause Failures?","description":"Can nerves really make you fail your driving test? The truth about test anxiety, what the examiner is actually looking for, and how to stay calm on the day.","url":"https://www.mikehintondrivingschool.co.uk/blog/driving-test-anxiety-causes-failures","datePublished":"2026-01-01","dateModified":"2026-01-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       {/* Hero */}

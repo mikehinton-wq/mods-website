@@ -246,8 +246,8 @@ export default function BlogAnticipation() {
   return (
     <div style={s.page}>
       <Helmet>
-        <title>The Skill That Separates Good Drivers From Everyone Else | Mike Hinton Driving School</title>
-        <meta name="description" content="Anticipation is the number one skill separating safe, confident drivers from those who react too late. Learn the LAD framework, three-zone scanning, and the 'What if?' technique." />
+        <title>The Skill That Makes You a Good Driver | Mike Hinton</title>
+        <meta name="description" content="Anticipation separates safe drivers from those who react too late. Learn the LAD framework, three-zone scanning, and the 'What if?' technique." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/the-skill-that-separates-good-drivers" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="The Skill That Separates Good Drivers From Everyone Else" />
@@ -255,9 +255,11 @@ export default function BlogAnticipation() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/the-skill-that-separates-good-drivers" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Skill That Separates Good Drivers From Everyone Else" />
         <meta name="twitter:description" content="Anticipation is the number one skill separating safe drivers from those who react too late. Learn the LAD framework and the 'What if?' technique." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 

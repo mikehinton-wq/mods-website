@@ -9,6 +9,7 @@ export default function LeaveGoogleReview() {
         <meta property="og:title" content="Leave a Google Review — Mike Hinton Driving School" />
         <meta property="og:description" content="Enjoyed your lessons with Mike? Leave us a Google review — it only takes 2 minutes and helps other learners in Rotherham find us." />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/leave-a-google-review" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />

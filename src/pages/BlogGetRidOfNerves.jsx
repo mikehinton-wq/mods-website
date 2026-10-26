@@ -120,19 +120,21 @@ export default function BlogGetRidOfNerves() {
   return (
     <div style={s.page}>
       <Helmet>
-        <title>How to Get Rid of Driving Test Nerves in 3 Simple Steps | Mike Hinton Driving School</title>
-        <meta name="description" content="Nervous about your driving test? These 3 simple steps will help you manage anxiety, stay calm, and drive the way you've been practising. Works even the night before." />
+        <title>How to Get Rid of Driving Test Nerves | Mike Hinton</title>
+        <meta name="description" content="Nervous about your driving test? 3 simple steps to manage anxiety, stay calm, and drive the way you've been practising — even the night before." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/how-to-get-rid-of-nerves" />
         <meta property="og:title" content="How to Get Rid of Driving Test Nerves in 3 Simple Steps" />
         <meta property="og:description" content="3 practical steps to manage driving test anxiety — breathing, reframing, and having a plan for when things go wrong." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/how-to-get-rid-of-nerves" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How to Get Rid of Driving Test Nerves in 3 Simple Steps" />
         <meta name="twitter:description" content="Nervous about your driving test? These 3 simple steps will help you manage anxiety and drive the way you've been practising." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BlogPosting",

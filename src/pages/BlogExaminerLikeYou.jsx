@@ -135,8 +135,8 @@ export default function BlogExaminerLikeYou() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', color: '#1a1a1a' }}>
       <Helmet>
-        <title>The Secret of Making the Driving Examiner Like You | Mike Hinton Driving School</title>
-        <meta name="description" content="What driving examiners actually look for beyond technical skill — and how your attitude, body language and composure can indirectly affect your driving test result." />
+        <title>How to Make the Driving Examiner Like You | Mike Hinton</title>
+        <meta name="description" content="What driving examiners look for beyond technical skill — and how your attitude, body language and composure affect your test result." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/make-the-driving-examiner-like-you" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="The Secret of Making the Driving Examiner Like You" />
@@ -144,9 +144,11 @@ export default function BlogExaminerLikeYou() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/make-the-driving-examiner-like-you" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Secret of Making the Driving Examiner Like You" />
         <meta name="twitter:description" content="What examiners look for beyond technical skill — and how your attitude and composure indirectly affect your result." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 

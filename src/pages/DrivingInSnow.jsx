@@ -234,9 +234,11 @@ export default function DrivingInSnow() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/driving-in-snow" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving in Snow: Complete Safety Guide" />
         <meta name="twitter:description" content="Everything you need to know about driving safely in snow — preparation, technique and what to do if you get stuck." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

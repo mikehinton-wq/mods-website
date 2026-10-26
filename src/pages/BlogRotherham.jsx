@@ -85,19 +85,21 @@ export default function BlogRotherham() {
   return (
     <>
       <Helmet>
-        <title>Rotherham Driving Test Centre — What to Expect | Mike Hinton Driving School</title>
-        <meta name="description" content="Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day. From a local DVSA-approved instructor." />
+        <title>Rotherham Driving Test Centre — What to Expect | Mike Hinton</title>
+        <meta name="description" content="Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/rotherham-test-centre" />
         <meta property="og:title" content="Rotherham Driving Test Centre — What to Expect" />
         <meta property="og:description" content="Pass rates, test routes, what to bring and tips for test day at Rotherham test centre." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/rotherham-test-centre" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rotherham Driving Test Centre — What to Expect" />
-        <meta name="twitter:description" content="Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day. From a local DVSA-approved instructor." />
+        <meta name="twitter:description" content="Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Rotherham Driving Test Centre — What to Expect","description":"Everything you need to know about Rotherham driving test centre — pass rates, test routes, what to bring and tips for test day. From a local DVSA-approved instructor.","url":"https://www.mikehintondrivingschool.co.uk/blog/rotherham-test-centre","datePublished":"2026-03-01","dateModified":"2026-03-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       {/* Hero */}

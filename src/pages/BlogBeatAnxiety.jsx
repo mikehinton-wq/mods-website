@@ -138,8 +138,8 @@ export default function BlogBeatAnxiety() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', color: '#1a1a1a' }}>
       <Helmet>
-        <title>5 Ways to BEAT Driving Test Anxiety (and actually pass!) | Mike Hinton Driving School</title>
-        <meta name="description" content="Most people don't fail their driving test because they can't drive — they fail because nerves take over. Here are 5 proven ways to beat driving test anxiety and stay calm on the day." />
+        <title>5 Ways to Beat Driving Test Anxiety | Mike Hinton</title>
+        <meta name="description" content="Most people fail their driving test because nerves take over, not lack of skill. Here are 5 proven strategies to beat driving test anxiety." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/beat-driving-test-anxiety" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="5 Ways to BEAT Driving Test Anxiety (and actually pass!)" />
@@ -147,9 +147,11 @@ export default function BlogBeatAnxiety() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/beat-driving-test-anxiety" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="5 Ways to BEAT Driving Test Anxiety (and actually pass!)" />
         <meta name="twitter:description" content="Most people don't fail because they can't drive — they fail because nerves take over. 5 ways to stay calm and pass." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
         <script type="application/ld+json">{schemaLD}</script>
       </Helmet>
 

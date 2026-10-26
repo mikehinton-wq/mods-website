@@ -132,9 +132,11 @@ export default function DrivingIcyConditions() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/driving-skills/icy-conditions" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving on Ice: Safety Tips" />
         <meta name="twitter:description" content="How to drive safely on icy roads including black ice — braking, steering and staying in control." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

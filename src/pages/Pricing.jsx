@@ -21,9 +21,12 @@ export default function Pricing() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/pricing" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Prices | Mike Hinton Driving School Rotherham" />
         <meta name="twitter:description" content="Simple, transparent driving lesson prices in Rotherham. From £40 per hour. No hidden fees." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"Service","name":"Driving Lessons in Rotherham","description":"One-to-one manual driving lessons in Rotherham from a DVSA-approved instructor. Flexible lesson durations from 1–2 hours.","url":"https://www.mikehintondrivingschool.co.uk/pricing","provider":{"@type":"LocalBusiness","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","telephone":"+447915999994","address":{"@type":"PostalAddress","addressLocality":"Rotherham","addressRegion":"South Yorkshire","addressCountry":"GB"}},"offers":[{"@type":"Offer","name":"1 Hour Lesson","price":"40","priceCurrency":"GBP"},{"@type":"Offer","name":"1.5 Hour Lesson","price":"60","priceCurrency":"GBP"},{"@type":"Offer","name":"2 Hour Lesson","price":"76","priceCurrency":"GBP"}]})}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">

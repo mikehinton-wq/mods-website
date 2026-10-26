@@ -57,7 +57,7 @@ export default function BlogLearningPartnership() {
   return (
     <>
       <Helmet>
-        <title>The Learning Partnership — Getting the Most From Your Driving Lessons | Mike Hinton Driving School</title>
+        <title>Getting the Most From Your Driving Lessons | Mike Hinton</title>
         <meta name="description" content="How to build the right relationship with your driving instructor to learn faster and get more from every lesson. The learning partnership explained." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/learning-partnership" />
         <meta property="og:title" content="The Learning Partnership — Getting the Most From Your Driving Lessons" />
@@ -65,12 +65,14 @@ export default function BlogLearningPartnership() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/learning-partnership" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Learning Partnership — Getting the Most From Your Driving Lessons" />
         <meta name="twitter:description" content="How to build the right relationship with your driving instructor to learn faster and get more from every lesson. The learning partnership explained." />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"The Learning Partnership — Getting the Most From Your Driving Lessons","description":"How to build the right relationship with your driving instructor to learn faster and get more from every lesson. The learning partnership explained.","url":"https://www.mikehintondrivingschool.co.uk/blog/learning-partnership","datePublished":"2026-01-01","dateModified":"2026-01-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"The Learning Partnership — Getting the Most From Your Driving Lessons","description":"How to build the right relationship with your driving instructor to learn faster and get more from every lesson. The learning partnership explained.","url":"https://www.mikehintondrivingschool.co.uk/blog/learning-partnership","datePublished":"2025-02-01","dateModified":"2025-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />

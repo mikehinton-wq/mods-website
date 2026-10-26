@@ -19,9 +19,11 @@ export default function GiftVouchers() {
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/gift-vouchers" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Driving Lesson Gift Vouchers | Mike Hinton Driving School" />
         <meta name="twitter:description" content="Give the gift of learning to drive. Vouchers from Mike Hinton Driving School, Rotherham." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
       </Helmet>
       <section className="page-hero">
         <div className="container">

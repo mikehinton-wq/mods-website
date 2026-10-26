@@ -63,20 +63,22 @@ export default function BlogFailureToPrepare() {
   return (
     <>
       <Helmet>
-        <title>Failure to Prepare is Preparing to Fail Your Driving Test | Mike Hinton Driving School</title>
-        <meta name="description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day." />
+        <title>Failure to Prepare is Preparing to Fail | Mike Hinton</title>
+        <meta name="description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong — and how to make sure you're ready." />
         <link rel="canonical" href="https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare" />
         <meta property="og:title" content="Failure to Prepare is Preparing to Fail Your Driving Test" />
         <meta property="og:description" content="What most learners get wrong about test preparation and how to be genuinely ready." />
         <meta property="og:url" content="https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <meta property="og:site_name" content="Mike Hinton Driving School" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Failure to Prepare is Preparing to Fail Your Driving Test" />
-        <meta name="twitter:description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day." />
-        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Failure to Prepare is Preparing to Fail Your Driving Test","description":"Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day.","url":"https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare","datePublished":"2026-01-01","dateModified":"2026-01-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
+        <meta name="twitter:description" content="Why preparation is the single biggest factor in passing your driving test. What most learners get wrong — and how to make sure you're ready." />
+        <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Failure to Prepare is Preparing to Fail Your Driving Test","description":"Why preparation is the single biggest factor in passing your driving test. What most learners get wrong and how to make sure you're genuinely ready on test day.","url":"https://www.mikehintondrivingschool.co.uk/blog/failure-to-prepare","datePublished":"2025-02-01","dateModified":"2025-02-01","author":{"@type":"Person","name":"Mike Hinton","jobTitle":"DVSA Approved Driving Instructor","url":"https://www.mikehintondrivingschool.co.uk/about"},"publisher":{"@type":"Organization","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk","logo":{"@type":"ImageObject","url":"https://www.mikehintondrivingschool.co.uk/images/og-image.jpg"}}})}</script>
       </Helmet>
       <header style={s.hero}>
         <div style={s.heroBg} aria-hidden />
