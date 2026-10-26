@@ -100,9 +100,20 @@ export default function Terms() {
 
           {/* Communications */}
           <h3 style={{ marginBottom: 10 }}>Communications Devices</h3>
-          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 32 }}>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 16 }}>
             The use of mobile phones during lessons is prohibited by law and must be turned onto silent
             mode for the duration of the lesson to avoid unnecessary distractions.
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 16 }}>
+            Your driving instructor also agrees not to use their phone whilst teaching. If an urgent call
+            is required, or a call has been agreed at the beginning of the lesson, this will take place
+            with the car pulled over in a safe place and the engine switched off. This rule also applies
+            to the use of hands-free devices by both parties.
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 32 }}>
+            Should your instructor record your progress on an electronic device or tablet during the lesson,
+            or use a diagram or video to aid learning, this will take place when parked safely and with the
+            engine switched off.
           </p>
 
           <h2 style={{ marginBottom: 12 }}>Additional Terms &amp; Conditions</h2>
