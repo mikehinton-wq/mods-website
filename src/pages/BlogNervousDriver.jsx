@@ -40,9 +40,9 @@ const things = [
 ]
 
 const related = [
-  { href: '/blog/how-to-calm-driving-test-nerves', title: 'How to calm driving test nerves: a guide for 17–20 year olds' },
-  { href: '/blog/made-a-mistake-on-driving-test', title: 'Made a mistake on your driving test? Here\'s exactly what to do' },
+  { href: '/blog/beat-driving-test-anxiety', title: 'How to beat driving test anxiety: practical strategies that work' },
   { href: '/blog/driving-test-anxiety-causes-failures', title: 'Does driving test anxiety actually cause failures? Yes — here\'s the proof' },
+  { href: '/blog/how-to-get-rid-of-nerves', title: 'How to get rid of driving test nerves' },
 ]
 
 const s = {
