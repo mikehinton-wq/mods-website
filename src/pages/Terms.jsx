@@ -172,6 +172,41 @@ export default function Terms() {
             will be discussed at the time of the damage. This also applies during the driving test.
           </p>
 
+          {/* Insurance & Roadworthiness */}
+          <h3 style={{ marginBottom: 10 }}>Insurance &amp; Roadworthiness</h3>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 16 }}>
+            It is your driving instructor's responsibility to ensure that the tuition vehicle is insured
+            for driving instruction and also for use on driving test. Your instructor also has Pupil
+            Liability Insurance in place as this is a contractual requirement.
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 24 }}>
+            Mike Hinton Driving School will ensure that the tuition car is clean, presentable and in a
+            roadworthy condition. However, Mike Hinton Driving School cannot be held responsible for any
+            mechanical or electrical failure which may cause the prevention or termination of a lesson
+            or driving test.
+          </p>
+
+          {/* DVSA test cancellations */}
+          <h3 style={{ marginBottom: 10 }}>If the DVSA Cancel Your Driving Test</h3>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, fontWeight: 600, marginBottom: 6 }}>
+            Driving Test Cancellation — Examiner Illness
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 16 }}>
+            If your test is cancelled due to DVSA Examiner illness, you may be entitled to compensation
+            from the DVSA for the test hour tuition car hire charge. The lesson before the test will not
+            be refunded by the DVSA and cannot be refunded by Mike Hinton Driving School. Your test will
+            be rearranged by the DVSA automatically and you will receive confirmation from the DVSA in
+            the post.
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, fontWeight: 600, marginBottom: 6 }}>
+            Driving Test Cancellation — Bad Weather
+          </p>
+          <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 24 }}>
+            If your test is cancelled due to bad weather or poor light there is no compensation from the
+            DVSA. The DVSA will however automatically rearrange the test, free of charge. The lesson
+            before the test will still be charged for.
+          </p>
+
           {/* Complaints */}
           <h3 style={{ marginBottom: 10 }}>Complaints</h3>
           <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 24 }}>
