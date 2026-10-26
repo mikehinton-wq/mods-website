@@ -174,9 +174,7 @@ export default function Home() {
               nervous learners, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Anxiety</span>, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Dyslexia</span>, <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Dyspraxia</span>, and <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>Autism</span>. Based in Bramley, covering the Rotherham area.
             </p>
             <p className="hero__sub">
-              Our success is not determined by luck — it's the way we teach. Our pass rate is{' '}
-              <span style={{ background: 'var(--primary)', color: '#fff', fontWeight: 700, padding: '2px 10px', borderRadius: 20, display: 'inline-block' }}>over 80%</span>
-              . The difference isn't luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you so you can achieve your driving goals, and at the same time have fun doing it.
+              Our success is not determined by luck — it's the way we teach. Lessons built around real Rotherham test routes, an instructor who knows exactly what examiners look for, and a teaching style tailored specifically to you so you can achieve your driving goals, and at the same time have fun doing it.
             </p>
 
             <div className="hero__actions">
