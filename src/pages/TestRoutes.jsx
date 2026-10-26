@@ -18,6 +18,7 @@ export default function TestRoutes() {
         <meta name="twitter:title" content="Rotherham Driving Test Routes" />
         <meta name="twitter:description" content="Know the Rotherham test routes before your test day — Mike builds them into every lesson." />
         <meta name="twitter:image" content="https://www.mikehintondrivingschool.co.uk/images/og-image.jpg" />
+        <script type="application/ld+json">{JSON.stringify({"@context":"https://schema.org","@type":"WebPage","name":"Rotherham Driving Test Routes","description":"Learn the Rotherham driving test routes before your test day. Mike Hinton builds every route into your lessons so there are no surprises.","url":"https://www.mikehintondrivingschool.co.uk/test-routes","about":{"@type":"Place","name":"Rotherham Driving Test Centre","address":{"@type":"PostalAddress","streetAddress":"Turnpike House, Brinsworth Road","addressLocality":"Rotherham","addressRegion":"South Yorkshire","postalCode":"S60 5JD","addressCountry":"GB"}},"creator":{"@type":"LocalBusiness","name":"Mike Hinton Driving School","url":"https://www.mikehintondrivingschool.co.uk"}})}</script>
       </Helmet>
       <section className="page-hero">
         <div className="container">
