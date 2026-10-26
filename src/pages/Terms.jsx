@@ -220,14 +220,12 @@ export default function Terms() {
           <h3 style={{ marginBottom: 10 }}>Data Protection</h3>
           <p style={{ color: 'var(--grey-700)', lineHeight: 1.75, marginBottom: 40 }}>
             For the purpose of the Data Protection Act 1998, any information you provide to Mike Hinton
-            Driving School will only be used for administration purposes and where prior agreement has been
-            approved for marketing purposes. We may send you information about us or promotional material
-            from time to time. If you wish to be removed from our mailing list, please inform us by email
-            at{' '}
-            <a href="mailto:mikejhinton@outlook.com" style={{ color: 'var(--primary)', fontWeight: 600 }}>mikejhinton@outlook.com</a>{' '}
-            and we will remove your data from our marketing. Recordings made in the car are for insurance
-            and evaluation purposes and will not be used on social media or shared with another person
-            without your consent.
+            Driving School will only be used for administration purposes during the course of your
+            training. Recordings made in the car are for insurance, evaluation, and safeguarding purposes
+            and will not be used on social media or shared with another person without your consent. By
+            signing these terms and conditions, you also give permission for your test pass photograph to
+            be used for marketing purposes. If you wish to opt out from having your photograph taken,
+            please inform your driving instructor at the time of your test.
           </p>
 
           <div className="highlight-box">
