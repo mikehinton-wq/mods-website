@@ -132,6 +132,9 @@ export default function TheDrivingTest() {
           <h2 style={s.h2}>What is the Pass Rate at Rotherham?</h2>
           <p style={s.p}>The current first-time pass rate at Rotherham test centre is around <strong>51%</strong> — broadly in line with the national average. With the right preparation, there is absolutely no reason you can't be in the majority. Mike builds real test routes into your lessons throughout your learning journey, so you'll already know them well before test day.</p>
 
+          <h2 style={s.h2}>How Does Rotherham Compare?</h2>
+          <p style={s.p}>Compare all 320 test centres in England, Scotland and Wales, and see how Rotherham fares before you book. <a href="https://ukdrivingtestcentres.co.uk/rotherham/" target="_blank" rel="noreferrer" style={{ color: 'var(--primary)', fontWeight: 600 }}>View Rotherham on UK Driving Test Centres →</a></p>
+
           <h2 style={s.h2}>What Happens on Test Day?</h2>
           <div style={s.tipGrid} className="mobile-1col">
             {testDaySteps.map(step => (
